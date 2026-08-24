@@ -15,7 +15,7 @@ Alexander's most lengthy section is the work tab. In this section, he goes over 
 
 The last two tabs show his linked in and how you can contact him if you were wanting to hire him. 
 
-Alexander's tone throughout the entire portfolio was professional. When explaining himself or his projects, he described it in a short and concise way that was easy to follow. 
+Alexander's tone throughout the entire portfolio was professional. He addressed professional figures in a professional way. Examples would be talking about team positions and addressing the client. It is very similar to what you would read on an engineering portfolio.
 
 ## Decide
 
