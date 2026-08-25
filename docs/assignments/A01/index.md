@@ -39,6 +39,8 @@ The equation for torque is τ = F × r × sin(θ). τ is measured as a force ove
 
 For interchangeable screwdrivers, the length of the handle depends on what type of job that screwdriver is supposed to do. The interchangeable screwdriver shown, is about 6 inches long, making it strong enough for the most common screws seen.
 
+![This is what an interchangeable screwdriver looks like. The bit is hexagonal in order to maximize the contact surface and to keep the screwdriver from slipping.](bithandle.jpg)
+
 Friction is relative to interchangeable screwdrivers because it is the main mechanism keeping the bit inside of the socket. Interchangeable screwdriver sockets are almost the same size as the bits, but bits are slightly smaller.  The bits have a small bump on the side to create contact with the screwdrivers socket while in place. The contact creates friction, holding the bit into place. Another mechanism to keep the bit in place is a small lip on the socket. The lip requires more force to get that bump over the lip. Both of these mechanisms combined, allow the bit to fit snug inside of the socket without it falling out while driving in screws.
 
 The equation for friction is 𝐹𝑓 = 𝜇𝑁. 𝐹𝑓 is the friction force and is measured in Newtons or Pounds. 𝜇 is the coefficient of friction. In this case, static friction is being used to keep the bit in place, which has a higher coefficient than kinetic friction, allowing a more secure feel. 𝑁 is the normal force applied, which is the amount of force acting in the opposite direction of the friction force. The units for 𝑁 is Newtons or Pounds. 
