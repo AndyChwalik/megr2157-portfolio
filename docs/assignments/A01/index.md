@@ -2,6 +2,8 @@
 
 ## Objective
 
+The objective of this assignment is to introduce what makes a good engineering portfolio, how to communicate to other engineers without being present in the room, and analyzing mechanical products through the eyes of an engineer.
+
 
 ## Analyze
 
@@ -77,6 +79,16 @@ The patent number for interchangeable screwdrivers is US6425307B1, and the credi
 
 ## Decide
 
+**1. Homepage Identity:**
+The homepage is a spot where navigating should be easy, the intention of the portfolio should clearly be shown, and the standards need to be set. For this portfolio specifically, the first sentence in the homepage sets the intention clearly. It states that this portfolio is a record of my engineering design decision throughout this class MEGR 2157. Reading this sentence first implies that the work inside of this portfolio is for a class and they're my own decisions. The standards are set in the next sentence. Each assignment follows the same format: Analyze, Decide, and Communicate. It tells the reader what to expect when visiting any of the assignments for this portfolio. The different categories are then further described in "The three pillars" sections. It gives the reader a better understanding what each category means and represents. Once the reader understands the expectations and structure of the portfolio, the homepage then lets the reader know how to navigate right under "The three pillars' section.
+
+**2. One Intentional Customization:**
+I decided to add the UNC Charlotte logo to the homepage. This change will help better satisfy the expectations for the portfolio. The added logo will give the reader a better idea of where the information and material for the portfolio is coming from. The default design failed to meet this requirement since there was no mention of UNC Charlotte besides a course number. If the reader was not apart of UNC Charlotte, they wouldn't know what University MEGR 2157 came from. By adding the logo, the portfolio now communicates some credibility and ownership.
+
+**3. Your Document Standard:**
+I will set a standard of updating the assignment titles, maintaining sufficient documentation for each design created through the assignments, professional communication (through my approach and designs), and submitting each assignment on time to try and replicate the real world as much as possible.
+
 
 ## Communicate
+
 
