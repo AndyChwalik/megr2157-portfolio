@@ -1,4 +1,13 @@
-# Andy Chwalik - MEGR 2157 Design Portfolio
+<table>
+  <tr>
+    <td>
+      <h1>Andy Chwalik - MEGR 2157 Design Portfolio</h1>
+    </td>
+    <td>
+      <img src="UNCCharlotteLogo.jpg" width="150">
+    </td>
+  </tr>
+</table>
 
 ![MEGR 2156-7 Title](MEGR2156title.png)
 
