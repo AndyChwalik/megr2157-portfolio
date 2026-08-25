@@ -1,4 +1,4 @@
-<img align="right" src="UNCCharlotteLogo.jpg" width="150">
+<img align="right" src="UNCCharlotteLogo.jpg" width=50% height=auto>
 
 <h1>Andy Chwalik - MEGR 2157 Design Portfolio</h1>
 
