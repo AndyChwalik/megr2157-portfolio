@@ -1,4 +1,4 @@
-#About Me
+## About Me
 
 My name is Andy Chwalik. I am 20 years old, and I am a transfer student from Appalachian State University. I am pursuing my bachelor's degree in mechanical engineering and considering dual majoring in either physics or mathematics. My interest in engineering began in high school through the PLTW program, showing me the engineering process and how to collaborate in a team effectively. My favorite classes from the PLTW program are Aerospace Engineering and Principles of Engineering. In these classes, we discussed the basic principles of fluid motion and how those forces interact with and influence solid objects, which sparked my interest in working with fluid-related systems.
 
