@@ -37,7 +37,9 @@ A interchangeable screw driver's primary function is to be able to drive differe
 
 The equation for torque is τ = F × r × sin(θ). τ is measured as a force over a certain distance, so the units would be Newton-meters or Pounds-foot. F is a force applied to the focal point, so the units would be Newtons or Pounds. r is a distance from the focal point, so the units would be Meters or Feet. An easy way to understand this formula is by thinking the greater the force and the farther the force is away from the focal point, the larger the torque.
 
-<img src="bithandle.jpg" alt="Image of the screwdriver handle and bit" width="300" height="200">
+<p align="center">
+<img src="bithandle.jpg" alt="Image of the screwdriver handle and bit" width=50% height=auto>
+</p>
 
 For interchangeable screwdrivers, the length of the handle depends on what type of job that screwdriver is supposed to do. The interchangeable screwdriver shown, is about 6 inches long, making it strong enough for the most common screws seen. The bit is a hexagonal shape in order to create the most contact force to increase torque and to keep from slipping.
 
