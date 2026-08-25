@@ -57,10 +57,12 @@ Another mechanism to keep the bit in place is a small lip on the socket. The lip
 
 The equation for friction is 𝐹𝑓 = 𝜇𝑁. 𝐹𝑓 is the friction force and is measured in Newtons or Pounds. 𝜇 is the coefficient of friction. In this case, static friction is being used to keep the bit in place, which has a higher coefficient than kinetic friction, allowing a more secure feel. 𝑁 is the normal force applied, which is the amount of force acting in the opposite direction of the friction force. The units for 𝑁 is Newtons or Pounds. 
 
-<p align="center">
-<img src="fullpatent.png" alt="Image of the bit and handle as a patent" width=50% height=auto>
-<img src="bitpatent.png" alt="Image of the bit as a patent" width=50% height=auto>
-</p>
+<table>
+  <tr>
+    <td><img src="fullpatent.png" width=50% height = auto></td>
+    <td><img src="bitpatent.png" width=50% height = auto></td>
+  </tr>
+</table>
 
 The patent number for interchangeable screwdrivers is US6425307B1, and the credited inventor is Chien-Chih Chen. A simple alternative design from the screwdriver could be a classic butter knife. It fulfills the same concepts as a regular screw driver does, however it is much slower as butter knifes aren't designed to fit the exact shape of a screw. Another alternative could be pliers for the same reason as the butter knife. The only thing with pliers is that the compression of the pliers could warp the screw making it very difficult in the future to provide maintenance on that part. Design alternatives that the author talked about were blades to lock the bit in.
 
