@@ -7,7 +7,7 @@
 
 # Task A: Portfolio Analysis
 
-**Website 1:** https://acapejones.github.io/#
+**Website 1:** [Link Text](https://acapejones.github.io/#)
 
 The landing page for Alexander's portfolio is straight to the point. It has their name, what type of portfolio it is, what the point of the portfolio is, an avatar icon for their picture, and a menu at the bottom for what the user/employer wants to explore. When you click on one of the four menu options (About Me, Work, Profiles, and Contact), it shows a pop up of that tab with the respective information. There isn't a navigation bar on the side to access the other tabs. If you want to explore other information, you'll have to close the pop up information, and then click on one of the tabs from the homepage. That being said, any employer/user can get to the information they want to see within a minute of visiting Alexander's portfolio.
 
@@ -19,7 +19,7 @@ The last two tabs show his linked in and how you can contact him if you were wan
 
 Alexander's tone throughout the entire portfolio was professional. He addressed professional figures in a professional way. Examples would be talking about team positions and addressing the client. It is very similar to what you would read on an engineering portfolio.
 
-**Website 2:** https://allisterjsequeira.github.io/index.html
+**Website 2:** [Link Text](https://allisterjsequeira.github.io/index.html)
 
 Allister's landing page shows his own digital signature, his name, and the projects that he thought was worthy to put on his portfolio. There is a menu at the top of the screen if you're not immediately interested in his projects. The menu consists of his Projects, Resume, About page, and a Contact page. It is very organized and easy to navigate. Anyone will be able to navigate to what they want to see within a minute. 
 
