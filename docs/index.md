@@ -1,9 +1,9 @@
-<table>
+<table width="100%">
   <tr>
     <td>
       <h1>Andy Chwalik - MEGR 2157 Design Portfolio</h1>
     </td>
-    <td>
+    <td align="right">
       <img src="UNCCharlotteLogo.jpg" width="150">
     </td>
   </tr>
