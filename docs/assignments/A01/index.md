@@ -59,8 +59,12 @@ The equation for friction is 𝐹𝑓 = 𝜇𝑁. 𝐹𝑓 is the friction force
 
 <table>
   <tr>
-    <td><img src="fullpatent.png" width=50% height = auto></td>
-    <td><img src="bitpatent.png" width=50% height = auto></td>
+    <td><p align="center">
+    <img src="fullpatent.png" alt="Image of the full screwdriver patent" width=50% height=auto>
+    </p></td>
+    <td><p align="center">
+    <img src="bitpatent.png" alt="Image of the bits patent" width=50% height=auto>
+    </p></td>
   </tr>
 </table>
 
