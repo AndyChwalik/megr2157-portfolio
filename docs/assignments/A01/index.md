@@ -31,21 +31,29 @@ The tone throughout each section is fairly professional. Allister describes what
 
 
 # Task B: Product Analysis
-Product: Interchangeable Screw Driver
+**Product:** Interchangeable Screw Driver
 
 A interchangeable screw driver's primary function is to be able to drive different types of screws. This function is achieved through the two different bits that can be held in the body of the screwdriver, and the torque applied through the handle. Assuming that the correct pressure is being applied by the user to the screwdriver, the main physics concepts for the interchangeable screwdriver is torque and friction.
 
 The equation for torque is τ = F × r × sin(θ). τ is measured as a force over a certain distance, so the units would be Newton-meters or Pounds-foot. F is a force applied to the focal point, so the units would be Newtons or Pounds. r is a distance from the focal point, so the units would be Meters or Feet. An easy way to understand this formula is by thinking the greater the force and the farther the force is away from the focal point, the larger the torque.
 
-For interchangeable screwdrivers, the length of the handle depends on what type of job that screwdriver is supposed to do. The interchangeable screwdriver shown, is about 6 inches long, making it strong enough for the most common screws seen.
+![Image of the screwdriver handle and bit](bithandle.jpg)
+For interchangeable screwdrivers, the length of the handle depends on what type of job that screwdriver is supposed to do. The interchangeable screwdriver shown, is about 6 inches long, making it strong enough for the most common screws seen. The bit is a hexagonal shape in order to create the most contact force to increase torque and to keep from slipping.
 
-![This is what an interchangeable screwdriver looks like. The bit is hexagonal in order to maximize the contact surface and to keep the screwdriver from slipping.](bithandle.jpg)
+![Image of the bit](bit.jpg)
+Friction is relative to interchangeable screwdrivers because it is the main mechanism keeping the bit inside of the socket. Interchangeable screwdriver sockets are almost the same size as the bits, but bits are slightly smaller.  The bits have a small bump on the side to create contact with the screwdrivers socket while in place. The contact creates friction, holding the bit into place. 
 
-Friction is relative to interchangeable screwdrivers because it is the main mechanism keeping the bit inside of the socket. Interchangeable screwdriver sockets are almost the same size as the bits, but bits are slightly smaller.  The bits have a small bump on the side to create contact with the screwdrivers socket while in place. The contact creates friction, holding the bit into place. Another mechanism to keep the bit in place is a small lip on the socket. The lip requires more force to get that bump over the lip. Both of these mechanisms combined, allow the bit to fit snug inside of the socket without it falling out while driving in screws.
+![Image of the socket](socket.jpg)
+Another mechanism to keep the bit in place is a small lip on the socket. The lip requires more force to get that bump over the lip. Both of these mechanisms combined, allow the bit to fit snug inside of the socket without it falling out while driving in screws.
 
 The equation for friction is 𝐹𝑓 = 𝜇𝑁. 𝐹𝑓 is the friction force and is measured in Newtons or Pounds. 𝜇 is the coefficient of friction. In this case, static friction is being used to keep the bit in place, which has a higher coefficient than kinetic friction, allowing a more secure feel. 𝑁 is the normal force applied, which is the amount of force acting in the opposite direction of the friction force. The units for 𝑁 is Newtons or Pounds. 
 
+![Image of the bit and handle as a patent](fullpatent.png)
+![Image of the bit as a patent](bitppatent.png)
+
 The patent number for interchangeable screwdrivers is US6425307B1, and the credited inventor is Chien-Chih Chen. A simple alternative design from the screwdriver could be a classic butter knife. It fulfills the same concepts as a regular screw driver does, however it is much slower as butter knifes aren't designed to fit the exact shape of a screw. Another alternative could be pliers for the same reason as the butter knife. The only thing with pliers is that the compression of the pliers could warp the screw making it very difficult in the future to provide maintenance on that part. Design alternatives that the author talked about were blades to lock the bit in.
+
+![Image of the other locking mechanism patent](mechanismpatent.png)
 
 
 ## Decide
