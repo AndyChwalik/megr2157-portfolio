@@ -1,14 +1,8 @@
-<div style="display:flex; align-items:center; justify-content:space-between; width:100%;">
+<img align="right" src="UNCCharlotteLogo.jpg" width="150">
 
-<div>
 <h1>Andy Chwalik - MEGR 2157 Design Portfolio</h1>
-</div>
 
-<div>
-<img src="UNCCharlotteLogo.jpg" width="150">
-</div>
-
-</div>
+<hr>
 
 ![MEGR 2156-7 Title](MEGR2156title.png)
 
