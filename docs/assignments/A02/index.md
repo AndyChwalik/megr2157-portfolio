@@ -16,7 +16,7 @@
 
 <div align="center">
   <img src="Truss_Requirements.png">
-  <p>Figure #1.) The force and geometric constraints of the truss design problem</p>
+  <p><em>Figure #1.) The force and geometric constraints of the truss design problem</em></p>
 </div> <br>
 
 Figure #1 is the absolute musts for the truss. There must be a pin support in the top right, a roller support in the top left, and two connections at the bottom with the same force acting upon them (P). P must be 20-30kN, a = 0.4m, and b = 0.3m. For my truss, I will be doing my calculations based on P being 30kN. I chose 30kN since I think it would be a good idea to design for the highest stress that could possibly be put onto my truss.
@@ -25,7 +25,7 @@ My original choice is shown in Figure #2. I wanted to connect all of the differe
 
 <div align="center">
   <img src="initial_truss.jpg">
-  <p>Figure #2.) Initial thought for the truss</p>
+  <p><em>Figure #2.) Initial thought for the truss</em></p>
 </div> <br>
 
 ## Decide
@@ -36,7 +36,7 @@ To start designing the truss, I thought it was best to draw everything on paper.
 
 <div align="center">
   <img src="external_forces.jpg">
-  <p>Figure #3.) Shows the full free body diagram and the external forces.</p>
+  <p><em></em>Figure #3.) Shows the full free body diagram and the external forces.</em></p>
 </div> <br>
 
 **Internal Forces** 
@@ -45,7 +45,7 @@ Once the external forces were found, it was time to analyze the internal forces.
 
 <div align="center">
   <img src="joint_a.jpg">
-  <p>Figure #4.) Free body diagram and internal force calculations for joint A</p>
+  <p><em>Figure #4.) Free body diagram and internal force calculations for joint A</em></p>
 </div> <br>
 
 I think the calculated values make sense since Fda has to be larger than Ay due to the fact that it is at an angle. The angle wasn't fully calculated out, since we knew the sides of the triangle, but I can assume that the angle is less than 45 degrees due to the fact the length of the adjacent side is longer than the length of the opposite side. Since the angle is less than 45 degrees, Fea should have a slightly larger internal force than Ay does. 
@@ -54,7 +54,7 @@ The next joint I decided to analyze was joint D because I would have all of the 
 
 <div align="center">
   <img src="joint_d.jpg">
-  <p>Figure #5.) Free body diagram and internal force calculations for joint B</p>
+  <p><em>Figure #5.) Free body diagram and internal force calculations for joint B</em></p>
 </div> <br>
 
 The values calculated make sense after finding out that Fed has no impact on the truss. There is only one force that affects Fcd, and that was already calculated in joint A.
@@ -63,13 +63,13 @@ I did draw the free body diagram and the forces for joint E, but I found out tha
 
 <div align="center">
   <img src="final_values.jpg">
-  <p>Figure #6.) The final calculated internal forces</p>
+  <p><em>Figure #6.) The final calculated internal forces</em></p>
 </div> <br>
 
 
 BC, BE, and CE were all found by mirroring the already found values over the axis of symmetry.
 
-
+**Cross-Sectional Area of Beams**
 
 ## Communicate
 
