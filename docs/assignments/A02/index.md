@@ -243,7 +243,9 @@ I am able to test the physical capabilities of the truss and the pins now that t
 
 **CAD File Downloads**
 
-[test](https://raw.githubusercontent.com/AndyChwalik/megr2157-portfolio/main/docs/assignments/A02/Truss_Main.prt.1)
+[Download Truss Frame](https://raw.githubusercontent.com/AndyChwalik/megr2157-portfolio/main/docs/assignments/A02/Truss_Main.prt.1) <br>
+[Download Truss Pin](https://raw.githubusercontent.com/AndyChwalik/megr2157-portfolio/main/docs/assignments/A02/truss_pin.prt.1) <br>
+[Download Truss Assembly](https://raw.githubusercontent.com/AndyChwalik/megr2157-portfolio/main/docs/assignments/A02/truss_combined.asm.1) <br>
 
 ## Communicate
 
