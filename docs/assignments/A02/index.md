@@ -287,9 +287,9 @@ To reduce yielding, it would be best to increase the cross-sectional area of the
 
 **Part 2 - Pin Connections**
 
-1) Identify the expected failure for a pin
-and
-2) Support your answer with data from credible, known sources
+1) Identify the expected failure for a pin <br>
+and<br>
+2) Support your answer with data from credible, known sources<br>
 
 Prompt: What is the expected failure mode for a pin made of hardened steel?
 
