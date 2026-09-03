@@ -121,7 +121,7 @@ Knowing that this a single shear reaction, the math and calculations is very sim
 
 **Approximate Weight of Pins**
 
-The weight calculations are also very similar. The only thing that I need to find is the length of the pins. There wasn't a set length for the requirements, so I decided to make the length the same as the diameter of the pins. I did this because the root of the beam should have given me the length of the beam, while multiplying it by two would have accounted for the beams being connected with the pin. If my reasoning is correct, the pin should be the perfect length to connect the beams. The calculations are shown in Figure #13.
+The weight calculations are also very similar. The only thing that I need to find is the length of the pins. There wasn't a set length for the requirements, so I decided to make the length the same as the diameter of the pins. I did this because it should keep the cross-sectional area consistent, and minimize the mechanical failures in my truss. If my reasoning is correct, the pin should be the perfect length to connect the beams. The calculations are shown in Figure #13.
 
 <div align="center">
   <img src="pin_weight.jpg">
