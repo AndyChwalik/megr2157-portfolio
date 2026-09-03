@@ -35,7 +35,7 @@ My original choice is shown in Figure #2. I wanted to connect all of the differe
 To start designing the truss, I thought it was best to draw everything on paper. I drew the free body diagram for the entire truss, as shown in Figure #3. The free body diagram of the whole truss shows me what forces will be acting on the design externally. Based on my drawing, it looks like there are only vertical forces being applied to the truss due to the P force having no angle. Having everything being reliant on the vertical axis makes it very clear what the external values are: Ay = 30kN, Ax = 0kN, and By = 30kN.<br>
 
 <div align="center">
-  <img src="external_values.jpg">
+  <img src="external_forces.jpg">
   <p>Figure #3.) Shows the full free body diagram and the external forces.</p>
 </div> <br>
 
