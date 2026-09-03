@@ -137,7 +137,9 @@ Now that everything is designed through paper, it needs to be 3D modeled. The fi
 <div align="center">
   <img src="unit_convert.jpg">
   <p><em>Figure #14.) Converted Units</em></p>
-</div> <br>
+</div> <br><br>
+
+**Trusses Frame**
 
 To 3D model this truss, I decided to make the outline with the appropriate dimensions first. This gave me a rough outline of my truss. When I was first designing the truss, I messed up my length and thickness of the truss due to the calculation errors with the length of the pins. This gave me really bad measurements, and I had to redesign the CAD model. The inital errors can be seen in Figure #15, Figure #16, and Figure #17.
 
@@ -174,12 +176,14 @@ When I realized the mistake, I went back to the weight calculations for the pins
   <p><em>Figure #20.) Truss with the correct pin diameter</em></p>
 </div> <br>
 
-Since my truss is symetrical, I was able to create a datum plane in the middle to mirror everything from one side over to the other side as seen in Figure #21. This made it a lot faster to 3D model after I fixed my mistakes.
+Since my truss is symmetrical, I was able to create a datum plane in the middle to mirror everything from one side over to the other side as seen in Figure #21. This made it a lot faster to 3D model after I fixed my mistakes.
 
 <div align="center">
   <img src="centralized_plane.png">
   <p><em>Figure #21.) Datum plane for symmetry</em></p>
-</div> <br>
+</div> <br><br>
+
+**Trusses Pin**
 
 The frame of the truss was complete, and now it was time to work on the pin. The pin was super simple to model since it was just one cylinder the same size as the holes inside of the trusses frame. I followed the same steps as I did for the fram of the truss. The 3D model for the pin can be seen in Figure #22 and Figure #23.
 
@@ -190,7 +194,9 @@ The frame of the truss was complete, and now it was time to work on the pin. The
 <div align="center">
   <img src="pin_extrude.png">
   <p><em>Figure #23.) Length for the pin</em></p>
-</div> <br>
+</div> <br><br>
+
+**Truss Put Together**
 
 Once both the trusses frame and pin were 3D modeled, I decided to make an assembly showing both of the components in the same system. This can be shown in Figure #24 and Figure #25
 
@@ -201,9 +207,11 @@ Once both the trusses frame and pin were 3D modeled, I decided to make an assemb
 <div align="center">
   <img src="pin_truss_assembly2.png">
   <p><em>Figure #25.) Shows all of the pins in their respective holes inside the trusses frame </em></p>
-</div> <br>
+</div> <br><br>
 
-I decided to make the materials they were made out of. The trusses frame are made out of A500 steel, which had a density of 0.284 lbm/in^3, Poisson's Ration of 0.3, Young's Modulus of 29000000 lbf/in^2, tensile yield stress of 50000 lbf/in^2, and a tensile ultimate stress of 62000 lbf/in^2. The trusses pins are made out of hardened steel with a density of 0.278 lbm/in^3 and a tensile yield stress of 170000 lbf/in^2. Both of their properties can be seen in Figure #26 and Figure #27.
+**Materials**
+
+When everything was working together, I decided to make the materials they were made out of. The trusses frame are made out of A500 steel, which had a density of 0.284 lbm/in^3, Poisson's Ration of 0.3, Young's Modulus of 29000000 lbf/in^2, tensile yield stress of 50000 lbf/in^2, and a tensile ultimate stress of 62000 lbf/in^2. The trusses pins are made out of hardened steel with a density of 0.278 lbm/in^3 and a tensile yield stress of 170000 lbf/in^2. Both of their properties can be seen in Figure #26 and Figure #27.
 
 <table>
   <tr>
