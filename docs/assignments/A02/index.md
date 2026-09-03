@@ -181,6 +181,12 @@ Since my truss is symetrical, I was able to create a datum plane in the middle t
   <p><em>Figure #21.) Datum plane for symmetry</em></p>
 </div> <br>
 
+The frame of the truss was complete, and now it was time to work on the pin. The pin was super simple to model since it was just one cylinder the same size as the holes inside of the trusses frame. The 3D model for the pin can be seen in Figure #22.
+
+<div align="center">
+  <img src="centralized_plane.png">
+  <p><em>Figure #21.) Datum plane for symmetry</em></p>
+</div> <br>
 
 ## Communicate
 
