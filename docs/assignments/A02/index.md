@@ -37,7 +37,7 @@ To start designing the truss, I thought it was best to draw everything on paper.
 <div align="center">
   <img src="external_forces.jpg">
   <p><em></em>Figure #3.) Shows the full free body diagram and the external forces.</em></p>
-</div> <br><br>
+</div> <br><br><br>
 
 **Internal Forces** 
 
@@ -67,7 +67,7 @@ I did draw the free body diagram and the forces for joint E, but I found out tha
 </div> <br>
 
 
-BC, BE, and CE were all found by mirroring the already found values over the axis of symmetry.<br>
+BC, BE, and CE were all found by mirroring the already found values over the axis of symmetry.<br><br>
 
 **Cross-Sectional Area of Beams**
 
@@ -83,7 +83,7 @@ To find the required cross-sectional area of the beams, I need to identify the m
   <p><em>Figure #8.) The correct variables and calculations for minimum cross-sectional area</em></p>
 </div> <br>
 
-To calculate the required cross-sectional area, the normal stress has to be less than the allowable stress. Allowable stress is the max stress we want applied on the truss. Setting up this equation gives me 3 knowns and 1 unknown - the minimum area. With simple algebra, I rearranged the equation to solve for the minimum cross-sectional area. I made sure to convert any units that needed to be converted to make the equation work. <br>
+To calculate the required cross-sectional area, the normal stress has to be less than the allowable stress. Allowable stress is the max stress we want applied on the truss. Setting up this equation gives me 3 knowns and 1 unknown - the minimum area. With simple algebra, I rearranged the equation to solve for the minimum cross-sectional area. I made sure to convert any units that needed to be converted to make the equation work. <br><br>
 
 **Approximate Weight of Truss**
 
@@ -94,7 +94,7 @@ To get an approximate weight of the truss, I needed to find the total length of 
   <p><em>Figure #9.) Approximate weight of the truss</em></p>
 </div> <br>
 
-Knowing that DE and CE have no affect on the load of the truss, I don't feel great that I just added extra weight to the truss. Those two beams added an extra 0.72m of material, which is almost a fourth of the total length. I could've saved about 6 pounds of material with no loss in performance.<br>
+Knowing that DE and CE have no affect on the load of the truss, I don't feel great that I just added extra weight to the truss. Those two beams added an extra 0.72m of material, which is almost a fourth of the total length. I could've saved about 6 pounds of material with no loss in performance.<br><br>
 
 **Cross-Sectional Area of Pin**
 
