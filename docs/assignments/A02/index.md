@@ -192,5 +192,21 @@ The frame of the truss was complete, and now it was time to work on the pin. The
   <p><em>Figure #23.) Length for the pin</em></p>
 </div> <br>
 
+Once both the trusses frame and pin were 3D modeled, I decided to make the materials they were made out of. The trusses frame are made out of A500 steel, which had a density of 0.284 lbm/in^3, Poisson's Ration of 0.3, Young's Modulus of 29000000 lbf/in^2, tensile yield stress of 50000 lbf/in^2, and a tensile ultimate stress of 62000 lbf/in^2. The trusses pins are made out of hardened steel with a density of 0.278 lbm/in^3 and a tensile yield stress of 170000 lbf/in^2. Both of their properties can be seen in Figure #24 and Figure #25.
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="A500_properties.png"> 
+        <em>Figure #15.) A500 steel properties that was applied to the trusses frame</em>
+    </td>
+    <td align="center">
+      <img src="hardened_properties.png"> 
+        <em>Figure #16.) Hardened steel properties that were applied to the trusses pins</em>
+    </td>
+  </tr>
+</table>
+
+
 ## Communicate
 
