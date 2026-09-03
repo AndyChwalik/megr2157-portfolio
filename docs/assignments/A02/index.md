@@ -241,6 +241,9 @@ I am able to test the physical capabilities of the truss and the pins now that t
   </tr>
 </table>
 
+**CAD File Downloads**
+
+
 ## Communicate
 
 ### 2157 Students Only
@@ -330,4 +333,5 @@ Ways of reducing this failure from happening is by increasing the radius of the 
 - The importance of the factor of safety due to the common failures
 - The different types of common failures that are seen with physical properties (yielding, buckling, and shear)
 - Organize all of your documents so that you are not looking in a giant folder filed with 30 files
+
 This assignment took me 10 hours and 10 minutes
