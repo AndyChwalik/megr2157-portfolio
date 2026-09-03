@@ -198,15 +198,29 @@ Once both the trusses frame and pin were 3D modeled, I decided to make the mater
   <tr>
     <td align="center">
       <img src="A500_properties.png"> 
-        <em>Figure #15.) A500 steel properties that was applied to the trusses frame</em>
+        <em>Figure #24.) A500 steel properties that was applied to the trusses frame</em>
     </td>
     <td align="center">
       <img src="hardened_properties.png"> 
-        <em>Figure #16.) Hardened steel properties that were applied to the trusses pins</em>
+        <em>Figure #25.) Hardened steel properties that were applied to the trusses pins</em>
     </td>
   </tr>
 </table>
 
+I am able to test the physical capabilities of the truss and the pins now that they are 3D modeled and have the correct material applied to them. The approximation for the trusses frame was about 4 pounds off from the actual value, and the approximation for the pins was about 0.0001 pound off. Overall, the approximations were pretty accurate, and the truss should still hold up in the real world. The mass properties can be seen in Figure #26 and Figure #27.
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="properties_frame.png"> 
+        <em>Figure #26.) Mass properties for the trusses frame</em>
+    </td>
+    <td align="center">
+      <img src="properties_pin.png"> 
+        <em>Figure #27.) Mass properties for the trusses pins</em>
+    </td>
+  </tr>
+</table>
 
 ## Communicate
 
