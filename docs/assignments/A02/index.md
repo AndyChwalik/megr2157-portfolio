@@ -101,18 +101,34 @@ Knowing that DE and CE have no affect on the load of the truss, I don't feel gre
 To find the required cross-sectional area of the pins, I need to identify the max external force, the shear stress of the material, the factor of safety, and the density of the material. All of these variables are shown in Figure #10. <br>
 
 <div align="center">
-  <img src="truss_weight.jpg">
+  <img src="pin_knowns.jpg">
   <p><em>Figure #10.) The knowns and unknowns to find cross-sectional area of pins</em></p>
 </div> <br>
 
 The two pins that have the largest force acting on them are pins A and B. They are the exact same, so it doesn't matter which one I pick, but I am going to pick pin A. Based on Figure #11, it looks like there is only a single shear that occurs at the pin locations.
 
 <div align="center">
-  <img src="truss_weight.jpg">
+  <img src="pin_fbd.jpg">
   <p><em>Figure #11.) Free-body diagram of pin with biggest force acting on it</em></p>
 </div> <br>
 
+Knowing that this a single shear reaction, the math and calculations is very similar to the stress on the individual beams in the truss. I am just using shear variables rather than stress variables. The calculations are shown in Figure #12.
 
+<div align="center">
+  <img src="pin_fbd.jpg">
+  <p><em>Figure #12.) Single shear calculations for the truss pins</em></p>
+</div> <br><br>
+
+**Approximate Weight of Pins**
+
+The weight calculations are also very similar. The only thing that I need to find is the length of the pins. There wasn't a set length for the requirements, so I decided to take the root of the cross-sectional area of the beams and multiplying it by two. I did this because the root of the beam should have given me the length of the beam, while multiplying it by two would have accounted for the beams being connected with the pin. If my reasoning is correct, the pin should be the perfect length to connect the beams. The calculations are shown in Figure #13.
+
+<div align="center">
+  <img src="pin_fbd.jpg">
+  <p><em>Figure #13.) Calculations for the weight of the pins</em></p>
+</div> <br>
+
+The formula found in Figure #13 only gives me the weight of a single pin on my truss. This truss has five pins, so I multiplied the found value by five to get the total weight of the pins. The final value makes sense since pins shouldn't be super heavy.
 
 ## Communicate
 
