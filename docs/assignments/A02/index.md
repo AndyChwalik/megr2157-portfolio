@@ -98,6 +98,20 @@ Knowing that DE and CE have no affect on the load of the truss, I don't feel gre
 
 **Cross-Sectional Area of Pin**
 
+To find the required cross-sectional area of the pins, I need to identify the max external force, the shear stress of the material, the factor of safety, and the density of the material. All of these variables are shown in Figure #10. <br>
+
+<div align="center">
+  <img src="truss_weight.jpg">
+  <p><em>Figure #10.) The knowns and unknowns to find cross-sectional area of pins</em></p>
+</div> <br>
+
+The two pins that have the largest force acting on them are pins A and B. They are the exact same, so it doesn't matter which one I pick, but I am going to pick pin A. Based on Figure #11, it looks like there is only a single shear that occurs at the pin locations.
+
+<div align="center">
+  <img src="truss_weight.jpg">
+  <p><em>Figure #11.) Free-body diagram of pin with biggest force acting on it</em></p>
+</div> <br>
+
 
 
 ## Communicate
