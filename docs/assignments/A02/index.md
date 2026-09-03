@@ -157,6 +157,18 @@ To 3D model this truss, I decided to make the outline with the appropriate dimen
     </td>
   </tr>
 </table>
+<br>
+
+When I realized the mistake, I went back to the weight calculations for the pins, and found the diameter of the pins as seen in Figure #13. I also decided to make the length of the pin the same as the diameter, which keeps the same cross-sectional surface. I followed the same steps as I with my errors, but with the correct values this time. This can be seen in Figure #18, Figure #19, and Figure #20
+
+<div align="center">
+  <img src="outline_fixed.png">
+  <p><em>Figure #18.) Outline of truss with correct units</em></p>
+</div> <br>
+<div align="center">
+  <img src="_fixed.png">
+  <p><em>Figure #18.) Outline of truss with correct units</em></p>
+</div> <br>
 
 ## Communicate
 
