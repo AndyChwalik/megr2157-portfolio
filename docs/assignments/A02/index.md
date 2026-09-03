@@ -15,7 +15,7 @@
 ## Analyze
 
 <div align="center">
-  <img src="Truss_Requirements.png" width="400">
+  Truss_Requirements.png
   <p>Figure #1.) The force and geometric constraints of the truss design problem.</p>
 </div> <br>
 
