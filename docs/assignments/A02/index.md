@@ -30,7 +30,7 @@ My original choice is shown in Figure #2. I wanted to connect all of the differe
 
 ## Decide
 
-**Full Free-Body-Diagram**
+### Full Free-Body-Diagram
 
 To start designing the truss, I thought it was best to draw everything on paper. I drew the free body diagram for the entire truss, as shown in Figure #3. The free body diagram of the whole truss shows me what forces will be acting on the design externally. Based on my drawing, it looks like there are only vertical forces being applied to the truss due to the P force having no angle. Having everything being reliant on the vertical axis makes it very clear what the external values are: Ay = 30kN, Ax = 0kN, and By = 30kN.<br>
 
@@ -39,7 +39,7 @@ To start designing the truss, I thought it was best to draw everything on paper.
   <p><em></em>Figure #3.) Shows the full free body diagram and the external forces.</em></p>
 </div> <br><br><br>
 
-**Internal Forces** 
+### Internal Forces
 
 Once the external forces were found, it was time to analyze the internal forces. It didn't matter which side of the truss I started on, since the truss is symmetrical, but I decided to start at joint A as shown in Figure #4. At joint A, there were only two forces that were acting in the vertical direction. One of those forces was known, Ay, so I decided to do the sum of the y forces first. Solving the equation gave me the simple equation Fda = Ay(d/b). Now that I have the value of Fda, I can find the value of Fea since there are only two forces in the horizontal direction. Solving for Fea, I got the equation Fea = Fda(a/d). The calculated values were Fda = 50kN tension and Fea = 40kN compression. <br>
 
@@ -69,7 +69,7 @@ I did draw the free body diagram and the forces for joint E, but I found out tha
 
 BC, BE, and CE were all found by mirroring the already found values over the axis of symmetry.<br><br>
 
-**Cross-Sectional Area of Beams**
+### Cross-Sectional Area of Beams
 
 To find the required cross-sectional area of the beams, I need to identify the max internal force, the yield stress of the material, the factor of safety, and the density of the material. The max internal force was the AD and BC beams, which is shown in Figure #6. There are different yield stresses for A500 steel based on the grade, so I decided to go with the most common grade: Grade C. When I first analyzed the problem, I used the shear strength rather than the yield strength, which can be seen in Figure #7. The correct yield stress and factor of safety can be seen in Figure #8. <br>
 
@@ -85,7 +85,7 @@ To find the required cross-sectional area of the beams, I need to identify the m
 
 To calculate the required cross-sectional area, the normal stress has to be less than the allowable stress. Allowable stress is the max stress we want applied on the truss. Setting up this equation gives me 3 knowns and 1 unknown - the minimum area. With simple algebra, I rearranged the equation to solve for the minimum cross-sectional area. I made sure to convert any units that needed to be converted to make the equation work. <br><br>
 
-**Approximate Weight of Truss**
+### Approximate Weight of Truss
 
 To get an approximate weight of the truss, I needed to find the total length of material on the truss. To do this, I looked back at my free body diagram showing the whole truss. It was easy to identify the lengths of each of the beams due to the predetermined lengths of a and b. Once the total length and cross-sectional area of the beams is found, I can calculate the approximate weight of the truss. I multiplied the density of A500 steel with the volume of the material (minimum area x total length). When I first did this problem, I used the density of the material used for the pins as seen in Figure #7. All work and processes can be seen more clearly in Figure #9. <br>
 
@@ -96,7 +96,7 @@ To get an approximate weight of the truss, I needed to find the total length of 
 
 Knowing that DE and CE have no affect on the load of the truss, I don't feel great that I just added extra weight to the truss. Those two beams added an extra 0.72m of material, which is almost a fourth of the total length. I could've saved about 6 pounds of material with no loss in performance.<br><br>
 
-**Cross-Sectional Area of Pin**
+### Cross-Sectional Area of Pin
 
 To find the required cross-sectional area of the pins, I need to identify the max external force, the shear stress of the material, the factor of safety, and the density of the material. All of these variables are shown in Figure #10. <br>
 
@@ -119,7 +119,7 @@ Knowing that this a single shear reaction, the math and calculations is very sim
   <p><em>Figure #12.) Single shear calculations for the truss pins</em></p>
 </div> <br><br>
 
-**Approximate Weight of Pins**
+### Approximate Weight of Pins
 
 The weight calculations are also very similar. The only thing that I need to find is the length of the pins. There wasn't a set length for the requirements, so I first decided to make the length of the pin the root of the cross-sectional area of the beam multiplied by two. I did this because I thought it would relate the cross-sectional areas and be good mechanically, however, I learned that is not correct. While 3D modeling, I noticed my pins were way too thin, so I made the length of the pin the same as the diameter. The calculations are shown in Figure #13.
 
@@ -139,7 +139,7 @@ Now that everything is designed through paper, it needs to be 3D modeled. The fi
   <p><em>Figure #14.) Converted Units</em></p>
 </div> <br><br>
 
-**Trusses Frame**
+### Trusses Frame
 
 To 3D model this truss, I decided to make the outline with the appropriate dimensions first. This gave me a rough outline of my truss. When I was first designing the truss, I messed up my length and thickness of the truss due to the calculation errors with the length of the pins. This gave me really bad measurements, and I had to redesign the CAD model. The initial errors can be seen in Figure #15, Figure #16, and Figure #17.
 
@@ -183,7 +183,7 @@ Since my truss is symmetrical, I was able to create a datum plane in the middle 
   <p><em>Figure #21.) Datum plane for symmetry</em></p>
 </div> <br><br>
 
-**Trusses Pin**
+### Trusses Pin
 
 The frame of the truss was complete, and now it was time to work on the pin. The pin was super simple to model since it was just one cylinder the same size as the holes inside of the trusses frame. I followed the same steps as I did for the fram of the truss. The 3D model for the pin can be seen in Figure #22 and Figure #23.
 
@@ -196,7 +196,7 @@ The frame of the truss was complete, and now it was time to work on the pin. The
   <p><em>Figure #23.) Length for the pin</em></p>
 </div> <br><br>
 
-**Truss Put Together**
+### Truss Put Together
 
 Once both the trusses frame and pin were 3D modeled, I decided to make an assembly showing both of the components in the same system. This can be shown in Figure #24 and Figure #25
 
@@ -209,7 +209,7 @@ Once both the trusses frame and pin were 3D modeled, I decided to make an assemb
   <p><em>Figure #25.) Shows all of the pins in their respective holes inside the trusses frame </em></p>
 </div> <br><br>
 
-**Materials**
+### Materials
 
 When everything was working together, I decided to make the materials they were made out of. The trusses frame are made out of A500 steel, which had a density of 0.284 lbm/in^3, Poisson's Ration of 0.3, Young's Modulus of 29000000 lbf/in^2, tensile yield stress of 50000 lbf/in^2, and a tensile ultimate stress of 62000 lbf/in^2. The trusses pins are made out of hardened steel with a density of 0.278 lbm/in^3 and a tensile yield stress of 170000 lbf/in^2. Both of their properties can be seen in Figure #26 and Figure #27.
 
@@ -241,7 +241,7 @@ I am able to test the physical capabilities of the truss and the pins now that t
   </tr>
 </table>
 
-**CAD File Downloads**
+###CAD File Downloads
 
 [Download Truss Frame](https://raw.githubusercontent.com/AndyChwalik/megr2157-portfolio/main/docs/assignments/A02/Truss_Main.prt.1) <br>
 [Download Truss Pin](https://raw.githubusercontent.com/AndyChwalik/megr2157-portfolio/main/docs/assignments/A02/truss_pin.prt.1) <br>
@@ -253,7 +253,7 @@ I am able to test the physical capabilities of the truss and the pins now that t
 
 **Part 1 - Truss Members**
 
-1. Identify expected failure mode
+1) Identify expected failure mode
 
 Prompt: What is the expected failure mode for a truss made of A500 steel undergoing tension and compression?
 
@@ -273,23 +273,23 @@ Based on Microsoft Copilots response, and my own research, it seems like yieldin
 Buckling is also a threat to the trusses structure due to the lower cross-sectional area the truss has compared to the length of the beam. If there is high compression over a long piece of steel, it could be very susceptible to buckling.
 
 
-2. State whether the material is ductile or brittle
+2) State whether the material is ductile or brittle
 
 A500 steel is a ductile material. A500 steel is cold-formed carbon steel. What this means, is that the material is put through a roller machine at room temperature, to stretch the chemical bonds inside the material. The bonds can be strengthens again through the process of heating up and cooling down. This creates bonds that are stronger than normal, and can bend under tensile stress.
 
-3. Support with stress comparisons
+3) Support with stress comparisons
 
 When looking at stresses from my own truss, I have a 50kN force. This is greater than the yield strength of A500 steel, however the material will not fracture. This is because it is still under the ultimate yield strength. Instead of fracturing, the material will bend and warp, meaning that A500 steel is ductile.
 
-4. Propose a design modification
+4) Propose a design modification
 
 To reduce yielding, it would be best to increase the cross-sectional area of the truss. The greater the cross-sectional area is, the harder it is for the truss to bend and warp. The same thing can be said for buckling.
 
 **Part 2 - Pin Connections**
 
-1. Identify the expected failure for a pin
+1) Identify the expected failure for a pin
 and
-2. Support your answer with data from credible, known sources
+2) Support your answer with data from credible, known sources
 
 Prompt: What is the expected failure mode for a pin made of hardened steel?
 
@@ -313,7 +313,7 @@ This creates high bending stresses in addition to shear stresses.
 
 Based on the information Microsoft Copilot gave me, I am going to say that the most expected failure is shear failure. When dealing with a truss, there are a lot of planes acting opposed to the pin. These forces applied by the planes puts a lot of stress on the pin, and can snap it in half. I drew an example of this happening in Figure #11. Also, this is the calculation that had the greatest factor of safety on it while calculating.
 
-3. Propose a design modification to reduce the likelihood of this failure
+3) Propose a design modification to reduce the likelihood of this failure
 
 Ways of reducing this failure from happening is by increasing the radius of the pin or by changing the material to a higher strength material. Increasing the radius will increase the cross-sectional area in contact with the planes, requiring more force to be applied in order to break it. The changing in material just changes the fundamental properties, and increases the yield strength.
 
