@@ -57,6 +57,8 @@ The next joint I decided to analyze was joint D because I would have all of the 
   <p>Figure #2.) Original idea I had for the problem</p>
 </div> <br>
 
+The values calculated make sense after finding out that Fed has no impact on the truss. There is only one force that affects Fcd, and that was already calculated in joint A.
+
 
 
 ## Communicate
