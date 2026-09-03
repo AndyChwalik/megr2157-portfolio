@@ -192,32 +192,43 @@ The frame of the truss was complete, and now it was time to work on the pin. The
   <p><em>Figure #23.) Length for the pin</em></p>
 </div> <br>
 
-Once both the trusses frame and pin were 3D modeled, I decided to make the materials they were made out of. The trusses frame are made out of A500 steel, which had a density of 0.284 lbm/in^3, Poisson's Ration of 0.3, Young's Modulus of 29000000 lbf/in^2, tensile yield stress of 50000 lbf/in^2, and a tensile ultimate stress of 62000 lbf/in^2. The trusses pins are made out of hardened steel with a density of 0.278 lbm/in^3 and a tensile yield stress of 170000 lbf/in^2. Both of their properties can be seen in Figure #24 and Figure #25.
+Once both the trusses frame and pin were 3D modeled, I decided to make an assembly showing both of the components in the same system. This can be shown in Figure #24 and Figure #25
+
+<div align="center">
+  <img src="pin_truss_assembly.png">
+  <p><em>Figure #24.) Shows the pin just outside of the hole in the trusses frame </em></p>
+</div> <br>
+<div align="center">
+  <img src="pin_truss_assembly2.png">
+  <p><em>Figure #25.) Shows all of the pins in their respective holes inside the trusses frame </em></p>
+</div> <br>
+
+I decided to make the materials they were made out of. The trusses frame are made out of A500 steel, which had a density of 0.284 lbm/in^3, Poisson's Ration of 0.3, Young's Modulus of 29000000 lbf/in^2, tensile yield stress of 50000 lbf/in^2, and a tensile ultimate stress of 62000 lbf/in^2. The trusses pins are made out of hardened steel with a density of 0.278 lbm/in^3 and a tensile yield stress of 170000 lbf/in^2. Both of their properties can be seen in Figure #26 and Figure #27.
 
 <table>
   <tr>
     <td align="center">
       <img src="A500_properties.png"> 
-        <em>Figure #24.) A500 steel properties that was applied to the trusses frame</em>
+        <em>Figure #26.) A500 steel properties that was applied to the trusses frame</em>
     </td>
     <td align="center">
       <img src="hardened_properties.png"> 
-        <em>Figure #25.) Hardened steel properties that were applied to the trusses pins</em>
+        <em>Figure #27.) Hardened steel properties that were applied to the trusses pins</em>
     </td>
   </tr>
 </table>
 
-I am able to test the physical capabilities of the truss and the pins now that they are 3D modeled and have the correct material applied to them. The approximation for the trusses frame was about 4 pounds off from the actual value, and the approximation for the pins was about 0.0001 pound off. Overall, the approximations were pretty accurate, and the truss should still hold up in the real world. The mass properties can be seen in Figure #26 and Figure #27.
+I am able to test the physical capabilities of the truss and the pins now that they are 3D modeled and have the correct material applied to them. The approximation for the trusses frame was about 4 pounds off from the actual value, and the approximation for the pins was about 0.0001 pound off. Overall, the approximations were pretty accurate, and the truss should still hold up in the real world. The mass properties can be seen in Figure #28 and Figure #29.
 
 <table>
   <tr>
     <td align="center">
-      <img src="properties_frame.png"> 
-        <em>Figure #26.) Mass properties for the trusses frame</em>
+      <img src="properites_frame.png"> 
+        <em>Figure #28.) Mass properties for the trusses frame</em>
     </td>
     <td align="center">
       <img src="properties_pin.png"> 
-        <em>Figure #27.) Mass properties for the trusses pins</em>
+        <em>Figure #29.) Mass properties for the trusses pins</em>
     </td>
   </tr>
 </table>
