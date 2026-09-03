@@ -141,7 +141,7 @@ Now that everything is designed through paper, it needs to be 3D modeled. The fi
 
 **Trusses Frame**
 
-To 3D model this truss, I decided to make the outline with the appropriate dimensions first. This gave me a rough outline of my truss. When I was first designing the truss, I messed up my length and thickness of the truss due to the calculation errors with the length of the pins. This gave me really bad measurements, and I had to redesign the CAD model. The inital errors can be seen in Figure #15, Figure #16, and Figure #17.
+To 3D model this truss, I decided to make the outline with the appropriate dimensions first. This gave me a rough outline of my truss. When I was first designing the truss, I messed up my length and thickness of the truss due to the calculation errors with the length of the pins. This gave me really bad measurements, and I had to redesign the CAD model. The initial errors can be seen in Figure #15, Figure #16, and Figure #17.
 
 <table>
   <tr>
@@ -161,7 +161,7 @@ To 3D model this truss, I decided to make the outline with the appropriate dimen
 </table>
 <br>
 
-When I realized the mistake, I went back to the weight calculations for the pins, and found the diameter of the pins as seen in Figure #13. I also decided to make the length of the pin the same as the diameter, which keeps the same cross-sectional surface. I followed the same steps as I with my errors, but with the correct values this time. This can be seen in Figure #18, Figure #19, and Figure #20
+When I realized the mistake, I went back to the weight calculations for the pins, and found the diameter of the pins as seen in Figure #13. I also decided to make the length of the pin the same as the diameter, which keeps the same cross-sectional surface. I followed the same steps as I did with my errors, but with the correct values this time. This can be seen in Figure #18, Figure #19, and Figure #20
 
 <div align="center">
   <img src="outline_fixed.png">
@@ -242,4 +242,82 @@ I am able to test the physical capabilities of the truss and the pins now that t
 </table>
 
 ## Communicate
+
+### 2157 Students Only
+
+**Part 1 - Truss Members**
+
+1. Identify expected failure mode
+
+Prompt: What is the expected failure mode for a truss made of A500 steel undergoing tension and compression?
+
+Microsoft Copilot Response: 
+Tension Members
+
+The most likely failure mode is yielding in tension, followed by eventual tensile fracture if loading continues. A500 steel is ductile, so the member will typically elongate and show noticeable deformation before breaking.
+
+Compression Members
+
+The most likely failure mode is buckling, not material yielding, especially for slender truss members. A compression member can suddenly bend laterally and lose its load-carrying ability before the stress reaches the steel's yield strength.
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Based on Microsoft Copilots response, and my own research, it seems like yielding could possibly be a problem at pins A and B. The yield strength of the material is 46ksi, while the forces acting on those pins are up to 50kN. These forces are also in tension, so I think this could be a serious threat to the structure. 
+
+Buckling is also a threat to the trusses structure due to the lower cross-sectional area the truss has compared to the length of the beam. If there is high compression over a long piece of steel, it could be very susceptible to buckling.
+
+
+2. State whether the material is ductile or brittle
+
+A500 steel is a ductile material. A500 steel is cold-formed carbon steel. What this means, is that the material is put through a roller machine at room temperature, to stretch the chemical bonds inside the material. The bonds can be strengthens again through the process of heating up and cooling down. This creates bonds that are stronger than normal, and can bend under tensile stress.
+
+3. Support with stress comparisons
+
+When looking at stresses from my own truss, I have a 50kN force. This is greater than the yield strength of A500 steel, however the material will not fracture. This is because it is still under the ultimate yield strength. Instead of fracturing, the material will bend and warp, meaning that A500 steel is ductile.
+
+4. Propose a design modification
+
+To reduce yielding, it would be best to increase the cross-sectional area of the truss. The greater the cross-sectional area is, the harder it is for the truss to bend and warp. The same thing can be said for buckling.
+
+**Part 2 - Pin Connections**
+
+1. Identify the expected failure for a pin
+and
+2. Support your answer with data from credible, known sources
+
+Prompt: What is the expected failure mode for a pin made of hardened steel?
+
+Microsoft Copilot Response: 
+
+Shear Failure
+
+The pin shears across one or two planes. In a truss connection, pins are often in double shear, meaning there are two shear planes resisting the load. This occurs when the average shear stress exceeds the material's shear strength.
+
+Bearing Failure
+
+The pin does not fail, but the hole in the connected member deforms or crushes.
+Hardened steel pins are usually much stronger than the plate material, so the plate often fails in bearing before the pin fails.
+
+Bending Failure
+
+If there is clearance between members or the connection is wide, the pin can bend rather than experience pure shear.
+This creates high bending stresses in addition to shear stresses.
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Based on the information Microsoft Copilot gave me, I am going to say that the most expected failure is shear failure. When dealing with a truss, there are a lot of planes acting opposed to the pin. These forces applied by the planes puts a lot of stress on the pin, and can snap it in half. I drew an example of this happening in Figure #11. Also, this is the calculation that had the greatest factor of safety on it while calculating.
+
+3. Propose a design modification to reduce the likelihood of this failure
+
+Ways of reducing this failure from happening is by increasing the radius of the pin or by changing the material to a higher strength material. Increasing the radius will increase the cross-sectional area in contact with the planes, requiring more force to be applied in order to break it. The changing in material just changes the fundamental properties, and increases the yield strength.
+
+**Resources**
+- [https://pandapipe.com/blog/a500-steel-properties/](https://pandapipe.com/blog/a500-steel-properties/)
+- [https://pandapipe.com/blog/a500-steel-properties/](https://pandapipe.com/blog/a500-steel-properties/)
+- [https://buildsteel.org/why-steel/cold-formed-steel-101/what-is-cold-formed-steel-framing-and-how-can-i-use-it/](https://buildsteel.org/why-steel/cold-formed-steel-101/what-is-cold-formed-steel-framing-and-how-can-i-use-it/)
+- [https://compass.astm.org/content-access?contentCode=ASTM%7CA0500-03A%7Cen-US](https://compass.astm.org/content-access?contentCode=ASTM%7CA0500-03A%7Cen-US)
+- [https://shop.adhmt.com/understanding-shear-failure-causes-and-prevention/](https://shop.adhmt.com/understanding-shear-failure-causes-and-prevention/)
+
+
+### Lessons Learned
 
