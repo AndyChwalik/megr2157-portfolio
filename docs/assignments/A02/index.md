@@ -166,9 +166,21 @@ When I realized the mistake, I went back to the weight calculations for the pins
   <p><em>Figure #18.) Outline of truss with correct units</em></p>
 </div> <br>
 <div align="center">
-  <img src="_fixed.png">
-  <p><em>Figure #18.) Outline of truss with correct units</em></p>
+  <img src="extrude_fixed.jpg">
+  <p><em>Figure #19.) Truss with the correct thickness</em></p>
 </div> <br>
+<div align="center">
+  <img src="holes_fixed.jpg">
+  <p><em>Figure #20.) Truss with the correct pin diameter</em></p>
+</div> <br>
+
+Since my truss is symetrical, I was able to create a datum plane in the middle to mirror everything from one side over to the other side as seen in Figure #21. This made it a lot faster to 3D model after I fixed my mistakes.
+
+<div align="center">
+  <img src="centralized_plane.png">
+  <p><em>Figure #21.) Datum plane for symmetry</em></p>
+</div> <br>
+
 
 ## Communicate
 
