@@ -317,7 +317,7 @@ Based on the information Microsoft Copilot gave me, I am going to say that the m
 
 Ways of reducing this failure from happening is by increasing the radius of the pin or by changing the material to a higher strength material. Increasing the radius will increase the cross-sectional area in contact with the planes, requiring more force to be applied in order to break it. The changing in material just changes the fundamental properties, and increases the yield strength.
 
-**Resources**
+**Resources** <br>
 - [https://pandapipe.com/blog/a500-steel-properties/](https://pandapipe.com/blog/a500-steel-properties/) <br>
 - [https://pandapipe.com/blog/a500-steel-properties/](https://pandapipe.com/blog/a500-steel-properties/)<br>
 - [https://buildsteel.org/why-steel/cold-formed-steel-101/what-is-cold-formed-steel-framing-and-how-can-i-use-it/](https://buildsteel.org/why-steel/cold-formed-steel-101/what-is-cold-formed-steel-framing-and-how-can-i-use-it/)<br>
