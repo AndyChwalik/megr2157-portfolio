@@ -71,7 +71,7 @@ BC, BE, and CE were all found by mirroring the already found values over the axi
 
 **Cross-Sectional Area of Beams**
 
-To find the required cross-sectional area of the beams, I need to identify the max internal force, the yield stress of the material, the factor of safety, and the density of the material. The max internal force was the AD and BC beams, which can be shown in Figure #6. There are different yield stresses for A500 steel based on the grade, so I decided to go with the most common grade: Grade C. When I first analyzed the problem, I used the shear strength rather than the yield strength, which can be seen in Figure #7. The correct yield stress and factor of safety can be seen in Figure #8. <br>
+To find the required cross-sectional area of the beams, I need to identify the max internal force, the yield stress of the material, the factor of safety, and the density of the material. The max internal force was the AD and BC beams, which is shown in Figure #6. There are different yield stresses for A500 steel based on the grade, so I decided to go with the most common grade: Grade C. When I first analyzed the problem, I used the shear strength rather than the yield strength, which can be seen in Figure #7. The correct yield stress and factor of safety can be seen in Figure #8. <br>
 
 <div align="center">
   <img src="incorrect_area.jpg">
