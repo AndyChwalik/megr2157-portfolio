@@ -166,11 +166,11 @@ When I realized the mistake, I went back to the weight calculations for the pins
   <p><em>Figure #18.) Outline of truss with correct units</em></p>
 </div> <br>
 <div align="center">
-  <img src="extrude_fixed.jpg">
+  <img src="extrude_fixed.png">
   <p><em>Figure #19.) Truss with the correct thickness</em></p>
 </div> <br>
 <div align="center">
-  <img src="holes_fixed.jpg">
+  <img src="holes_fixed.png">
   <p><em>Figure #20.) Truss with the correct pin diameter</em></p>
 </div> <br>
 
