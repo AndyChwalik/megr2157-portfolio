@@ -139,21 +139,21 @@ Now that everything is designed through paper, it needs to be 3D modeled. The fi
   <p><em>Figure #14.) Converted Units</em></p>
 </div> <br>
 
-To 3D model this truss, I decided to make the outline with the appropriate dimensions first. This gave me a rough outline of my truss. When I was first designing the truss, I messed up my length and thickness of the truss due to the calculation errors with the length of the pins. This gave me really bad measurements, and I had to redesign the CAD model.
+To 3D model this truss, I decided to make the outline with the appropriate dimensions first. This gave me a rough outline of my truss. When I was first designing the truss, I messed up my length and thickness of the truss due to the calculation errors with the length of the pins. This gave me really bad measurements, and I had to redesign the CAD model. The inital errors can be seen in Figure #15, Figure #16, and Figure #17.
 
 <table>
   <tr>
     <td align="center">
-      <img src="outline_mistake.jpg"> 
-        <em>Figure 1. Outline with incorrect width</em>
+      <img src="outline_mistake.png"> 
+        <em>Figure #15.) Outline with incorrect width</em>
     </td>
     <td align="center">
-      <img src="extrude_mistake.jpg"> 
-        <em>Figure 1. Truss with incorrect thickness</em>
+      <img src="extrude_mistake.png"> 
+        <em>Figure #16.) Truss with incorrect thickness</em>
     </td>
     <td align="center">
-      <img src="holes_mistake.jpg"> 
-        <em>Figure 1. Truss with the incorrect diameter and length</em>
+      <img src="holes_mistake.png"> 
+        <em>Figure #17.) Truss with the incorrect diameter and length</em>
     </td>
   </tr>
 </table>
