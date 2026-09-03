@@ -87,7 +87,7 @@ To calculate the required cross-sectional area, the normal stress has to be less
 
 **Approximate Weight of Truss**
 
-To get an approximate weight of the truss, I needed to find the total length of material on the truss. To do this, I looked back at my free body diagram showing the whole truss. It was easy to identify the lengths of each of the beams due to the predetermined lengths of a and b. Once the total length and cross-sectional area of the beams is found, I can calculate the approximate weight of the truss. I multiplied the density of A500 steel with the volume of the material (minimum area x total length). All work and processes can be seen more clearly in Figure #9. <br>
+To get an approximate weight of the truss, I needed to find the total length of material on the truss. To do this, I looked back at my free body diagram showing the whole truss. It was easy to identify the lengths of each of the beams due to the predetermined lengths of a and b. Once the total length and cross-sectional area of the beams is found, I can calculate the approximate weight of the truss. I multiplied the density of A500 steel with the volume of the material (minimum area x total length). When I first did this problem, I used the density of the material used for the pins as seen in Figure #7. All work and processes can be seen more clearly in Figure #9. <br>
 
 <div align="center">
   <img src="truss_weight.jpg">
@@ -129,6 +129,17 @@ The weight calculations are also very similar. The only thing that I need to fin
 </div> <br>
 
 The formula found in Figure #13 only gives me the weight of a single pin on my truss. This truss has five pins, so I multiplied the found value by five to get the total weight of the pins. The final value makes sense since pins shouldn't be super heavy.
+
+## CAD Model
+
+Now that everything is designed through paper, it needs to be 3D modeled. The first thing that I noticed while 3D modeling was that my forces and areas are in US customary units while the dimensions of my truss are in metric units. To make it easier for me to design, I changed all of my metric units to US customary. The conversions are shown in Figure #14.
+
+<div align="center">
+  <img src="pin_weight.jpg">
+  <p><em>Figure #14.) Converted Units</em></p>
+</div> <br>
+
+
 
 ## Communicate
 
