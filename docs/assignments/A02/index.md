@@ -59,6 +59,16 @@ The next joint I decided to analyze was joint D because I would have all of the 
 
 The values calculated make sense after finding out that Fed has no impact on the truss. There is only one force that affects Fcd, and that was already calculated in joint A.
 
+I did draw the free body diagram and the forces for joint E, but I found out that it didn't mean anything since ED and CE have zero load on them.  The final internal force values calculated are shown in Figure #6. <br>
+
+<div align="center">
+  <img src="final_values.jpg">
+  <p>Figure #6.) The final calculated internal forces</p>
+</div> <br>
+
+
+BC, BE, and CE were all found by mirroring the already found values over the axis of symmetry.
+
 
 
 ## Communicate
