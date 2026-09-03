@@ -37,8 +37,8 @@ To start designing the truss, I thought it was best to draw everything on paper.
 <div align="center">
   <img src="external_forces.jpg">
   <p><em></em>Figure #3.) Shows the full free body diagram and the external forces.</em></p>
-</div> <br>
-<br>
+</div> <br><br>
+
 **Internal Forces** 
 
 Once the external forces were found, it was time to analyze the internal forces. It didn't matter which side of the truss I started on, since the truss is symmetrical, but I decided to start at joint A as shown in Figure #4. At joint A, there were only two forces that were acting in the vertical direction. One of those forces was known, Ay, so I decided to do the sum of the y forces first. Solving the equation gave me the simple equation Fda = Ay(d/b). Now that I have the value of Fda, I can find the value of Fea since there are only two forces in the horizontal direction. Solving for Fea, I got the equation Fea = Fda(a/d). The calculated values were Fda = 50kN tension and Fea = 40kN compression. <br>
@@ -67,8 +67,8 @@ I did draw the free body diagram and the forces for joint E, but I found out tha
 </div> <br>
 
 
-BC, BE, and CE were all found by mirroring the already found values over the axis of symmetry.
-<br>
+BC, BE, and CE were all found by mirroring the already found values over the axis of symmetry.<br>
+
 **Cross-Sectional Area of Beams**
 
 To find the required cross-sectional area of the beams, I need to identify the max internal force, the yield stress of the material, the factor of safety, and the density of the material. The max internal force was the AD and BC beams, which can be shown in Figure #6. There are different yield stresses for A500 steel based on the grade, so I decided to go with the most common grade: Grade C. When I first analyzed the problem, I used the shear strength rather than the yield strength, which can be seen in Figure #7. The correct yield stress and factor of safety can be seen in Figure #8. <br>
@@ -83,8 +83,8 @@ To find the required cross-sectional area of the beams, I need to identify the m
   <p><em>Figure #8.) The correct variables and calculations for minimum cross-sectional area</em></p>
 </div> <br>
 
-To calculate the required cross-sectional area, the normal stress has to be less than the allowable stress. Allowable stress is the max stress we want applied on the truss. Setting up this equation gives me 3 knowns and 1 unknown - the minimum area. With simple algebra, I rearranged the equation to solve for the minimum cross-sectional area. I made sure to convert any units that needed to be converted to make the equation work. 
-<br>
+To calculate the required cross-sectional area, the normal stress has to be less than the allowable stress. Allowable stress is the max stress we want applied on the truss. Setting up this equation gives me 3 knowns and 1 unknown - the minimum area. With simple algebra, I rearranged the equation to solve for the minimum cross-sectional area. I made sure to convert any units that needed to be converted to make the equation work. <br>
+
 **Approximate Weight of Truss**
 
 To get an approximate weight of the truss, I needed to find the total length of material on the truss. To do this, I looked back at my free body diagram showing the whole truss. It was easy to identify the lengths of each of the beams due to the predetermined lengths of a and b. Once the total length and cross-sectional area of the beams is found, I can calculate the approximate weight of the truss. I multiplied the density of A500 steel with the volume of the material (minimum area x total length). All work and processes can be seen more clearly in Figure #9. <br>
@@ -94,8 +94,8 @@ To get an approximate weight of the truss, I needed to find the total length of 
   <p><em>Figure #9.) Approximate weight of the truss</em></p>
 </div> <br>
 
-Knowing that DE and CE have no affect on the load of the truss, I don't feel great that I just added extra weight to the truss. Those two beams added an extra 0.72m of material, which is almost a fourth of the total length. I could've saved about 6 pounds of material with no loss in performance.
-<br>
+Knowing that DE and CE have no affect on the load of the truss, I don't feel great that I just added extra weight to the truss. Those two beams added an extra 0.72m of material, which is almost a fourth of the total length. I could've saved about 6 pounds of material with no loss in performance.<br>
+
 **Cross-Sectional Area of Pin**
 
 
