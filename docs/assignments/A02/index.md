@@ -321,3 +321,13 @@ Ways of reducing this failure from happening is by increasing the radius of the 
 
 ### Lessons Learned
 
+- How to use different types of engineering mechanics in designing a truss
+- How to make my own material properties inside of Creo Parametric
+- How to apply different materials to different parts
+- It is incredibly important to make sure you are using the correct material properties before going forward with calculations
+- CAD modeling doesn't just help visualize the model, but it also helps find inconsistencies and shows the physical properties of the part
+- How to do solids work since I have never done it before
+- The importance of the factor of safety due to the common failures
+- The different types of common failures that are seen with physical properties (yielding, buckling, and shear)
+- Organize all of your documents so that you are not looking in a giant folder filed with 30 files
+This assignment took me 10 hours and 10 minutes
