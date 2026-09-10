@@ -30,7 +30,9 @@ I decided to try out SolidWorks for this project because I have heard great thin
 
 The first thing I did when I opened SolidWorks was create a new part file and start imputing my variables that I calculated earlier. I found that this was super simple in SolidWorks due to the equations tab being apart of the model tree. I didn't put them in any specific order because I don't think it really matters when I am calling the variables directly.
 
-picture of variables.
+<p align="center">
+  <img src="variable_table.png" alt="variables" style="width:100%; height=auto"/>
+</p>
 
 Once all of my variables were inside the equations table, I was able to start 3D modeling my bar.
 
