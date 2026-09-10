@@ -180,3 +180,27 @@ To calculate the stress that is induced by this added hole, I have to find the c
 </p>
 
 Looking at the calculations, it is pretty obvious that the stress induced by the hole surpasses my allowable stress. It is almost 10 ksi over the allowed value. 
+
+### 2157 Students only
+
+For this section, we were told to change each of the parameters, not including the material properties. So, this includes the load, thickness, and diameter of the bar. I am going to change the load on the bar from 400lbf to 500lbf and the diameter on the bar from 0.25in to 0.50in. 
+
+Based on the equation to find the length of the bar, I think that the bar will become longer. If the diameter of the bar is increasing by 2x, that means the area should be increasing by 4x. So, even with the extra 100lbf, the increased cross-sectional area should increase the length of the bar.
+
+<table style="width:100%;">
+  <tr>
+    <td style="width:60%;">
+      <img src="changed_variable_table.png" alt="fixed_point" style="width:100%; height:auto;">
+    </td>
+    <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
+      <div style="font-size:16px;">
+        Looking at the changed variables inside SolidWorks, it looks like the area went from 0.049in^2 to 0.2in^2, which is very close to that 4x mark I predicted. With that increased area, the length changed from 11.025in to 35.34in. So, it looks like initial guess was correct.  
+      </div>
+    </td>
+  </tr>
+</table>
+
+I think it was easier to predict what was going to happen to the length of the bar because there is no width or height in a circular bar. It is just the diameter of the bar. I think if the width and height weren't the same value, it would be a little harder to predict. That being said, it is just based on cross-sectional area; so, as long as you're able to predict the area, you can get a good idea what the length of the bar should be.
+
+
+## Lessons Learned
