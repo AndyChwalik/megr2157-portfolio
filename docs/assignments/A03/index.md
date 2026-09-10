@@ -122,13 +122,13 @@ My main attention is going to be on the von Mises Stress map to see if my design
 
 <table style="width:100%;">
   <tr>
-    <td style="width:60%; align="center"">
+    <td style="width:50%; align="center"">
       <div style="font-size:18px;">
         <em>von Mises Stress Map</em>
       </div>
       <img src="von_mises_stress_map.png" alt="constraints" style="width:100%; height:auto;">
     </td>
-    <td style="width:60%; align="center"">
+    <td style="width:50%; align="center"">
       <div style="font-size:18px;">
         <em>Deflection Map</em>
       </div>
@@ -136,12 +136,12 @@ My main attention is going to be on the von Mises Stress map to see if my design
     </td>
   </tr>
   <tr>
-    <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
+    <td style="width:50%; padding:28px; text-align:center; vertical-align:middle;"">
       <div style="font-size:16px;">
         Looking at the von Mises Stress map, there is a pretty consistent stress over the entire bar. It looks like everything is in the range of 5.20 * 10^7 Pa and 5.60 * 10^7 Pa. My highest stress is 5.98 * 10^7 Pa. When I convert this into ksi, I get 8.67 ksi, which is well below the yield factor of aluminum. This means that my designed part satisfies the stress requirement.
       </div>
     </td>
-    <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
+    <td style="width:50%; padding:28px; text-align:center; vertical-align:middle;"">
       <div style="font-size:16px;">
         Looking at the deflection map, it is pretty obvious that the closer you get to the load point, the more the bar will displace. This makes sense since that was the targeted area. It looks like my bar got displaced 2.281mm, which is over the maximum displacement of aluminum. it's not very close, so if I were finalizing this part, I would need to go back and change something so that my displacement is smaller.
       </div>
