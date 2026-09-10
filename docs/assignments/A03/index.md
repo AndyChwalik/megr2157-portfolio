@@ -123,13 +123,13 @@ My main attention is going to be on the von Mises Stress map to see if my design
 <table style="width:100%;">
   <tr>
     <td style="width:50%; align="center"">
-      <div style="font-size:18px; align="center"">
+      <div style="font-size:18px; text-align: center;">
         <b>von Mises Stress Map</b>
       </div>
       <img src="von_mises_stress_map.png" alt="constraints" style="width:100%; height:auto;">
     </td>
     <td style="width:50%; align="center"">
-      <div style="font-size:18px; align="center"">
+      <div style="font-size:18px; text-align: center;">
         <b>Deflection Map</b>
       </div>
       <img src="deflection_map.png" alt="constraints" style="width:100%; height:auto;">
