@@ -190,7 +190,7 @@ Based on the equation to find the length of the bar, I think that the bar will b
 <table style="width:100%;">
   <tr>
     <td style="width:60%;">
-      <img src="changed_variable_table.png" alt="fixed_point" style="width:100%; height:auto;">
+      <img src="changed_variable_table.png" alt="changed_variable_table" style="width:100%; height:auto;">
     </td>
     <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
       <div style="font-size:16px;">
