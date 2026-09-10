@@ -123,9 +123,15 @@ My main attention is going to be on the von Mises Stress map to see if my design
 <table style="width:100%;">
   <tr>
     <td style="width:60%;">
+      <div style="font-size:18px;">
+        von Mises Stress Map
+      </div>
       <img src="von_mises_stress_map.png" alt="constraints" style="width:100%; height:auto;">
     </td>
     <td style="width:60%;">
+      <div style="font-size:18px;">
+        Deflection Map
+      </div>
       <img src="deflection_map.png" alt="constraints" style="width:100%; height:auto;">
     </td>
   </tr>
