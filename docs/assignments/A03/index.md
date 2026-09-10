@@ -21,7 +21,7 @@ Starting this project, I wasn't really sure where to start. The information show
 My design process started with choosing different variables I wanted to use for my bar. There were a few variables already given: material (Aluminum), max axial deflection (0.009 in), and a range for Young's Modulus ([9.5 - 11.5] * 10^6 psi). I needed to choose a few other variables: load on the bar (lbf) and the diameter of the bar (d). I decided to choose 400 lbf because it was in the middle of the range given to us, and I decided to set the diameter of my bar to 0.25 inches for no real reason. I just thought that it would be a nice number to work with when running simulations in the future. 
 
 <p align="center">
-  <img src="calculations_bar.png" alt="stress_FOS_calculations" style="width:100%; height=auto"/>
+  <img src="calculations_bar.jpg" alt="stress_FOS_calculations" style="width:100%; height=auto"/>
 </p>
 
 Using the above values, I was able to calculate the cross-sectional area and length of my bar using relatively simple equations that I found through the Machinery's Handbook. Now that I have all of the values I need on paper, I can head to 3D modeling/designing. 
@@ -156,13 +156,13 @@ My main attention is going to be on the von Mises Stress map to see if my design
 The stress that is simulated (8.67 ksi) was pretty close to my calculated stress (8.163 ksi), which is a good start. When calculating the factor of safety, I used the simulations data since it takes in account other factors. I also just trust parametric CAD software more than I probably should. When I calculated the factor of safety, I got 4.61, which is really good.
 
 <p align="center">
-  <img src="stress_bar.png" alt="stress_FOS_calculations" style="width:100%; height=auto"/>
+  <img src="stress_bar.jpg" alt="stress_FOS_calculations" style="width:100%; height=auto"/>
 </p>
 
 Something really went wrong when simulating the deformation of my bar. I calculated an 897.78% difference between the simulated data and the max deformation allowed. Based on how the deformation is basically 10x bigger than it is supposed to be, I am assuming that one of my factors is off by a factor of 10. I was looking back through my documentation, and I am not really sure what it is right now. I am guessing that it has something to do with Young's Modulus, but it looks correctly input, so I am not sure. As of right now, I think that is the problem. I don't think that any of my designing or calculations are off, I think one number has an extra zero somewhere.
 
 <p align="center">
-  <img src="percent_diff.png" alt="percent_diff_deformation" style="width:100%; height=auto"/>
+  <img src="percent_diff.jpg" alt="percent_diff_deformation" style="width:100%; height=auto"/>
 </p>
 
 ## Decide
