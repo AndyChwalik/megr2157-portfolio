@@ -9,7 +9,7 @@
 - Compare and contrast the different analysis
 
 <p align="center">
-  <img src="objectives.png" alt="objectives" style="width:50%; height=auto"/>
+  <img src="objective.png" alt="objectives" style="width:50%; height=auto"/>
 </p>
 
 ## Analyze
