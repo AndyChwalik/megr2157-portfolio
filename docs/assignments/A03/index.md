@@ -153,11 +153,15 @@ My main attention is going to be on the von Mises Stress map to see if my design
 
 ### Simulation Analysis
 
+#### Stress Calculated vs Stress Simulated
+
 The stress that is simulated (8.67 ksi) was pretty close to my calculated stress (8.163 ksi), which is a good start. When calculating the factor of safety, I used the simulations data since it takes in account other factors. I also just trust parametric CAD software more than I probably should. When I calculated the factor of safety, I got 4.61, which is really good.
 
 <p align="center">
   <img src="stress_bar.jpg" alt="stress_FOS_calculations" style="width:100%; height=auto"/>
 </p>
+
+#### Max Displacement vs Simulated Displacement
 
 Something really went wrong when simulating the deformation of my bar. I calculated an 897.78% difference between the simulated data and the max deformation allowed. Based on how the deformation is basically 10x bigger than it is supposed to be, I am assuming that one of my factors is off by a factor of 10. I was looking back through my documentation, and I am not really sure what it is right now. I am guessing that it has something to do with Young's Modulus, but it looks correctly input, so I am not sure. As of right now, I think that is the problem. I don't think that any of my designing or calculations are off, I think one number has an extra zero somewhere.
 
@@ -165,8 +169,14 @@ Something really went wrong when simulating the deformation of my bar. I calcula
   <img src="percent_diff.jpg" alt="percent_diff_deformation" style="width:100%; height=auto"/>
 </p>
 
-## Decide
+#### What If I added a hole?
 
+If I added a hole to the currently designed beam, how would stress act differently? To test this question, I decided to make an imaginary hole that has a diameter of 0.125in. So, I have a 0.25 in bar and a 0.125in hole going through the bar. Before I calculate anything, I think that this added hole will cause higher stress levels on the sides of the bar. It is taking away a lot of the material, which is lowering the cross-sectional area, causing the stress to be higher in that area. 
 
-## Communicate
+To calculate the stress that is induced by this added hole, I have to find the corresponding stress concentration. Using Peterson's stress concentration chart, the corresponding stress concentration factor is about K_t = 2.16. I can use this concentration factor to multiply it with the simulated stress value to find the maximum amount of stress induced by the hole. I can then compare this max value with the yield strength and factor of safety I found previously.
 
+<p align="center">
+  <img src="hole_stress.jpg" alt="percent_diff_deformation" style="width:100%; height=auto"/>
+</p>
+
+Looking at the calculations, it is pretty obvious that the stress induced by the hole surpasses my allowable stress. It is almost 10 ksi over the allowed value. 
