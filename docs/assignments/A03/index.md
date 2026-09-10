@@ -176,7 +176,7 @@ If I added a hole to the currently designed beam, how would stress act different
 To calculate the stress that is induced by this added hole, I have to find the corresponding stress concentration. Using Peterson's stress concentration chart, the corresponding stress concentration factor is about K_t = 2.16. I can use this concentration factor to multiply it with the simulated stress value to find the maximum amount of stress induced by the hole. I can then compare this max value with the yield strength and factor of safety I found previously.
 
 <p align="center">
-  <img src="hole_stress.jpg" alt="percent_diff_deformation" style="width:100%; height=auto"/>
+  <img src="hole_stress.jpg" alt="stress_induced_by_hole" style="width:100%; height=auto"/>
 </p>
 
 Looking at the calculations, it is pretty obvious that the stress induced by the hole surpasses my allowable stress. It is almost 10 ksi over the allowed value. 
