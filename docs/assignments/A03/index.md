@@ -204,3 +204,12 @@ I think it was easier to predict what was going to happen to the length of the b
 
 
 ## Lessons Learned
+
+- I learned a lot about how SolidWorks actually runs. It is obviously similar to other parametric CAD software, but they seem to put highly accessed information in easy to find spots. I think it is very enjoyable to use, and I think I am going to try and use it throughout this course.
+- I learned how you can adjust variables in the design phase to get vastly different shaped components. It seems like an easy way to bounce ideas around while designing crucial parts.
+- I learned about the global variables inside of the CAD software. I didn't know you could just put equations in the system, and have it update automatically when something is changed. It makes the quality of life so much better.
+- I learned how to simulate 3D models on SolidWorks. I learned how to apply fixed points, loads, and show different information on the charts provided by the simulations.
+- I keep learning how important it is to double check your variables. I keep missing variables in every project I do no matter how many times I check over them.
+- Simulations aren't perfect, but they give you a really good idea of how a part will run. Don't take simulation data as hard truth, as that can run differently in the real world. That's why there is lots of real world testing.
+
+This assignment took me about 5 hours and 15 minutes.
