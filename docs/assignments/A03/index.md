@@ -104,7 +104,7 @@ After creating the material I was using inside SolidWorks, I moved onto learning
   </tr>
     <tr>
     <td style="width:60%;">
-      <img src="mesh_bar" alt="mesh_bar" style="width:100%; height:auto;">
+      <img src="mesh_bar.png" alt="mesh_bar" style="width:100%; height:auto;">
     </td>
     <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
       <div style="font-size:16px;">
