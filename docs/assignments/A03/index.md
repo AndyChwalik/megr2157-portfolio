@@ -26,7 +26,7 @@ Using the above values, I was able to calculate the cross-sectional area and len
 
 ### CAD Modeling
 
-I decided to try out SolidWorks for this project because I have heard great things about it, and I have never used it. I learned 3D modeling through fusion in high school, and Creo from last year during my freshman year; so I was hoping there wouldn't be a big learning curve.
+I decided to try out SolidWorks for this project because I have heard great things about it, and I have never used it. I have also heard that SolidWorks is pretty user friendly and good for simulating designs, so hopefully there isn't a tough learning curve.
 
 The first thing I did when I opened SolidWorks was create a new part file and start imputing my variables that I calculated earlier. I found that this was super simple in SolidWorks due to the equations tab being apart of the model tree. I didn't put them in any specific order because I don't think it really matters when I am calling the variables directly.
 
@@ -71,7 +71,48 @@ Once all of my variables were inside the equations table, I was able to start 3D
 
 ### Simulating
 
+After completing the initial 3D model, I started working towards simulating my bar. The first step was to create the aluminum material inside of SolidWorks, so I can run the simulation. I can't access MatWeb, a material property data website, due to a cookie error. I don't understand what the problem is because I made sure my cookies were enabled, I switched browsers, I switched emails, and I switched devices multiple times but nothing seemed to get the website to load. To work around this, I looked at another students material properties, and used the values that they obtained from MatWeb.
 
+Even though I obtained the correct material properties, I had no idea how to input the material into SolidWorks because it was my first time using it. When I first entered the material library, I typed in "aluminum" to find something related to the material I am using, but nothing important came up. I didn't realize there was just a folder already made in the material library for custom materials, so I created a new material inside that library and imported the values I was given. I named this material "aluminum" for future designs/projects.
+
+<p align="center">
+  <img src="materials_bar.png" alt="material_properties" style="width:100%; height=auto"/>
+</p>
+
+After creating the material I was using inside SolidWorks, I moved onto learning how to do FEA analysis. There is a simulation tab at the top of SolidWorks, so I clicked on that and picked the static simulation option. I chose static because we are calculating stress, and that is the option the video linked on the Canvas page picked. Inside of the static simulation, there are a few different options: connections, fixtures, external loads, mesh, and results. Since my bar isn't connected to anything, I don't have to worry about the connections option.
+
+<table style="width:100%;">
+  <tr>
+    <td style="width:60%;">
+      <img src="fixed_point.png" alt="fixed_point" style="width:100%; height:auto;">
+    </td>
+    <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
+      <div style="font-size:16px;">
+        What a fixed point does to my object is tell the software that I don't want this part of my object to move. It is held in place for the simulation. To apply a fixed point, I right-clicked on the fixture option, and selected "Fixed Geometry". Now all I have to do is click on a face of my object that I don't want to move and click the green check mark in the top left. Since I was testing stress and deformation, I just made one end of my bar a fixed point.
+      </div>
+    </td>
+  </tr>
+    <tr>
+    <td style="width:60%;">
+      <img src="extrusion_bar.png" alt="extruding_bar" style="width:100%; height:auto;">
+    </td>
+    <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
+      <div style="font-size:16px;">
+        Now that I have a fixed point, I needed to apply a load on my object. To do this, I right-clicked the "External Loads" option and selected "Force". I was able to then click on a surface tat I wanted to apply a force/load to. I decided to apply it to the opposite end and point it in the opposite direction as the object. I made sure that the units were correct because it is in Newtons by default. 
+      </div>
+    </td>
+  </tr>
+    <tr>
+    <td style="width:60%;">
+      <img src="final_bar.png" alt="designed_bar" style="width:100%; height:auto;">
+    </td>
+    <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
+      <div style="font-size:16px;">
+        To see the actual stress and forces applied during the simulation, I applied a mesh to my bar. What this does is separate the the bar into miniature sections to show me the stress and deformation at those specific points. It gives a better all-around picture of what's happening. To apply the mesh, I right-clicked the mesh option and selected create mesh. I accepted the default constraints, by clicking the green check mark in the top left, and created the mesh.
+      </div>
+    </td>
+  </tr>
+</table>
 
 ## Decide
 
