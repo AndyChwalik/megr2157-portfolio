@@ -94,7 +94,7 @@ After creating the material I was using inside SolidWorks, I moved onto learning
   </tr>
     <tr>
     <td style="width:60%;">
-      <img src="extrusion_bar.png" alt="extruding_bar" style="width:100%; height:auto;">
+      <img src="force_bar.png" alt="force_on_bar" style="width:100%; height:auto;">
     </td>
     <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
       <div style="font-size:16px;">
@@ -104,7 +104,7 @@ After creating the material I was using inside SolidWorks, I moved onto learning
   </tr>
     <tr>
     <td style="width:60%;">
-      <img src="final_bar.png" alt="designed_bar" style="width:100%; height:auto;">
+      <img src="mesh_bar" alt="mesh_bar" style="width:100%; height:auto;">
     </td>
     <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
       <div style="font-size:16px;">
