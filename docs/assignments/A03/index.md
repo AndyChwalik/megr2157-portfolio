@@ -153,7 +153,7 @@ My main attention is going to be on the von Mises Stress map to see if my design
 
 ### My CAD file
 
-Here is my CAD file for download: [Bar_Chwalik]((https://raw.githubusercontent.com/AndyChwalik/megr2157-portfolio/main/docs/assignments/A03/bar_design.SLDPRT))
+Here is my CAD file for download: [Bar_Chwalik](https://raw.githubusercontent.com/AndyChwalik/megr2157-portfolio/main/docs/assignments/A03/bar_design.SLDPRT)
 
 ### Simulation Analysis
 
