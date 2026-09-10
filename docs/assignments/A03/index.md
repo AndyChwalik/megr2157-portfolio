@@ -8,6 +8,10 @@
 - Introduce you to linking dimensions to appropriate parameters in CAD.
 - Compare and contrast the different analysis
 
+<p align="center">
+  <img src="objectives.png" alt="objectives" style="width:50%; height=auto"/>
+</p>
+
 ## Analyze
 
 
