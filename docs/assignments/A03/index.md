@@ -151,6 +151,10 @@ My main attention is going to be on the von Mises Stress map to see if my design
   </tr>
 </table>
 
+### My CAD file
+
+Here is my CAD file for download ![bar_design.SLDPRT](bar_design.SLDPRT)
+
 ### Simulation Analysis
 
 #### Stress Calculated vs Stress Simulated
