@@ -33,7 +33,7 @@ Before I can start designing the features for the motor mount, I need to get a b
       <img src="motor_specifications.png" alt="constraints" style="width:100%; height:auto;">
     </td>
   </tr>
-  <tr style="width:40%; padding:28px; text-align:center; vertical-align:middle;">
+  <tr style="width:40%; padding:28px; vertical-align:middle;">
       <div style="font-size:16px;">
         <em>Here is what the motor looks like with the listed specifications.</em>
       </div>
