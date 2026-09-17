@@ -296,6 +296,5 @@ The 2157 students assignment is to create a drawing from the CAD model I just cr
 - https://3d.nice-cdn.com/upload/file/petg-TDS-en.pdf
 - https://lairdplastics.com/resources/petg-plastic-properties-uses-amp-advantages-2025-update/
 - https://www.eryone.com/news/why-rounded-corners-are-common-in-3d-printed-parts/
-- 
 
 This assignment took me about 7 and half hours.
