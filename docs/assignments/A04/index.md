@@ -71,13 +71,25 @@ The two notable properties for the motor mount is the elastic modulus and the yi
 
 ### Feature 1
 
-Now that I have a good understanding of the properties of the motor and the material I want to use, I decided to move onto designing feature 1. As stated in the objective, feature 1 should be a cantilever beam that attaches to the motor. 
+Now that I have a good understanding of the properties of the motor and the material I want to use, I decided to move onto designing feature 1. As stated in the objective, feature 1 should be a cantilever beam that attaches to the motor. That is why I decided to model my FBD after a cantilever beam with the load attached to the motors shaft on the bottom. Since the force was going towards the fixed wall, it provides a positive moment around the beam.
 
 <p align="center">
-  <img src="feature1_beam." alt="feature1_beam" style="width:50%; height=auto"/>
+  <img src="FBD_diamgram.jpg" alt="FBD_diagram" style="width:50%; height=auto"/>
   <br>
-  <em>This is what a cantilever beam looks like as a FBD</em>
+  <em>Here are the material properties for PETG</em>
 </p>
+
+I need to find the cross-section of this beam that will satisfy the physical requirements for the motor mount. To do so, I used the two equations that we were given in class. I wasn't sure on how to get h and b separated, so I gave h a flat value of 20mm. After h had a value, I did simple arithmetic to find the stiffness of b and the strength of b. Since I got a bigger deflection value for the stiffness, I used the stiffness of b when calculating the cross-sectional area of my beam. 
+
+<p align="center">
+  <img src="calculations_feature1.jpg" alt="calculations for feature 1" style="width:50%; height=auto"/>
+  <br>
+  <em>Here are the material properties for PETG</em>
+</p>
+
+Now that I have a final value for the cross-sectional area, I can move onto the designing of feature 2.
+
+### Feature 2
 
 
 
