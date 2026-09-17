@@ -120,7 +120,7 @@ After finishing all of my calculations for feature 1 and feature 2, I created a 
 Before I start 3D modeling anything, I put all of my variables into the global variables feature in SolidWorks. It'll allow me to mention them directly through variable names rather than me changing the values manually. It is faster and more convenient to use.
 
 <p align="center">
-  <img src="variables.png" alt="variables" style="width:50%; height=auto"/>
+  <img src="variables.png" alt="variables" style="width:100%; height=auto"/>
   <br>
   <em>All of my calculated variables that I will be using for CAD Modeling</em>
 </p>
