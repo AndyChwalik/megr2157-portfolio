@@ -278,13 +278,32 @@ Before I start 3D modeling anything, I put all of my variables into the global v
   </tr>
 </table>
 
+### 2157 Students Only - CAD Drawing
+
+The 2157 students assignment is to create a drawing from the CAD model I just created. To do that, I clicked new, and then drawing at the top of SolidWorks. I then imported my part file, and placed the different views down onto the drawing sheet. To get the dimensions of my parts, I used the model items tool in annotations. This tool shows dimensions that you created inside of the part file. I thought it would be pretty useful for not over dimensioning. To change the title block I right clicked Sheet Format1 and typed in what I wanted to change.
+
+<p align="center">
+  <img src="motor_mount.png" alt="CAD Drawing File" style="width:50%; height=auto"/>
+  <br>
+  <em>My completed CAD file in a drawing sheet</em>
+</p>
+
+#### My CAD Files
+
+[Motor_Mount_Part](motor_mount.SLDPRT)  |  [Motor_Mount_Drawing](motor_mount.SLDDRW)  |  [Motor_Mount_PDF](motor_mount.pdf)
+
+
+## Lessons Learned
+
+- I learned about the different geometry that goes into mounts. I had to redo my calculations multiple times because I kept over complicating the calculations. I also didn't relate how some dimensions would be tied together. In hind sight, I should've made them equal to the larger value to minimize fails
+- I am still learning how to use SolidWorks. I wasn't sure how to make a centerline because it is it's own tool in Creo. I used a lot of centerlines while making my CAD file
+- I learned how to use the drawing feature in SolidWorks. I accidentally deleted my drawing file twice because I was having issues editing the title block.
+- Always save your work periodically. There were a few times where SolidWorks just crashed, and I lost all of my progress because I didn't save recently. I was able to get back to where I was quickly, because I remember what I did, but it is unnecessary if I already did the work.
+- How to use the moment of inertia equations with bending and mechanical properties of materials
+- How to design a real part with any type of material I want to use. I always thought CAD used some type of metal for some reason.
+
 ## Resources
 - https://3d.nice-cdn.com/upload/file/petg-TDS-en.pdf
 - https://lairdplastics.com/resources/petg-plastic-properties-uses-amp-advantages-2025-update/
-- 
 
-## Decide
-
-
-## Communicate
-
+This assignment took me about 7 and half hours.
