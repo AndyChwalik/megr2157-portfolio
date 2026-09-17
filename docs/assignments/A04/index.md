@@ -25,11 +25,9 @@ The P variable will have a force of 300N applied to it. While designing the moto
 Before I can start designing the features for the motor mount, I need to get a better idea of the properties of the motor I am working with. I followed the link in Canvas to the store page and scrolled down to the specifications in the listing. Based on the information given, the most important information for me will be the physical specifications. I will not be using the electrical properties, as it doesn't apply to anything I am designing for this project.
 
 <table style="width:100%;">
-  <tr>
-    <td style="width:100%;">
+  <tr style="width:100%">
       <img src="motor.jpg" alt="motor" style="width:50%; height:auto;">
       <img src="motor_specifications.png" alt="constraints" style="width:50%; height:auto;">
-    </td>
   </tr>
   <td style="width:100%; padding:28px; vertical-align:middle;">
       <div style="font-size:16px;">
