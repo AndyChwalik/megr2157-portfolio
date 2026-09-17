@@ -35,8 +35,44 @@ Before I can start designing the features for the motor mount, I need to get a b
         <em>Here is what the motor looks like with the listed specifications.</em>
       </div>
   </td>
+  <td style="width:100%>
+      <img src="gear_box_dimensions.png" alt="motor" style="width:50%; height:auto;">
+  </td>
+  <td style="width:100%; padding:28px; vertical-align:middle;">
+      <div style="font-size:16px;">
+        <em>These are the dimensions of the motor.</em>
+      </div>
+  </td>
 </table>
 
+### Material
+
+Out of the three filament options I could choose from, I decided to use PETG for my motor mount. PETG has high impact resistance which can prevent my mount from breaking under stress. It has a high elastic modulus, allowing me to use thinner walls, saving on material. And it has better heat resistance than PLA does if the motor, or any surrounding parts, were to exert unexpected heat.
+
+<p align="center">
+  <img src="PETG_properties.png" alt="PETG_Properties" style="width:50%; height=auto"/>
+  <br>
+  <em>Here are the material properties for PETG</em>
+</p>
+
+The two notable properties for the motor mount is the elastic modulus and the yield stress. According to the table above, the elastic modulus is 2100 MPa and the yield stress is 51 MPa
+
+### Feature 1
+
+Now that I have a good understanding of the properties of the motor and the material I want to use, I decided to move onto designing feature 1. As stated in the objective, feature 1 should be a cantilever beam that attaches to the motor. 
+
+<p align="center">
+  <img src="feature1_beam." alt="feature1_beam" style="width:50%; height=auto"/>
+  <br>
+  <em>This is what a cantilever beam looks like as a FBD</em>
+</p>
+
+
+
+## Resources
+- https://3d.nice-cdn.com/upload/file/petg-TDS-en.pdf
+- https://lairdplastics.com/resources/petg-plastic-properties-uses-amp-advantages-2025-update/
+- 
 
 ## Decide
 
