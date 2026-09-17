@@ -26,7 +26,7 @@ Before I can start designing the features for the motor mount, I need to get a b
 
 <table style="width:100%;">
   <tr>
-    <td style="width:100%;">
+    <td style="width:50%;">
       <img src="motor.jpg" alt="motor" style="width:100%; height:auto;">
       <img src="motor_specifications.png" alt="constraints" style="width:100%; height:auto;">
   </tr>
