@@ -198,7 +198,7 @@ Before I start 3D modeling anything, I put all of my variables into the global v
   </tr>
   <tr>
     <td style="width:60%;">
-      <img src="outside_screw.png" alt="screw_holes_feature1" style="width:100%; height:auto;">
+      <img src="outside_screws.png" alt="screw_holes_feature1" style="width:100%; height:auto;">
     </td>
     <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
       <div style="font-size:16px;">
