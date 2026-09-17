@@ -273,7 +273,7 @@ Before I start 3D modeling anything, I put all of my variables into the global v
 The 2157 students assignment is to create a drawing from the CAD model I just created. To do that, I clicked new, and then drawing at the top of SolidWorks. I then imported my part file, and placed the different views down onto the drawing sheet. To get the dimensions of my parts, I used the model items tool in annotations. This tool shows dimensions that you created inside of the part file. I thought it would be pretty useful for not over dimensioning. To change the title block I right clicked Sheet Format1 and typed in what I wanted to change.
 
 <p align="center">
-  <img src="motor_mount.png" alt="CAD Drawing File" style="width:50%; height=auto"/>
+  <img src="motor_mount.png" alt="CAD Drawing File" style="width:80%; height=auto"/>
   <br>
   <em>My completed CAD file in a drawing sheet</em>
 </p>
