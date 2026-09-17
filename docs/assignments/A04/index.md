@@ -24,24 +24,37 @@ The P variable will have a force of 300N applied to it. While designing the moto
 
 Before I can start designing the features for the motor mount, I need to get a better idea of the properties of the motor I am working with. I followed the link in Canvas to the store page and scrolled down to the specifications in the listing. Based on the information given, the most important information for me will be the physical specifications. I will not be using the electrical properties, as it doesn't apply to anything I am designing for this project.
 
-<table style="width:100%;">
-  <tr style="width:100%">
-      <img src="motor.jpg" alt="motor" style="width:50%; height:auto;">
-      <img src="motor_specifications.png" alt="constraints" style="width:50%; height:auto;">
+<table style="width: 100%; text-align: center; border-collapse: collapse;">
+  <!-- Top two pictures -->
+  <tr>
+    <td style="width: 50%;">
+      <img src="motor.jpg" alt="Motor" style="width: 100%; max-width: 300px;">
+    </td>
+    <td style="width: 50%;">
+      <img src="motor_specifications.png" alt="Motor Specifications" style="width: 100%; max-width: 300px;">
+    </td>
   </tr>
-  <td style="width:100%; padding:28px; vertical-align:middle;">
-      <div style="font-size:16px;">
-        <em>Here is what the motor looks like with the listed specifications.</em>
-      </div>
-  </td>
-  <td style="width:100%>
-      <img src="gear_box_dimensions.png" alt="motor" style="width:50%; height:auto;">
-  </td>
-  <td style="width:100%; padding:28px; vertical-align:middle;">
-      <div style="font-size:16px;">
-        <em>These are the dimensions of the motor.</em>
-      </div>
-  </td>
+
+  <!-- Caption underneath -->
+  <tr>
+    <td colspan="2" style="padding: 10px;">
+      <em>Motor and the specifications of it from the store page.</em>
+    </td>
+  </tr>
+
+  <!-- Picture underneath -->
+  <tr>
+    <td colspan="2">
+      <img src="gear_box_dimensions.png" alt="Dimensions of motor" style="width: 100%; max-width: 500px;">
+    </td>
+  </tr>
+
+  <!-- Caption underneath bottom picture -->
+  <tr>
+    <td colspan="2" style="padding: 10px;">
+      <em>Dimensions of motor</em>
+    </td>
+  </tr>
 </table>
 
 ### Material
