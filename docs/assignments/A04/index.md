@@ -76,7 +76,7 @@ The two notable properties for the motor mount is the elastic modulus and the yi
 Now that I have a good understanding of the properties of the motor and the material I want to use, I decided to move onto designing feature 1. As stated in the objective, feature 1 should be a cantilever beam that attaches to the motor. That is why I decided to model my FBD after a cantilever beam with the load attached to the motors shaft on the bottom. Since the force was going towards the fixed wall, it provides a positive moment around the beam.
 
 <p align="center">
-  <img src="FBD_diamgram1.jpg" alt="FBD_diagram" style="width:50%; height=auto"/>
+  <img src="feature1_FBD.jpg" alt="FBD_diagram" style="width:50%; height=auto"/>
   <br>
   <em>Here are the material properties for PETG</em>
 </p>
@@ -86,7 +86,7 @@ Now that I have a good understanding of the properties of the motor and the mate
 I need to find the cross-section of this beam that will satisfy the physical requirements for the motor mount. To do so, I used the two equations that we were given in class. I wasn't sure on how to get h and b separated, so I gave h a flat value of 20mm. After h had a value, I did simple arithmetic to find the stiffness of b and the strength of b. Since I got a bigger deflection value for the stiffness, I used the stiffness of b when calculating the cross-sectional area of my beam. 
 
 <p align="center">
-  <img src="calculations_feature1.jpg" alt="calculations for feature 1" style="width:50%; height=auto"/>
+  <img src="feature1_Calculations.jpg" alt="calculations for feature 1" style="width:50%; height=auto"/>
   <br>
   <em>Here are the material properties for PETG</em>
 </p>
@@ -100,7 +100,7 @@ Now that I have a final value for the cross-sectional area, I can move onto the 
 Since feature 1 and feature 2 are attached, the moment is transferred over to feature 2 from where they connect. Also, it is worth noting that only part of feature 2 is attached to the wall. This means some of feature 2 is susceptible to bending. To cover a majority of the motor, I used the length of the first half of the motor. It ended up being 36mm. The FBD for feature 2 was a lot simpler due to the fact I was able to reuse already found values, and there isn't an external force acting upon it.
 
 <p align="center">
-  <img src="FBD_diagram2.jpg" alt="FBD for feature 2" style="width:50%; height=auto"/>
+  <img src="feature2_FBD.jpg" alt="FBD for feature 2" style="width:50%; height=auto"/>
   <br>
   <em>Here are the material properties for PETG</em>
 </p>
@@ -110,7 +110,7 @@ Since feature 1 and feature 2 are attached, the moment is transferred over to fe
 I needed to find the cross-sectional area for the same reason as for feature 1. The equations were the exact same, and the process was very similar. The first time I went through it, I didn't keep the height the same as feature 1, which messed with my values since it doesn't make sense for them to be modeled at different lengths. My b_stiffness was higher than I expected, but I just assumed it was because feature 2 is a lot taller than feature 1.
 
 <p align="center">
-  <img src="calculations_feature2.jpg" alt="calculations for feature 2" style="width:50%; height=auto"/>
+  <img src="feature2_Calculations.jpg" alt="calculations for feature 2" style="width:50%; height=auto"/>
   <br>
   <em>Here are the material properties for PETG</em>
 </p>
