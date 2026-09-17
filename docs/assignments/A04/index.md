@@ -37,7 +37,7 @@ Before I can start designing the features for the motor mount, I need to get a b
 
   <!-- Caption underneath -->
   <tr>
-    <td colspan="2" style="padding: 16px; vertical-align:middle">
+    <td colspan="2" style="padding: 16px; vertical-align:middle; text-align:center;">
       <em>Motor and the specifications of it from the store page.</em>
     </td>
   </tr>
@@ -51,7 +51,7 @@ Before I can start designing the features for the motor mount, I need to get a b
 
   <!-- Caption underneath bottom picture -->
   <tr>
-    <td colspan="2" style="padding: 16px; vertical-align:middle">
+    <td colspan="2" style="padding: 16px; vertical-align:middle; text-align:center;">
       <em>Dimensions of motor</em>
     </td>
   </tr>
