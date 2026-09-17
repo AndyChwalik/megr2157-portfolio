@@ -26,9 +26,9 @@ Before I can start designing the features for the motor mount, I need to get a b
 
 <table style="width:100%;">
   <tr>
-    <td style="width:50%;">
-      <img src="motor.jpg" alt="motor" style="width:100%; height:auto;">
-      <img src="motor_specifications.png" alt="constraints" style="width:100%; height:auto;">
+    <td style="width:100%;">
+      <img src="motor.jpg" alt="motor" style="width:50%; height:auto;">
+      <img src="motor_specifications.png" alt="constraints" style="width:50%; height:auto;">
   </tr>
   <td style="width:100%; padding:28px; vertical-align:middle;">
       <div style="font-size:16px;">
