@@ -20,12 +20,12 @@ For this assignment, I have to design a fit for the figure below when a horizont
   <tr>
     <td style="width:50%; text-align: center; vertical-align:middle;">
       <img src="appendixB.png" alt="part" style="width:100%; height:auto;">
-      br>
+      <br>
   <em>This is the part I am designing a fit for.</em>
     </td>
      <td style="width:50%; text-align: center; vertical-align:middle;">
        <img src="strap_force.png" alt="strap force" style="width:100%; height:auto;">
-       br>
+       <br>
   <em>This is the force that will be applied to the figure.</em>
     </td>
   </tr>
