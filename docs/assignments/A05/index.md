@@ -61,6 +61,7 @@ When I was first solving this problem, I used the formula stress = (Mc)/I equati
 
 <p align="center">
     <img src="moduli.png" alt="section moduli" height="75%" width="auto">
+  <br>
    <em>Figure #5: Equations to find the radius for a cantilever beam.</em>
 </p>
 
