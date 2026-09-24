@@ -271,9 +271,9 @@ For the 1 inch shaft, I decided to make it an FN1 fit.
 <table style="width:100%;">
   <tr>
     <td style="width:60%; text-align: center; vertical-align:middle;">
-      <img src="design1_equations.png" alt="equations" style="width:100%; height:auto;">
+      <img src="tolerance_table.jpg" alt="equations" style="width:100%; height:auto;">
     </td>
     <td style="width:60%; text-align: center; vertical-align:middle;">
-      <img src="design1_equations.png" alt="equations" style="width:100%; height:auto;">
+      <img src="limits_fits.jpg" alt="equations" style="width:100%; height:auto;">
     </td>
   </tr>
