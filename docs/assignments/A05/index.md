@@ -250,9 +250,9 @@ Similar to the stress analysis, I defintely knew my final dimensions were incorr
 
 ## 2157 Students Only
 
-Design a link (Appendix E) that connects feature A to another cylindrical feature, such that the connection can hold using the same amount of force. The link is to be made from one of the three specified metals.
-- The hole in the link that connects to feature A must be designed as a running/sliding fit
-- The hole in the link that connects to the 1-inch diameter shaft must be designed with light assembly pressure.
+Design a link (Appendix E) that connects feature A to another cylindrical feature, such that the connection can hold using the same amount of force. The link is to be made from one of the three specified metals.<br>
+- The hole in the link that connects to feature A must be designed as a running/sliding fit<br>
+- The hole in the link that connects to the 1-inch diameter shaft must be designed with light assembly pressure.<br>
 
 <p align="center">
     <img src="link_calculations.jpg" alt="link_calculations" height="75%" width="auto">
