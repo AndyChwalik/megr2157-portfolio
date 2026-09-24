@@ -234,7 +234,7 @@ I followed the exact same steps as for stress analysis, but using stiffness. I u
 Similar to the stress analysis, I defintely knew my final dimensions were incorrect. I matches my dimensions to the sketches the best I could though.
 
 <p align="center">
-    <img src="stiiffness_multiview.jpg" alt="Multiview sketches for stiffness calculations" height="75%" width="auto">
+    <img src="stiffness_multiview.jpg" alt="Multiview sketches for stiffness calculations" height="75%" width="auto">
   <br>
    <em>Figure #25: Multiview sketches for stiffness calculations.</em>
 </p>
