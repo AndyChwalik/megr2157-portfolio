@@ -277,3 +277,6 @@ For the 1 inch shaft, I decided to make it an FN1 fit.
       <img src="limits_fits.jpg" alt="equations" style="width:100%; height:auto;">
     </td>
   </tr>
+</table>
+
+This assignment took me about 10 hours.
