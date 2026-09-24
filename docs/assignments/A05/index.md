@@ -45,6 +45,7 @@ First, I listed all of my knowns, unknowns, and assumptions for feature A. Listi
 
 <p align="center">
     <img src="featureA_knowns.jpg" alt="knowns" height="75%" width="auto">
+  <br>
   <em>Figure #3: knowns and unknowns for feature A.</em>
 </p>
 
@@ -52,6 +53,7 @@ The second step that I did for every single feature, was draw a free-body-diagra
 
 <p align="center">
     <img src="featureA_FBD.jpg" alt="FBD" height="75%" width="auto">
+  <br>
    <em>Figure #4: FBD for feature A</em>
 </p>
 
