@@ -192,7 +192,7 @@ I followed the exact same steps as for stress analysis, but using stiffness. I u
 #### Feature A
 
 <p align="center">
-    <img src="featureA_stifness.jpg" alt="Feature A stiffness calculations" height="75%" width="auto">
+    <img src="featureA_stiffness.jpg" alt="Feature A stiffness calculations" height="75%" width="auto">
   <br>
    <em>Figure #20: Feature A stiffness calculations.</em>
 </p>
