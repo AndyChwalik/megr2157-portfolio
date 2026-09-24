@@ -254,4 +254,26 @@ Design a link (Appendix E) that connects feature A to another cylindrical featur
 - The hole in the link that connects to feature A must be designed as a running/sliding fit
 - The hole in the link that connects to the 1-inch diameter shaft must be designed with light assembly pressure.
 
+<p align="center">
+    <img src="link_calculations.jpg" alt="link_calculations" height="75%" width="auto">
+  <br>
+   <em>Figure #25: Stress and stiffness calculations for link.</em>
+</p>
 
+Using the table for running and sliding fits in the machinery handbook, I have decided that I should use the Class RC7 fit with tolerances from H9 hole. 
+
+<p align="center">
+    <img src="running_sliding_table.jpg" alt="Running and sliding table" height="75%" width="auto">
+</p>
+
+For the 1 inch shaft, I decided to make it an FN1 fit. 
+
+<table style="width:100%;">
+  <tr>
+    <td style="width:60%; text-align: center; vertical-align:middle;">
+      <img src="design1_equations.png" alt="equations" style="width:100%; height:auto;">
+    </td>
+    <td style="width:60%; text-align: center; vertical-align:middle;">
+      <img src="design1_equations.png" alt="equations" style="width:100%; height:auto;">
+    </td>
+  </tr>
