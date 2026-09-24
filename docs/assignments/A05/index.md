@@ -256,8 +256,6 @@ Design a link (Appendix E) that connects feature A to another cylindrical featur
 
 <p align="center">
     <img src="link_calculations.jpg" alt="link_calculations" height="75%" width="auto">
-  <br>
-   <em>Figure #25: Stress and stiffness calculations for link.</em>
 </p>
 
 Using the table for running and sliding fits in the machinery handbook, I have decided that I should use the Class RC7 fit with tolerances from H9 hole. The manufacturing process would be precision reaming.
