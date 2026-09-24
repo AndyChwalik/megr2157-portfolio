@@ -130,7 +130,7 @@ The way I got all of my known length values was through the T-beam values. I tho
 
 #### Feature D
 
-There was no hints for feature D, so I just drew it as I saw it in Figure #1.
+There were no hints for feature D, so I just drew it as I saw it in Figure #1.
 
 <p align="center">
     <img src="featureD_knowns.jpg" alt="knowns and unknowns for feature D" height="75%" width="auto">
@@ -143,7 +143,7 @@ There was no hints for feature D, so I just drew it as I saw it in Figure #1.
    <em>Figure #14: FBD for feature d.</em>
 </p>
 
-Feature D reminded me a lot of how feature B was calculated, so I decided to use the same method as before. I found the area, and would later calculate the thickness when drawing the detailed sketches.
+Feature D reminded me a lot of how feature B was calculated, so I decided to use the same method as before. I found the area, and would later calculate the thickness when drawing the detailed sketches. I also used the T-bar dimensions again.
 
 <p align="center">
     <img src="featureD_stress.jpg" alt="feature D stress analysis" height="75%" width="auto">
@@ -153,7 +153,7 @@ Feature D reminded me a lot of how feature B was calculated, so I decided to use
 
 #### Feature E
 
-There was no hints for feature E, so I drew it as I saw it in Figure #1.
+There were no hints for feature E, so I drew it as I saw it in Figure #1.
 
 <p align="center">
     <img src="featureE_knowns.jpg" alt="knowns and unknowns for feature E" height="75%" width="auto">
@@ -166,7 +166,7 @@ There was no hints for feature E, so I drew it as I saw it in Figure #1.
    <em>Figure #17: FBD for feature E.</em>
 </p>
 
-Similar to how feature D reminded me of feature B, feature E reminded me of feature C. They had the same knowns and unknowns, so I just used the same equations as from feature C, but with my new dimensions for feature E.
+Similar to how feature D reminded me of feature B, feature E reminded me of feature C. They had the same knowns and unknowns, so I just used the same equations as from feature C, but with my new dimensions for feature E. My new dimensions were also based on T-bar dimensions.
 
 <p align="center">
     <img src="featureE_stress.jpg" alt="feature E stress analysis" height="75%" width="auto">
@@ -238,6 +238,19 @@ Similar to the stress analysis, I defintely knew my final dimensions were incorr
    <em>Figure #25: Multiview sketches for stiffness calculations.</em>
 </p>
 
+## Communicate
 
+### Lessons Learned
+
+- All of my stress values were greater than my stiffness values. This could be the case because of my failure of identifying the correct dimensions initially or due to the low deflection. If you're looking for an actual number difference, feature A's stress diameter was 0.35 inches greater than the stiffness diameter. This is around a 50% difference between the two values. This was also the closer numbers. The other features had a greater difference.
+- The diameter of feature A should've carried over to the width of feature B. Based on how I used incorrect dimensions for feature A, it greatly affected the thickness of feature B. That is why my numbers for the thickness of B are so small. I don't think it'll be that large of a number anyways, but I think it would be bigger than 0.004in.
+- I assumed that we were using steel ASTM A36. If I used any other material, young's modulus and the yield strength would've changed. Doing so would've affected both stiffness and stress calculations because they both use those values. Another assumption I made was ignoring the direct shear. If I included it, there would be another stress value to calculate. The result of it would be a higher cross-sectional area in my parts so that they don't break under stress.
+- Unrelated to the questions given, I learned to double and triple check your dimensions before you do any actual work. It is kind of the same idea when doing construction work, but it can definitely apply to these stress analysis problems. It saves a lot of time, and is a good way to minimize mistakes.
+
+## 2157 Students Only
+
+Design a link (Appendix E) that connects feature A to another cylindrical feature, such that the connection can hold using the same amount of force. The link is to be made from one of the three specified metals.
+- The hole in the link that connects to feature A must be designed as a running/sliding fit
+- The hole in the link that connects to the 1-inch diameter shaft must be designed with light assembly pressure.
 
 
