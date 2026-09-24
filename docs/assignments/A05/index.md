@@ -85,11 +85,13 @@ I started feature B the same way I stared feature A: listing knowns and unknowns
 
 <p align="center">
     <img src="featureB_knowns.jpg" alt="Knowns and Unknowns" height="75%" width="auto">
+  <br>
    <em>Figure #8: Knowns and unknowns for feature B.</em>
 </p>
 
 <p align="center">
     <img src="featureB_FBD.jpg" alt="FBD for feature B" height="75%" width="auto">
+  <br>
    <em>Figure #8: FBD for feature B.</em>
 </p>
 
@@ -97,6 +99,7 @@ The only big value that is missing from feature B is the cross-sectional area. L
 
 <p align="center">
     <img src="featureB_stress.jpg" alt="finding area" height="75%" width="auto">
+  <br>
    <em>Figure #9: Calculations to find the area of B using stress analysis.</em>
 </p>
 
@@ -106,10 +109,12 @@ In the assignment, we were told that feature C was a supported beam with a conce
 
 <p align="center">
     <img src="featureC_knowns.jpg" alt="knowns and unknowns for feature C" height="75%" width="auto">
+  <br>
    <em>Figure #10: knowns and unknowns for feature C.</em>
 </p>
 <p align="center">
     <img src="featureC_FBD.jpg" alt="FBD for feature C" height="75%" width="auto">
+  <br>
    <em>Figure #11: FBD for feature C.</em>
 </p>
 
@@ -117,6 +122,7 @@ The way I got all of my known length values was through the T-beam values. I tho
 
 <p align="center">
     <img src="featureC_stress.jpg" alt="feature C stress analysis" height="75%" width="auto">
+  <br>
    <em>Figure #12: Feature C stress analysis.</em>
 </p>
 
@@ -126,10 +132,12 @@ There was no hints for feature D, so I just drew it as I saw it in Figure #1.
 
 <p align="center">
     <img src="featureD_knowns.jpg" alt="knowns and unknowns for feature D" height="75%" width="auto">
+  <br>
    <em>Figure #13: Knowns and unknowns for feature D</em>
 </p>
 <p align="center">
     <img src="featureD_FBD.jpg" alt="FBD for feature D" height="75%" width="auto">
+  <br>
    <em>Figure #14: FBD for feature d.</em>
 </p>
 
@@ -137,6 +145,7 @@ Feature D reminded me a lot of how feature B was calculated, so I decided to use
 
 <p align="center">
     <img src="featureD_stress.jpg" alt="feature D stress analysis" height="75%" width="auto">
+  <br>
    <em>Figure #15: Feature D stress analysis.</em>
 </p>
 
@@ -146,10 +155,12 @@ There was no hints for feature E, so I drew it as I saw it in Figure #1.
 
 <p align="center">
     <img src="featureE_knowns.jpg" alt="knowns and unknowns for feature E" height="75%" width="auto">
+  <br>
    <em>Figure #16: Knowns and unknowns for feature E.</em>
 </p>
 <p align="center">
     <img src="featureE_FBD.jpg" alt="FBD for feature E" height="75%" width="auto">
+  <br>
    <em>Figure #17: FBD for feature E.</em>
 </p>
 
@@ -157,6 +168,7 @@ Similar to how feature D reminded me of feature B, feature E reminded me of feat
 
 <p align="center">
     <img src="featureE_stress.jpg" alt="feature E stress analysis" height="75%" width="auto">
+  <br>
    <em>Figure #18: Feature E stress analysis.</em>
 </p>
 
@@ -166,6 +178,7 @@ It was at this step where i really found out how messed up my dimensions actuall
 
 <p align="center">
     <img src="stress_multiview.jpg" alt="multiview sketches for stress analysis" height="75%" width="auto">
+  <br>
    <em>Figure #19: Multiview sketches for stress analysis.</em>
 </p>
 
@@ -177,6 +190,7 @@ I followed the exact same steps as for stress analysis, but using stiffness. I u
 
 <p align="center">
     <img src="featureA_stifness.jpg" alt="Feature A stiffness calculations" height="75%" width="auto">
+  <br>
    <em>Figure #20: Feature A stiffness calculations.</em>
 </p>
 
@@ -184,6 +198,7 @@ I followed the exact same steps as for stress analysis, but using stiffness. I u
 
 <p align="center">
     <img src="featureB_stiffness.jpg" alt="Feature B stiffness calculations" height="75%" width="auto">
+  <br>
    <em>Figure #21: Feature B stiffness calculations.</em>
 </p>
 
@@ -191,6 +206,7 @@ I followed the exact same steps as for stress analysis, but using stiffness. I u
 
 <p align="center">
     <img src="featureC_stiffness.jpg" alt="Feature C stiffness calculations" height="75%" width="auto">
+  <br>
    <em>Figure #22: Feature C stiffness calculations.</em>
 </p>
 
@@ -198,6 +214,7 @@ I followed the exact same steps as for stress analysis, but using stiffness. I u
 
 <p align="center">
     <img src="featureD_stiffness.jpg" alt="Feature D stiffness calculations" height="75%" width="auto">
+  <br>
    <em>Figure #23: Feature D stiffness calculations.</em>
 </p>
 
@@ -205,6 +222,7 @@ I followed the exact same steps as for stress analysis, but using stiffness. I u
 
 <p align="center">
     <img src="featureE_stiffness.jpg" alt="Feature E stiffness calculations" height="75%" width="auto">
+  <br>
    <em>Figure #24: Feature E stiffness calculations.</em>
 </p>
 
@@ -214,6 +232,7 @@ Similar to the stress analysis, I defintely knew my final dimensions were incorr
 
 <p align="center">
     <img src="stiiffness_multiview.jpg" alt="Multiview sketches for stiffness calculations" height="75%" width="auto">
+  <br>
    <em>Figure #25: Multiview sketches for stiffness calculations.</em>
 </p>
 
