@@ -10,6 +10,7 @@ The goal of this assignment is to take the dimensions calculated from A05 and ap
 
 My dimensions for the previous assignment were really bad, so I decided to recalculate all of the dimensions for my bracket. This is not a redo of A05, so I will just be doing the calculations of the features. I will be referencing the FBD's from A05, but I will not redraw them as they are still the same.
 
+
 #### Feature A
 
 The main thing that messed up my calculations the first time was not properly understanding the dimensions. I used the t-bar to help find the diameter, but that doesn't make any sense. The only real unknowns for feature A is the length and diameter. I used the same formula as I did in A05, but I left the length as an unknown variable. I then plugged in values for the length until I got a length that I liked. I calculated stress and stiffness, however stress is still the dominating force. When plugging in values for the length, I made sure that the stress that was created was not greater than our allowed stress. 
@@ -64,6 +65,187 @@ My entire design is dictated by stress, so I decided to make my drawings with my
 
 <p align="center">
     <img src="stress_dimensions_correct.jpg" alt="dimensions stress" height="75%" width="auto">
+</p>
+
+### CAD Drawing
+
+Now that my dimensions are defined, and I feel better about them, I can actually work on the objective for A06. To start my 3D design I created an equation sheet, so I can parametrically design my CAD design. I inputted all of my calculated values from my new redefined design, including the mechanical properties of ASTM A36 Steel. I made sure to make dimensiosn related to each other rather than typing in individual values for each other.
+
+<p align="center">
+    <img src="equations.png" alt="equations" height="75%" width="auto">
+</p>
+
+<table style="width:100%;">
+  <tr>
+    <td style="width:60%;">
+      <img src="diameter.png" alt="diameter" style="width:100%; height:auto;">
+    </td>
+    <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
+      <div style="font-size:16px;">
+        Once I had my dimensions defined, I started to work on the actual model. I decided to start with feature A first since that was the first feature I worked on when calculating the dimensions of the entire design. To do this I created a circle, and then set the dimension of that circle equal to the global variable for the diameter for feature A.
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:60%;">
+      <img src="diameter_extrude.png" alt="diameter extruded" style="width:100%; height:auto;">
+    </td>
+    <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
+      <div style="font-size:16px;">
+        I then extruded the sketch I created by the global variable set for the length of feature A, completing feature A.
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:60%;">
+      <img src="featureB_height.png" alt="featureB height" style="width:100%; height:auto;">
+    </td>
+    <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
+      <div style="font-size:16px;">
+        To create feature B, I created a box that starts from the halfway point on feature A. That is where it looked like it started in the model shown, so that was one of the assumptions I made. Since the width/base of feature B is already defined by the diameter, I defined the height using the global variable for feature B's height, finishing the sketch.
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:60%;">
+      <img src="featureB_extrude.png" alt="feature B extrude" style="width:100%; height:auto;">
+    </td>
+    <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
+      <div style="font-size:16px;">
+        Since the sketch was on the backside of feature A, I extruded the sketch in the direction of feature A using the global variable for the thickness of feature B. This finished the design for feature B.
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:60%;">
+      <img src="featureC_base.png" alt="feature C Base" style="width:100%; height:auto;">
+    </td>
+    <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
+      <div style="font-size:16px;">
+        I created a plane on top of feature B so that I can start modeling feature C. I created a box on this plane, and then assigned the base/width of feature C with the respective global variable. I also made sure to add the thicknesses of feature D onto this since my length only relates to the distance from wall to wall. My box wasn't centered after doing so, so I made sure that everything was centered by using centerlines.
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:60%;">
+      <img src="featureC_length.png" alt="feature C length" style="width:100%; height:auto;">
+    </td>
+    <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
+      <div style="font-size:16px;">
+        The only other thing to define before extruding was the length, so I assigned the respective variable for the length of feature C.
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:60%;">
+      <img src="featureC_extrude.png" alt="feature C extrude" style="width:100%; height:auto;">
+    </td>
+    <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
+      <div style="font-size:16px;">
+        To finish feature C, I extruded it using the thickness variable I calculated from my redesign.
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:60%;">
+      <img src="featureD_thickness.png" alt="feature D thickness" style="width:100%; height:auto;">
+    </td>
+    <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
+      <div style="font-size:16px;">
+        To create feature D, I created a box that spanned the length of feature C. I then defined the thickness by using the respective variable.
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:60%;">
+      <img src="featureD_mirror.png" alt="mirror" style="width:100%; height:auto;">
+    </td>
+    <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
+      <div style="font-size:16px;">
+        Rather than repeating the process on the other side of the model, I placed a centerline in the middle of feature C. I then mirrored my sketch to the other side of feature C.
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:60%;">
+      <img src="featureD_extrude.png" alt="feature D extrude" style="width:100%; height:auto;">
+    </td>
+    <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
+      <div style="font-size:16px;">
+        To finish feature D, I extruded my sketch by using its respective variable.
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:60%;">
+      <img src="featureE_width.png" alt="featureE width" style="width:100%; height:auto;">
+    </td>
+    <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
+      <div style="font-size:16px;">
+        Sketching feature E, I made another box from top to bottom of feature D. I then defined the base/width of feature E by measuring the far left edge to the first edge of feature D. I assigned this value with its respective variable.
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:60%;">
+      <img src="featureE_mirror.png" alt="feature E mirror" style="width:100%; height:auto;">
+    </td>
+    <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
+      <div style="font-size:16px;">
+        Feature E is also symmetrical about the middle of the design, so I used the same technique of mirroring my design about a centerline.
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:60%;">
+      <img src="featureE_extrude.png" alt="feature E extrude" style="width:100%; height:auto;">
+    </td>
+    <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
+      <div style="font-size:16px;">
+        To finish my design, all I did was extrude feature E by its respective variable.
+      </div>
+    </td>
+  </tr>
+</table>
+
+When I finished modeling my design, I was happy that it has a similar shape to the design given, but I was still slightly annoyed that my design looked off compared to other students. I think the results are way better than what I had in previously in A05 though, so it should work just fine. If you are curious on any step in my CAD design, here is the [CAD file](bracket.SLDPRT).
+
+### CAD Drawing
+
+When I created the drawing, I couldn't see any drawing sheets with title blocks unless I unchecked the only show standard forms box. Once I did this, I decided to use the A (ANSI) Landscape drawing sheet. 
+
+<p align="center">
+    <img src="sheet_selection.png" alt="sheet selection" height="75%" width="auto">
+</p>
+
+When I first made the drawing sheet, I had to select the file I wanted to use for the drawing sheet. My bracket file was already selected since I created the drawing sheet from the CAD file. The first view I placed was the front view. Once I placed the front view, I was able to move my cursor to the top to get the top view, to the right to get the right view, and then to the top right to get the isometric view.
+
+<p align="center">
+    <img src="initial_projections.png" alt="initial model projections" height="75%" width="auto">
+</p>
+
+Once my views were down, I started assigning dimensions to the different views. I tried to follow my sketched out drawing, but the varying values made it hard to do so in some areas. An example would be the heights and thickness of features C, D, and E. This process wasn't very difficult since all of the values were already on the CAD file.
+
+<p align="center">
+    <img src="dimensions.png" alt="dimensions" height="75%" width="auto">
+</p>
+
+After, I started working on the title block. This was my only drawing, so it is my first drawing. I named the drawing bracket since that is the assignment name. I made sure to say that I designed it. I also made sure to put in the tolerances that were mentioned inside the assignment. I did say that it was property of UNC Charlotte, but I am not sure if that is correct or not since I created the drawing. The prompt said to put the companies name, so that is why I put UNC Charlotte. For the ANSI standards symbol, I couldn't figure out how to input it inside the drawing, so I took a screenshot of the ANSI third projection symbol and inserted it into my drawing.
+
+<p align="center">
+    <img src="title_block.png" alt="title block" height="75%" width="auto">
+</p>
+
+My drawing wasn't done because I needed to add the hidden lines to the different views. I had no idea how to do this, and it took my an embarrassing amount of time to figure it out. All I had to do was click on the view, and then click on the show hidden lines square in the "Display Style" options. 
+
+<p align="center">
+    <img src="display_style.png" alt="display style" height="75%" width="auto">
+</p>
+
+With the addition of the hidden lines, and checking to make sure I am using ANSI standards, my drawing and CAD model are completed. If you want to explore my drawing sheet further here is the [drawing file](bracket.SLDDRW)
+
+<p align="center">
+    <img src="final_drawing.png" alt="final drawing" height="75%" width="auto">
 </p>
 
 ## Decide
