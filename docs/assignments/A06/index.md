@@ -233,7 +233,7 @@ Once my views were down, I started assigning dimensions to the different views. 
 After, I started working on the title block. This was my only drawing, so it is my first drawing. I named the drawing bracket since that is the assignment name. I made sure to say that I designed it. I also made sure to put in the tolerances that were mentioned inside the assignment. I did say that it was property of UNC Charlotte, but I am not sure if that is correct or not since I created the drawing. The prompt said to put the companies name, so that is why I put UNC Charlotte. For the ANSI standards symbol, I couldn't figure out how to input it inside the drawing, so I took a screenshot of the ANSI third projection symbol and inserted it into my drawing.
 
 <p align="center">
-    <img src="title_block.png" alt="title block" height="75%" width="auto">
+    <img src="tiitle_block.png" alt="title block" height="75%" width="auto">
 </p>
 
 My drawing wasn't done because I needed to add the hidden lines to the different views. I had no idea how to do this, and it took my an embarrassing amount of time to figure it out. All I had to do was click on the view, and then click on the show hidden lines square in the "Display Style" options. 
