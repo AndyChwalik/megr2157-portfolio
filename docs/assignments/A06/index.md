@@ -252,9 +252,9 @@ With the addition of the hidden lines, and checking to make sure I am using ANSI
 
 I learned a lot of new things through this assignment. I noticed that when you sketch on a surface in SolidWorks, that surface you're sketching on basically acts as a plane. When I was first designing, I was creating planes so that I had enough room for my sketches. I don't think Creo does the same thing, so it was nice to see when designing. I learned how to include tolerances and increase the significant figures on the CAD part file. I thought my values were still there actual values but rounded for looks, but that is not the case. I learned about the difference in ANSI and ISO. I also figured out how to modify the title block for drawings. I actually had to look a lot of different features in the drawing sheet because I have never really created my own drawing, especially on SolidWorks.
 
-a)
+a) The only value I put an equation in for was the thickness of feature D (td). It didn't change any of the values around it because I had it rounded to the nearest 10 thousandths. I did this because I was rounding most of my calculations to make it easier to manufacture. 
 
-b) A dimension I provided a tighter tolerance for was the thickness for feature B. I provided a tight tolerance for this because it is incredibly thin, and doesn't have much room for error. A similar thing can be said for the thickness of feature D. A dimension I provided a looser tolerance for was the height of feature B. I think that the height of the part doesn't matter as much as the other dimensions. The functionality will remain similar if it is slightly shorter or taller.
+b) A dimension I provided a tighter tolerance for was the thickness for feature B. I provided a tight tolerance for this because it is incredibly thin, and doesn't have much room for error. A similar thing can be said for the thickness of feature D. Since they're so thin, I think that makes them a functional feature. A dimension I provided a looser tolerance for was the height of feature B. I think that the height of the part doesn't matter as much as the other dimensions. The functionality will remain similar if it is slightly shorter or taller. That means I think it is a non-critical feature.
 
 ## 2157 Only
 
