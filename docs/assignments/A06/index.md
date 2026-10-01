@@ -301,3 +301,5 @@ If you want to explore my CAD drawing more, here is the [CAD drawing](link.SLDDR
 ### Reflection
 
 Dimensioning and tolerances are important for part-to-part compatibility since a lot of functions have tight specifications in order for them to work. A lot of smaller dimensions have very little room for error while larger dimensions could be off by multiples 100 thousandths of an inch. That is not the only factor for tolerances, but it is an example. It also highlights the important features of the design. If a part has tighter tolerances than another, that means it is more crucial to get that part right.
+
+Due to me basically redoing A05, while doing A06, this assignment took me about 10 hours
