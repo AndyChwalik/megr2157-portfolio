@@ -250,6 +250,12 @@ With the addition of the hidden lines, and checking to make sure I am using ANSI
 
 ### Reflection
 
+I learned a lot of new things through this assignment. I noticed that when you sketch on a surface in SolidWorks, that surface you're sketching on basically acts as a plane. When I was first designing, I was creating planes so that I had enough room for my sketches. I don't think Creo does the same thing, so it was nice to see when designing. I learned how to include tolerances and increase the significant figures on the CAD part file. I thought my values were still there actual values but rounded for looks, but that is not the case. I learned about the difference in ANSI and ISO. I also figured out how to modify the title block for drawings. I actually had to look a lot of different features in the drawing sheet because I have never really created my own drawing, especially on SolidWorks.
+
+a)
+
+b) A dimension I provided a tighter tolerance for was the thickness for feature B. I provided a tight tolerance for this because it is incredibly thin, and doesn't have much room for error. A similar thing can be said for the thickness of feature D. A dimension I provided a looser tolerance for was the height of feature B. I think that the height of the part doesn't matter as much as the other dimensions. The functionality will remain similar if it is slightly shorter or taller.
+
 ## 2157 Only
 
 ### Calculations
@@ -280,6 +286,8 @@ When I had the only sketch for this part of the project down, I extruded it to w
     <img src="2157_final.png" alt="extrude" height="75%" width="auto">
 </p>
 
+If you want to explore my CAD file more, here is the [CAD file](link.SLDPRT)
+
 ### Drawing
 
 Now that I had all of my values I can move onto the drawing. I followed the exact same process for my first drawing, but I had to add at least two dimension with specific tolerances on them. I decided to put the tolerances on the thickness of the link and the diameter for the hole that is linking the two parts. I chose the thickness of the link because it is incredibly thin already, and there isn't much more material to give up. That is why it is super precise. I chose the diameter of the hole because I have already had a lot of issues in lab with fitting parts together when the dimensions are too close. I don't want that same experience when machining these parts.
@@ -287,5 +295,7 @@ Now that I had all of my values I can move onto the drawing. I followed the exac
 <p align="center">
     <img src="2157_drawing.png" alt="final drawing" height="75%" width="auto">
 </p>
+
+If you want to explore my CAD drawing more, here is the [CAD drawing](link.SLDDRW)
 
 ### Reflection
