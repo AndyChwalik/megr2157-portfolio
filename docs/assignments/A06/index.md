@@ -277,7 +277,7 @@ I then used these variables to create a sketch of the link. I wasn't sure how mu
 When I had the only sketch for this part of the project down, I extruded it to what my width value was that I calculated.
 
 <p align="center">
-    <img src="2157_extrude" alt="extrude" height="75%" width="auto">
+    <img src="2157_extrude.png" alt="extrude" height="75%" width="auto">
 </p>
 
 ### Drawing
