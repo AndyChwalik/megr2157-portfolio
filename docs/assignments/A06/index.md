@@ -248,7 +248,10 @@ With the addition of the hidden lines, and checking to make sure I am using ANSI
     <img src="final_drawing.png" alt="final drawing" height="75%" width="auto">
 </p>
 
-## Decide
+## Reflection
+
+## 2157 Only
+
 
 
 ## Communicate
