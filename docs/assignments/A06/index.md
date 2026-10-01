@@ -67,7 +67,7 @@ My entire design is dictated by stress, so I decided to make my drawings with my
     <img src="stress_dimensions_correct.jpg" alt="dimensions stress" height="75%" width="auto">
 </p>
 
-### CAD Drawing
+### CAD Modeling
 
 Now that my dimensions are defined, and I feel better about them, I can actually work on the objective for A06. To start my 3D design I created an equation sheet, so I can parametrically design my CAD design. I inputted all of my calculated values from my new redefined design, including the mechanical properties of ASTM A36 Steel. I made sure to make dimensiosn related to each other rather than typing in individual values for each other.
 
@@ -248,7 +248,7 @@ With the addition of the hidden lines, and checking to make sure I am using ANSI
     <img src="final_drawing.png" alt="final drawing" height="75%" width="auto">
 </p>
 
-## Reflection
+### Reflection
 
 ## 2157 Only
 
