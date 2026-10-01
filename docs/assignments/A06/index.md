@@ -252,7 +252,40 @@ With the addition of the hidden lines, and checking to make sure I am using ANSI
 
 ## 2157 Only
 
+### Calculations
 
+For this part of the assignment, I was supposed to do the same thing for the link. Since I didn't add my calculations for that part with my new numbers, here is a picture of it.
 
-## Communicate
+<p align="center">
+    <img src="2157_calculations.jpg" alt="2157 calculations" height="75%" width="auto">
+</p>
 
+### Cad Modeling
+
+I followed the same steps as when I made the main part. I started off with creating a global variable for all of my mechanical properties.
+
+<p align="center">
+    <img src="2157_equations.png" alt="variables" height="75%" width="auto">
+</p>
+
+I then used these variables to create a sketch of the link. I wasn't sure how much the edges were curved, so I just picked 0.5in. 
+
+<p align="center">
+    <img src="2157_sketch.png" alt="sketch" height="75%" width="auto">
+</p>
+
+When I had the only sketch for this part of the project down, I extruded it to what my width value was that I calculated.
+
+<p align="center">
+    <img src="2157_extrude" alt="extrude" height="75%" width="auto">
+</p>
+
+### Drawing
+
+Now that I had all of my values I can move onto the drawing. I followed the exact same process for my first drawing, but I had to add at least two dimension with specific tolerances on them. I decided to put the tolerances on the thickness of the link and the diameter for the hole that is linking the two parts. I chose the thickness of the link because it is incredibly thin already, and there isn't much more material to give up. That is why it is super precise. I chose the diameter of the hole because I have already had a lot of issues in lab with fitting parts together when the dimensions are too close. I don't want that same experience when machining these parts.
+
+<p align="center">
+    <img src="2157_drawing.png" alt="final drawing" height="75%" width="auto">
+</p>
+
+### Reflection
