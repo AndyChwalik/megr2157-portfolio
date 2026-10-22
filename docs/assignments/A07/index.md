@@ -148,8 +148,53 @@ Here is my factor of safety diagram. Based on my past 2 designs, I expect a safe
 
 Even though I am not doing another design, I think it is still good to mention possible improvements. I think there is a way I could minimize more material usage to make my part lighter. Maybe if I shell out feature A so that is more of a hollow cylinder than a fully filled cylinder. This should affect my stress statistics that much, and it would save on material. If I ever figure out how to do my 45 degree idea, I think that would be beneficial as well.
 
-## Decide
+### CAD File
 
+Here is the CAD file for my final design: [CAD File](bracket.SLDPRT)
 
-## Communicate
+### Data sorted
 
+<table style="width:100%; border-collapse:collapse; text-align:left;">
+  <thead>
+    <tr>
+      <th style="border:1px solid black; padding:8px;"></th>
+      <th style="border:1px solid black; padding:8px;">Design I</th>
+      <th style="border:1px solid black; padding:8px;">Design II</th>
+      <th style="border:1px solid black; padding:8px;">Design III</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th style="border:1px solid black; padding:8px;">Max Stress (*10^6 N/m^2) and Location</th>
+      <td style="border:1px solid black; padding:8px;">1.545 where feature B and feature C connect</td>
+      <td style="border:1px solid black; padding:8px;">1.319 where feature B and feature C connect</td>
+      <td style="border:1px solid black; padding:8px;">1.454 where feature B and feature C connect</td>
+    </tr>
+    <tr>
+      <th style="border:1px solid black; padding:8px;">Max Deflection (*10^-4 mm) and Location</th>
+      <td style="border:1px solid black; padding:8px;">4.725 back of feature A</td>
+      <td style="border:1px solid black; padding:8px;">3.821 back of feature A</td>
+      <td style="border:1px solid black; padding:8px;">3.45 back of feature A</td>
+    </tr>
+    <tr>
+      <th style="border:1px solid black; padding:8px;">Mass (lbs)</th>
+      <td style="border:1px solid black; padding:8px;">1.488</td>
+      <td style="border:1px solid black; padding:8px;">1.496</td>
+      <td style="border:1px solid black; padding:8px;">1.329</td>
+    </tr>
+    <tr>
+      <th style="border:1px solid black; padding:8px;">Safety Factor</th>
+      <td style="border:1px solid black; padding:8px;">15</td>
+      <td style="border:1px solid black; padding:8px;">15</td>
+      <td style="border:1px solid black; padding:8px;">15</td>
+    </tr>
+  </tbody>
+</table>
+
+Based on these results, my design did get better. I wish I focused more on the weight rather than the stress and deflection since I was already within the goals for this project. I think I saw red on my simulation and got concerned that it was bad. I probably should've capped my stress and deflection so that I had a more accurate reading of the colors on my simulation. That probably would've made me worry about it less. I did end up saving over .1lb of material which isn't great, but better than before.
+
+I would need to optimize this design a little more since my stress difference between design 2 and design 3 is 9.7% and my deflection difference is 10.2%. It is not that far off from our desired 7%, so I would need to do some small optimization in order to reach that.
+
+## Reflection
+
+I learned that you could optimize your part for as long as you want to. I know if you want it super optimize, you may go through over 30+ designs to make it super precise. For the stuff we are doing, that's not necessary, but it is nice to know before I start designing larger projects for other classes/companies. I learned new design techniques in SolidWorks. The main tools I was fiddling with were the fillet tools and the plane tools. I couldn't quite get them to work the way I wanted them to, but I still learned a lot about those tools while designing my bracket. This probably isn't the case for every part, but there are areas on parts that have way lower stress concentration that other areas on that part. It is important to focus on those big stress concentrations to maximize the longevity of that part.
