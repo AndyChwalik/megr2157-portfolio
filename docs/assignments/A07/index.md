@@ -27,16 +27,9 @@ Before I did anything with simulations, I made sure to assign my bracket a mater
 
 I want to make sure my simulations are all consistent from each other. For all of my simulations, I have made the inside of the bracket all fixed since that should be the part sliding onto something. There shouldn't be any movement in that area. I then applied my 650lbf force onto the rod portion at the bottom. This part of the bracket should be experiencing most of the force upon my part.
 
-<table style="width:100%;">
-  <tr>
-    <td style="width:50%; text-align: center; vertical-align:middle;">
-      <img src="fixed.png" alt="fixed" style="width:100%; height:auto;">
-    </td>
-     <td style="width:50%; text-align: center; vertical-align:middle;">
-       <img src="applied_force.png" alt="applied force" style="width:100%; height:auto;">
-    </td>
-  </tr>
-</table>
+<p align="center">
+    <img src="applied_force.png" alt="applied force" height="75%" width="auto">
+</p>
 
 Once I had my material, fixed points, and forces, the only thing I needed to do was add a mesh to my design. I decided to my mesh as compact as possible to get more accurate readings. I am aware that SolidWorks can encounter bugs, however we were told to ignore that for this assignment.
 
