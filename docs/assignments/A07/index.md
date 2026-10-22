@@ -17,6 +17,41 @@ Your task is simply to create a high stiff, high strength, and lightweight compo
 
 ## Analyze
 
+### Simulation Setup
+
+Before I did anything with simulations, I made sure to assign my bracket a material. Since I chose ASTM A36 steel, I looked that up in the material list provided in SolidWorks. Luckily, the material was already included in SolidWorks materials, so I didn't have to make a new entry for it. I selected the material and then moved onto configuring the simulations
+
+
+
+I want to make sure my simulations are all consistent from each other. For all of my simulations, I have made the inside of the bracket all fixed since that should be the part sliding onto something. There shouldn't be any movement in that area. I then applied my 650lbf force onto the rod portion at the bottom. This part of the bracket should be experiencing most of the force upon my part.
+
+
+
+Once I had my material, fixed points, and forces, the only thing I needed to do was add a mesh to my design. I decided to my mesh as compact as possible to get more accurate readings. I am aware that SolidWorks can encounter bugs, however we were told to ignore that for this assignment.
+
+### Design 1
+
+#### Stress
+
+#### Deflection
+
+#### Safety Factor
+
+### Design 2
+
+#### Stress
+
+#### Deflection
+
+#### Safety Factor
+
+### Design 3
+
+#### Stress
+
+#### Deflection
+
+#### Safety Factor
 
 
 
