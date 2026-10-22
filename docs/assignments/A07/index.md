@@ -308,6 +308,10 @@ My safety factor also got slightly worse. It seems that all of my physical prope
 
 I think if I were to do another iteration, I would add fillets to the high stress areas. Mainly where I added that support. If I add a fillet there, it will probably decrease the stress slightly. Other than that, I am not sure what else to change.
 
+### File
+
+Here is my CAD file for the link: [CAD File](link.SLDPRT)
+
 ## Reflection
 
 I learned that you could optimize your part for as long as you want to. I know if you want it super optimize, you may go through over 30+ designs to make it super precise. For the stuff we are doing, that's not necessary, but it is nice to know before I start designing larger projects for other classes/companies. I learned new design techniques in SolidWorks. The main tools I was fiddling with were the fillet tools and the plane tools. I couldn't quite get them to work the way I wanted them to, but I still learned a lot about those tools while designing my bracket. This probably isn't the case for every part, but there are areas on parts that have way lower stress concentration that other areas on that part. It is important to focus on those big stress concentrations to maximize the longevity of that part.
