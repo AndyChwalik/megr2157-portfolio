@@ -1,4 +1,4 @@
-# A7 – FEA on a Bracket
+<img width="1258" height="898" alt="image" src="https://github.com/user-attachments/assets/25cde8fe-d234-444f-ad90-5eb7157679ce" /># A7 – FEA on a Bracket
 
 ## Objective
 
@@ -194,6 +194,126 @@ Here is the CAD file for my final design: [CAD File](bracket.SLDPRT)
 Based on these results, my design did get better. I wish I focused more on the weight rather than the stress and deflection since I was already within the goals for this project. I think I saw red on my simulation and got concerned that it was bad. I probably should've capped my stress and deflection so that I had a more accurate reading of the colors on my simulation. That probably would've made me worry about it less. I did end up saving over .1lb of material which isn't great, but better than before.
 
 I would need to optimize this design a little more since my stress difference between design 2 and design 3 is 9.7% and my deflection difference is 10.2%. It is not that far off from our desired 7%, so I would need to do some small optimization in order to reach that.
+
+## 2157 Students Only
+
+We have to repeat the same steps but for the link this time
+
+### Design 1
+
+My design 1 is my finished design from assignment 6. I constrained the side of my link to be fixed while the forces acted on the inside of where the rod is supposed to go from the bracket. I thought that would give me an accurate simulation.
+
+<p align="center">
+    <img src="2157_d1.png" alt="design 1" height="75%" width="auto">
+</p>
+
+#### Stress
+
+There was a unique shape for the stress, but it was still under the yield stress, so it should still work. With my constraints, it looks like it only really affects the upper radius. 
+
+
+<p align="center">
+    <img src="2157_d1_stress.png" alt="design 1 stress" height="75%" width="auto">
+</p>
+
+#### Deflection
+
+The deflection map looks very similar. For how exaggerated the deflection is, it only moves 2.605*10^-4mm. This would still be within the design requirements for this project. I plan to improve this though.
+
+
+<p align="center">
+    <img src="2157_d1_deflection.png" alt="design 1 deflection" height="75%" width="auto">
+</p>
+
+#### Safety Factor
+
+My safety factor was really bad for this design. The lowest safety factor on my part was 2.2, which fails the criteria and will need improvements in the next design.
+
+
+<p align="center">
+    <img src="2157_d1_SF.png" alt="design 1 safety factor" height="75%" width="auto">
+</p>
+
+#### Possible Improvements
+
+I think I should probably reinforce the material around the where the rod will be placed. If that has more material, there will be less physical stress on the other components.
+
+### Design 2
+
+For design 2, all I did was add a circle around the main stress points that is a little thicker than the rest of the link. This should minimize the stress and deflection while increasing the safety factor
+
+
+<p align="center">
+    <img src="2157_d2.png" alt="design 2" height="75%" width="auto">
+</p>
+
+#### Stress
+
+The stress diagram looks even weirder than design 1, but the maximum stress applied is lower. I think that extra material helped the stress build up. I didn't see any red stress points, but it may be hidden under the extra material that was added.
+
+
+<p align="center">
+    <img src="2157_d2_stress.png" alt="design 2 stress" height="75%" width="auto">
+</p>
+
+#### Deflection
+
+The deflection graph follows the same trend as the previous graphs. It did increase slightly in maximum deflection, which I found interesting, but it is still under the design requirements for this project.
+
+
+<p align="center">
+    <img src="2157_d2_deflection.png" alt="design 2" height="75%" width="auto">
+</p>
+
+#### Safety Factor
+
+The safety factor graph saw the biggest jump in improvements. The lowest safety factor measured 7.1, which is pretty good and within the design requirements for this project.
+
+
+<p align="center">
+    <img src="2157_d2_SF.png" alt="design 2 safety factor" height="75%" width="auto">
+</p>
+
+#### Possible Improvements
+
+I think that now I have the physical properties down, I should try and save material, similar to the bracket. I think if I cut out material, it would have to be away from where the main force is applied. The most obvious spot would be to try the center, with an extra support beam, which is what I will try next.
+
+### Design 3
+
+I made a cutout in the middle of my link with a single line down the middle for extra support. I think that is still a high stress area, so I need to keep some type of support there. It can't just be empty. Everything else stayed the same.
+
+
+<p align="center">
+    <img src="2157_d3.png" alt="design 3" height="75%" width="auto">
+</p>
+
+#### Stress
+
+My stress got slightly worse, but it wasn't by a great factor, so I think it will be fine as is with the new changes.
+
+<p align="center">
+    <img src="2157_d3_stress.png" alt="design 3 stress" height="75%" width="auto">
+</p>
+
+#### Deflection
+
+My deflection also got slightly worse, but it is still by a small margin. It should still work very well as is. I am designing for weight, so that is my primary focus.
+
+<p align="center">
+    <img src="2157_d3_deflection.png" alt="design 3 deflection" height="75%" width="auto">
+</p>
+
+#### Safety Factor
+
+My safety factor also got slightly worse. It seems that all of my physical properties got slightly worse due to the loss in material, which makes sense. I think it is a sacrifice I am making in order to optimize the weight of my design.
+
+<p align="center">
+    <img src="2157_d3_SF.png" alt="design 3 safety Factor" height="75%" width="auto">
+</p>
+
+#### Possible Improvements
+
+I think if I were to do another iteration, I would add fillets to the high stress areas. Mainly where I added that support. If I add a fillet there, it will probably decrease the stress slightly. Other than that, I am not sure what else to change.
 
 ## Reflection
 
