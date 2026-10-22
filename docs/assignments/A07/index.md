@@ -1,4 +1,4 @@
-<img width="1258" height="898" alt="image" src="https://github.com/user-attachments/assets/25cde8fe-d234-444f-ad90-5eb7157679ce" /># A7 – FEA on a Bracket
+# A7 – FEA on a Bracket
 
 ## Objective
 
