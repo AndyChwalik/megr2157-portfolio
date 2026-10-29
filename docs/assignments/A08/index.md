@@ -88,7 +88,13 @@ Here is the spur gear: [7880K24](https://www.mcmaster.com/7880K24/)
 
 ## Design
 
-I made a CAD model of the final designed parts.
+Before I made a CAD model, I made a really rough sketch of what I was planning my CAD file to look like. I wanted to make a mold that fit the gears perfectly where a screw would connect the two housing spaces.
+
+<p align="center">
+    <img src="CAD_Sketch.jpg" alt="CAD Sketch" height="75%" width="auto">
+</p>
+
+After I had my rough sketch, I moved onto the CAD design.
 
 ### Spur Shaft
 
