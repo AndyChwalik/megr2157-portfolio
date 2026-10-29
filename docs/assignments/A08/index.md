@@ -39,7 +39,7 @@ To calculate the diameters, I calculated the stresses and power that is applied 
 I calculated the shaft for the pinion gear first.
 
 <p align="center">
-    <img src="shaft_inner.jpg" alt="shaft inner" height="75%" width="auto">
+    <img src="inner_shaft.jpg" alt="shaft inner" height="75%" width="auto">
 </p>
 
 #### Spur Shaft
@@ -47,7 +47,7 @@ I calculated the shaft for the pinion gear first.
 I then used the exact same steps to calculate the shaft for the spur gear. I already knew the speed and torque for the spur gear, so it was a little easier to calculate.
 
 <p align="center">
-    <img src="shaft_outer.jpg" alt="outer shaft" height="75%" width="auto">
+    <img src="outer_shaft.jpg" alt="outer shaft" height="75%" width="auto">
 </p>
 
 Based on my calculated results, it seems that the given diameters will work just fine. 
