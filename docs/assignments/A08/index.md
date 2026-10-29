@@ -164,3 +164,24 @@ I learned a lot about gears and shafts. I learned that gears connected together 
 
 ## 2157 Students Only
 
+<p align="center">
+    <img src="shaft_gear_drw.png" alt="shaft spur drawing" height="75%" width="auto">
+</p>
+<p align="center">
+    <img src="shaft_pinion_drw.png" alt="shaft pinion drawing" height="75%" width="auto">
+</p>
+<p align="center">
+    <img src="bearing_big.gif" alt="big bearing drawing" height="75%" width="auto">
+</p>
+<p align="center">
+    <img src="bearing_small.gif" alt="small bearing drawing" height="75%" width="auto">
+</p>
+<p align="center">
+    <img src="house_bot_drw.png" alt="house bottom drawing" height="75%" width="auto">
+</p>
+<p align="center">
+    <img src="house_top_drw.png" alt="house top drawing" height="75%" width="auto">
+</p>
+<p align="center">
+    <img src="gearbox_drw.png" alt="gearbox drawing" height="75%" width="auto">
+</p>
