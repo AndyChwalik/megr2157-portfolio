@@ -29,7 +29,7 @@ Design a gearbox which can be assembled and disassembled. The spur gears have a 
 The shafts that were given to use had a diameter of 0.25in and 0.125in, they had the same length of 1in, and we were given a gear ratio the shafts would be attached to. The goal was to find the forces applied to the shafts and if the diameters given were sufficient enough for the current design. Here are the values written down on paper with a visual representation of what is happening.
 
 <p align="center">
-    <img src="shaft_knowns.jpeg" alt="known values for shaft" height="75%" width="auto">
+    <img src="shaft_knowns.jpg" alt="known values for shaft" height="75%" width="auto">
 </p>
 
 To calculate the diameters, I calculated the stresses and power that is applied to the shaft. The equations I used for power and diameter are both in the lecture slides and the Machinery Handbook. The equation I used for the stress was just a gear ratio equation.
@@ -39,7 +39,7 @@ To calculate the diameters, I calculated the stresses and power that is applied 
 I calculated the shaft for the pinion gear first.
 
 <p align="center">
-    <img src="shaft_inner.jpeg" alt="shaft inner" height="75%" width="auto">
+    <img src="shaft_inner.jpg" alt="shaft inner" height="75%" width="auto">
 </p>
 
 #### Spur Shaft
@@ -47,7 +47,7 @@ I calculated the shaft for the pinion gear first.
 I then used the exact same steps to calculate the shaft for the spur gear. I already knew the speed and torque for the spur gear, so it was a little easier to calculate.
 
 <p align="center">
-    <img src="shaft_outer.jpeg" alt="outer shaft" height="75%" width="auto">
+    <img src="shaft_outer.jpg" alt="outer shaft" height="75%" width="auto">
 </p>
 
 Based on my calculated results, it seems that the given diameters will work just fine. 
@@ -59,13 +59,13 @@ Based on my calculated results, it seems that the given diameters will work just
 To hold the shaft in place, I had to find the properties of a bearing that I will use for my design. There will be a force on the bearing from the shaft and from the housing it will be in. I first calculated the tangential force and then the axial load on the bearing. I used these values to find the pressure, velocity, and PV Rating to get a material for my bearing. My material was picked from a table inside the lecture slides that best fit my results.
 
 <p align="center">
-    <img src="journal_bearing.jpeg" alt="journal bearing" height="75%" width="auto">
+    <img src="journal_bearing.jpg" alt="journal bearing" height="75%" width="auto">
 </p>
 
 I then calculated what was supposed to be the thickness for the bearing. I had two equations for this, and I was just able to plug in my known values for this step in the process. I get very close to 1/16 of an inch of material. 
 
 <p align="center">
-    <img src="journal_bearing_thickness.jpeg" alt="journal bearing thickness" height="75%" width="auto">
+    <img src="journal_bearing_thickness.jpg" alt="journal bearing thickness" height="75%" width="auto">
 </p>
 
 ### McMaster Carr Parts
@@ -74,7 +74,7 @@ When searching for the bearing, I was looking for the bearing length (0.25in) an
 
 Based on looking through the website, it appears that the best material substitute would be high-strength 932 bearing bronze.
 
-The best sleeve bearing I could find for the spur bearing is: [6381K409](https://www.mcmaster.com/6381K409/).
+The best sleeve bearing I could find for the spur bearing is: [6381K409](https://www.mcmaster.com/6381K409/).<br>
 The best sleeve bearing I could find for the pinnion bearing is: [6381K406](https://www.mcmaster.com/6381K406/).
 
 These sleeve bearings are matching in material and should hold the required stresses and loads applied to them.
@@ -83,7 +83,7 @@ To connect my housing together, I needed a screw, and I found this screw on the 
 
 I also found the two gears that we were using for this assignment. 
 
-Here is the pinion gear: [7880K19](https://www.mcmaster.com/7880K19/). 
+Here is the pinion gear: [7880K19](https://www.mcmaster.com/7880K19/). <br>
 Here is the spur gear: [7880K24](https://www.mcmaster.com/7880K24/)
 
 ## Design
