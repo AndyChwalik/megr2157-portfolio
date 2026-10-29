@@ -24,9 +24,15 @@ Design a gearbox which can be assembled and disassembled. The spur gears have a 
 
 ## Analyze
 
+### McMaster Carr Parts
 
-## Decide
+When searching for the bearing, I was looking for the bearing length (0.25in) and thee shaft diameter (0.25in or 0.12in). That would at least fit my part. Every bearing that I am looking at appears to fit the requirements from my shaft/gears. The only thing I couldn't really find was the material I wanted to use. I picked reinforced teflon from the material table in the lecture slides, but I am struggling to find that material on the McMaster website. To fix this, I am just going to look for a material that will resist my requirements. I am not going to worry about how close it is or not.
 
+Based on looking through the website, it appears that the best material subsitute would be some type of bronze.
 
-## Communicate
+The best sleeve bearing I could find for the spur bearing is: [6381K409](https://www.mcmaster.com/6381K409/)
+The best sleeve bearing I could find for the pinnion bearing is: [6381K406](https://www.mcmaster.com/6381K406/)
+
+These sleeve bearings are matching in material and should hold the required stresses and loads applied to them.
+
 
