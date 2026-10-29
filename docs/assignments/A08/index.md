@@ -156,6 +156,8 @@ Here is what the final design looks like with the housing completely on.
 
 You can see the screws I added with the screw holes. This makes it very easy to assemble and disassemble.
 
+Here is a zip file to all of the CAD files I used for this assignment: [GearBox](GearBox.zip)
+
 ## Lessons Learned
 
 I learned a lot about gears and shafts. I learned that gears connected together should share the same if not similar power on each other. I thought that they were supposed to move the same speed, since they were connected together, but my calculations didn't seem to agree with that conclusion. It is most likely due to the fact that I did my calculations wrong. I learned about McMaster Carr Parts. I never knew there was such a widely available website that had very useful parts to download for free. The most important part of a gear setup is the shaft since that is a big part of what is running the whole system. It is also harder to replace than the other parts in the system. It felt like a lot of the designing we did was very focused on the shaft for that reason.
