@@ -164,10 +164,6 @@ You can see the screws I added with the screw holes. This makes it very easy to 
 
 Here is a zip file to all of the CAD files I used for this assignment: [GearBox](GearBox.zip)
 
-## Lessons Learned
-
-I learned a lot about gears and shafts. I learned that gears connected together should share the same if not similar power on each other. I thought that they were supposed to move the same speed, since they were connected together, but my calculations didn't seem to agree with that conclusion. It is most likely due to the fact that I did my calculations wrong. I learned about McMaster Carr Parts. I never knew there was such a widely available website that had very useful parts to download for free. The most important part of a gear setup is the shaft since that is a big part of what is running the whole system. It is also harder to replace than the other parts in the system. It felt like a lot of the designing we did was very focused on the shaft for that reason.
-
 ## 2157 Students Only
 
 <p align="center">
@@ -191,3 +187,10 @@ I learned a lot about gears and shafts. I learned that gears connected together 
 <p align="center">
     <img src="gearbox_drw.png" alt="gearbox drawing" height="75%" width="auto">
 </p>
+
+
+## Lessons Learned
+
+I learned a lot about gears and shafts. I learned that gears connected together should share the same if not similar power on each other. I thought that they were supposed to move the same speed, since they were connected together, but my calculations didn't seem to agree with that conclusion. It is most likely due to the fact that I did my calculations wrong. I learned about McMaster Carr Parts. I never knew there was such a widely available website that had very useful parts to download for free. The most important part of a gear setup is the shaft since that is a big part of what is running the whole system. It is also harder to replace than the other parts in the system. It felt like a lot of the designing we did was very focused on the shaft for that reason.
+
+This assignment took me about 8 hours.
