@@ -177,10 +177,10 @@ I learned a lot about gears and shafts. I learned that gears connected together 
     <img src="shaft_pinion_drw.png" alt="shaft pinion drawing" height="75%" width="auto">
 </p>
 <p align="center">
-    <img src="bearing_big.gif" alt="big bearing drawing" height="75%" width="auto">
+    <img src="bearing_big.GIF" alt="big bearing drawing" height="75%" width="auto">
 </p>
 <p align="center">
-    <img src="bearing_small.gif" alt="small bearing drawing" height="75%" width="auto">
+    <img src="bearing_small.GIF" alt="small bearing drawing" height="75%" width="auto">
 </p>
 <p align="center">
     <img src="house_bot_drw.png" alt="house bottom drawing" height="75%" width="auto">
