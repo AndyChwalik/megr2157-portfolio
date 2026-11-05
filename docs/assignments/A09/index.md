@@ -56,6 +56,10 @@ In result, I rounded my diameter to 1/4in because there are a lot more circumfer
     <img src="belt_selection.png" alt="belt selection" height="75%" width="auto">
 </p>
 
+### Shaft Design
+
+(1060 hardened steel properties)[https://www.azom.com/article.aspx?ArticleID=6542] 
+
 ## Decide
 
 
