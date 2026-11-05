@@ -128,6 +128,20 @@ With the remaining materials, it seemed like the material with the lowest values
     <img src="table4.jpg" alt="Table 4" height="75%" width="auto">
 </p>
 
+### Frame Design
+
+I took inspiration from appendix A in the assignment for my frame. I am not sure how much clearance there is supposed to be with the belt to the walls of the pulley, so I made the gap for the belt a quarter of an inch. If I am informed later that it needs a larger clearance, I can increase that size
+
+From my experience, the walls holding the belt aren't super thick. that is why I made the total length of that side only 3/8 of an inch. I think it should be plenty of material seeing how it is made of steel. Similar to the clearance for the belt, I can change this quickly if that is not the case.
+
+For the total length of the frame, I added the diameter of the pulleys to the distance between there center points. This should have gotten me to the edge of the pulley. I then added 2 times the diameter of the belt since that will add extra length to the pulleys. I didn't want the belt to slip, and fall off the frame, so I made sure to add enough material so that won't be a problem. I may have to decrease this value to be closer to the true length of the pulley + belt since it will be really hard to do maintenance on that pulley without a latch of some kind.
+
+The last dimensioning I really made was make the holes in the pulley the same size as the shaft so that the shaft can attach to the frame. I didn't write it on the drawing, but there should be a clearance for this since I doubt the exact dimensions will be met every time. The tolerance I will put on it is + 0.01in.
+
+<p align="center">
+    <img src="frame.jpg" alt="frame design" height="75%" width="auto">
+</p>
+
 ## Lessons Learned
 
 I learned a lot during this assignment. The most interesting thing that I learned was the equation for friction on a pulley. In all of my classes, I have ignored that aspect of a pulley, so it was interesting to hear about how it works and what the different variables do to alter the equation. That was one thing that I actually asked about after the lecture was over. I also haven't really worked with torque before, although I probably should look into more projects involving torque. So I learned how to use it to find power and the diameter of some cylinder. Most of the stuff I learned dealt with rotational motion. I have noticed that whenever you convert from linear to rotational, you tend to just multiple the rotation value by the radius to get the linear value. The reverse is true if you're trying to find rotational motion.
