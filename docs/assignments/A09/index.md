@@ -146,4 +146,4 @@ The last dimensioning I really made was make the holes in the pulley the same si
 
 I learned a lot during this assignment. The most interesting thing that I learned was the equation for friction on a pulley. In all of my classes, I have ignored that aspect of a pulley, so it was interesting to hear about how it works and what the different variables do to alter the equation. That was one thing that I actually asked about after the lecture was over. I also haven't really worked with torque before, although I probably should look into more projects involving torque. So I learned how to use it to find power and the diameter of some cylinder. Most of the stuff I learned dealt with rotational motion. I have noticed that whenever you convert from linear to rotational, you tend to just multiple the rotation value by the radius to get the linear value. The reverse is true if you're trying to find rotational motion.
 
-
+This assignment took my about 6 hours
