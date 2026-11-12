@@ -66,7 +66,7 @@ Before I start modeling the crosshead, I created global variables for the dimens
 <table style="width:100%;">
   <tr>
     <td style="width:60%;">
-      <img src="outline_setch.png" alt="outline sketch" style="width:100%; height:auto;">
+      <img src="outline_sketch.png" alt="outline sketch" style="width:100%; height:auto;">
     </td>
     <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
       <div style="font-size:16px;">
