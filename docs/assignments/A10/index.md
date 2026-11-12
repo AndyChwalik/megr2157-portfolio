@@ -118,7 +118,32 @@ Before I start modeling the crosshead, I created global variables for the dimens
 
 ### Frame Assembly
 
-When I first start designing the full assembly, I downloaded all of the parts I knew we were using from our calculations. This included the lead screw, nut, and flange. I tried starting to make the assembly with those parts first, but I found it hard since it was hard to add mates to them because there was nothing to attach them to. This led me to creating the frame first.
+When I first start designing the full assembly, I downloaded all of the parts I knew we were using from our calculations. This included the lead screw, nut, and flange. None of the materials for the parts were imported, so I had to manually assign materials to them. For 1018 low carbon steel, I used [World Material](https://www.theworldmaterial.com/astm-sae-aisi-1018-carbon-steel/) for the mechanical properties. For 673 bronze, I used [concast](https://www.concast.com/c67300.php) and [OnlineMetals](https://www.onlinemetals.com/en/product-guide/alloy/673) for the mechanical properties as stated earlier. For 1215 carbon steel, I used [AzOM](https://www.azom.com/article.aspx?ArticleID=6603) for my mechanical properties.
+
+<table style="width:100%;">
+  <tr>
+    <td style="width:33%; align="center"">
+      <div style="font-size:18px; text-align: center;">
+        <b>1018 low carbon steel properties</b>
+      </div>
+      <img src="1018_low_carbon_steel.png" alt="1018 low carbon steel" style="width:100%; height:auto;">
+    </td>
+    <td style="width:33%; align="center"">
+      <div style="font-size:18px; text-align: center;">
+        <b>673 Bronze properties</b>
+      </div>
+      <img src="673_bronze.png" alt="673 Bronze" style="width:100%; height:auto;">
+    </td>
+    <td style="width:33%; align="center"">
+      <div style="font-size:18px; text-align: center;">
+        <b>1215 carbon steel properties</b>
+      </div>
+      <img src="1215_carbon_steel.png" alt="1215 carbon steel" style="width:100%; height:auto;">
+    </td>
+  </tr>
+</table>
+
+After creating the materials, I tried to make the tensile tester using just these parts. I found it very difficult since it was hard to mate the components I had to each other. I decided to move onto picking t-bars because I thought that would give me a better structure to build from.
 
 #### T-bar choice
 
@@ -153,4 +178,102 @@ The next big hurdle I had to tackle was how all of these t-bars were going to co
 
 The first connection that I added to the assembly was the elbow, connecting the vertical t-bars with the horizontal t-bar holding the loading cell. I saw that the image in the assignment used a gusset, but I wasn't sure if I would have enough space for that. That is why I used an elbow connection. 
 
-The elbow connection I downloaded had these trapezoidal pieces on it with screws attached to them. The design is to slide those trapezoidal pieces down the t-bar and then screw in the screws to keep the t-bars in place
+The elbow connection I downloaded had these trapezoidal pieces on it with screws attached to them. The design is to slide those trapezoidal pieces down the t-bar and then screw in the screws to keep the t-bars in place. I thought that this would be a good use of this design since that is how the two t-bars are intersecting. It will provide a little bit of support while making sure nothing is moving.
+
+<table style="width:100%;">
+  <tr>
+    <td style="width:50%; align="center"">
+      <div style="font-size:18px; text-align: center;">
+        <b>Elbow Connection</b>
+      </div>
+      <img src="elbow_connection.png" alt="elbow connection" style="width:100%; height:auto;">
+    </td>
+    <td style="width:50%; align="center"">
+      <div style="font-size:18px; text-align: center;">
+        <b>Trapezoidal Connection to T-bar</b>
+      </div>
+      <img src="trapezoid_joints.png" alt="trapezoidal connections" style="width:100%; height:auto;">
+    </td>
+  </tr>
+</table>
+
+The material didn't transfer over again, but the website says that it uses powdered-coated aluminum. I took this as surface finish again, so I assumed that the bulk of the material is still the same as the crosshead and the t-bars, so I made the material 6063 -T6 aluminum to both of the connections.
+
+##### Concealed Set Screw Corner
+
+The second connection I wanted to apply was the connection with the vertical t-bars and the base t-bars. I was looking at the picture in the assignment, and I didn't really see a connection. This confused me, but I figured out that there are concealed connections. I was looking at corner connections, and found this concealed set screw corner connection. It uses a very similar mechanic as the elbow connection with the trapezoidal pieces, so I thought that it would be good for this connection. I decided to put these connections on both sides of the vertical t-bar because I thought it would make the machine more durable and sturdy. 
+
+Similar to every other CAD file I have downloaded while making this project, the material didn't download with it. Looking at McMaster, it says that it is anodized aluminum, so I applied the 6063 -T6 aluminum to this connection.
+
+<table style="width:100%;">
+  <tr>
+    <td style="width:50%; align="center"">
+      <div style="font-size:18px; text-align: center;">
+        <b>Concealed Set Screw Corner Connection</b>
+      </div>
+      <img src="set_screw_corner_connection.png" alt="Concealed set screw corner connection" style="width:100%; height:auto;">
+    </td>
+    <td style="width:50%; align="center"">
+      <div style="font-size:18px; text-align: center;">
+        <b>Concealed Set Screw Corner Connection on Frame/b>
+      </div>
+      <img src="set_screw_corner_connection_assembly.png" alt="Concealed set screw corner connection on assembly" style="width:100%; height:auto;">
+    </td>
+  </tr>
+</table>
+
+##### Concealed Set Screw Straight
+
+The previous connections I used are able to connect the entire base of the frame. I now need a connection that will connect the vertical t-bars with the t-bar going over the top. I wanted to keep using the concealed connections, since that is most similar to the picture in the assignment. I didn't want to use the same connection because the lead screws will have to connect pretty close to the edges of the frame. I didn't want the connection to interfere with the lead screw.
+
+I found a concealed screw that uses the same mechanics as the other connections but for a straight connection rather than a corner. This will allow me to connect the frame on the outside rather than using the corner connection on the inside of the frame. I used four of these connections because I needed two on each side due to the double t-bar. Connecting the top t-bar this way should lock the frame into place.
+
+<table style="width:100%;">
+  <tr>
+    <td style="width:50%; align="center"">
+      <div style="font-size:18px; text-align: center;">
+        <b>Concealed Set Screw Corner Connection</b>
+      </div>
+      <img src="set_screw_straight.png" alt="Concealed set screw straight connection" style="width:100%; height:auto;">
+    </td>
+    <td style="width:50%; align="center"">
+      <div style="font-size:18px; text-align: center;">
+        <b>Concealed Set Screw Straight Connection on Fram</b>
+      </div>
+      <img src="set_screw_straight_connection_assembly.png" alt="Concealed set screw straight connection on assembly" style="width:100%; height:auto;">
+    </td>
+  </tr>
+</table>
+
+The material didn't import again. Looking at McMaster, it uses zinc-plated steel. This is similar to the anodized aluminum but for steel. When I looked up what material would best fit this, I found that 1018 low carbon steel would work just fine. Since I created the material for it earlier, I decided to apply that to this connection.
+
+##### Lead Screw End Support
+
+The last connection that I needed to find was for the lead screw. There aren't any holes in the t-bars, and it looks like there is some sort of connection in the picture shown in the assignment. I have no clue how to look for these connection parts, so I just put my lead screw into ChatGPT and asked for it to find a connection I could use for t-bars. It gave me a link to one that only resisted the radial direction, so I looked for one that resisted radial and thrust. I am pretty sure that it will have to do both for a tensile tester.
+
+<table style="width:100%;">
+  <tr>
+    <td style="width:50%; align="center"">
+      <div style="font-size:18px; text-align: center;">
+        <b>Lead screw end support</b>
+      </div>
+      <img src="lead_support.png" alt="Lead screw end support" style="width:100%; height:auto;">
+    </td>
+    <td style="width:50%; align="center"">
+      <div style="font-size:18px; text-align: center;">
+        <b>Lead screw end support connection</b>
+      </div>
+      <img src="lead_support_connection.png" alt="lead screw end support connection" style="width:100%; height:auto;">
+    </td>
+  </tr>
+</table>
+
+### Final Design
+
+After I connected and mated everything, here is the final design for the first part of the tensile tester.
+
+<p align="center">
+    <img src="tensile_tester.png" alt="tensile tester" height="75%" width="auto">
+</p>
+
+If you are interested in the CAD files, here is a [zip file](tensile_tester.zip) that has the assembly with each component in it.
