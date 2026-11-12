@@ -21,7 +21,7 @@ Design and build a mechanically driven tensile tester capable of applying up to 
 - Form factor: bench-top footprint favored; manageable overall height; 18-inch leadscrew minimum.
 - Safety Factor: 4
 
-##Lead Screw Minimum Diameter:
+## Lead Screw Minimum Diameter:
 Alinah’s part: 
 For this assignment, I worked on selecting a lead screw that could safely support a 2000 N load using two screws. I started by calculating the minimum diameter needed with a safety factor of 4, then calculated the rotational speed range and torque required to lift the load. Below are the two images of my work in how I accomplished it. In some of the math I used in assumed geometry based off the screw I knew I wanted to later choose, this is within the documented work. 
 
@@ -80,6 +80,28 @@ Lastly, I calculate the shear stress. I decided to add the cross-sectional area 
 </p>
 
 The nut and flange passed all of the tests with a pretty good margin, so we are good to use our lead screw, nut, and flange.
+
+## Design the Crosshead:
+
+### Beam Stress/Strength Analysis:
+
+<img width="2633" height="3500" alt="IMG_1" src="https://github.com/user-attachments/assets/d06767e0-5339-40d6-8fc4-feb468410b30" />
+<img width="2589" height="3500" alt="IMG_2" src="https://github.com/user-attachments/assets/349469b1-7cb2-40de-ad4d-8684460b3c91" />
+
+### Beam Deflection:
+
+<img width="2563" height="3500" alt="IMG_3" src="https://github.com/user-attachments/assets/a6efb431-332c-474e-b580-88f692c24888" />
+<img width="2563" height="3500" alt="IMG_4" src="https://github.com/user-attachments/assets/8fe7fd28-3439-4efe-a6ab-96c806b65926" />
+
+### Multiview Sketch:
+
+<img width="2660" height="3500" alt="IMG_5" src="https://github.com/user-attachments/assets/20a2c3a5-aa49-44fc-b3e2-9f78853b1c27" />
+
+## Tabulating Costs
+
+<p align="center">
+    <img src="tabulating_costs.png" alt="Tabulating Costs" height="75%" width="auto">
+</p>
 
 ## CAD Modeling
 
