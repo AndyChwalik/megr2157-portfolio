@@ -1,5 +1,7 @@
 # A10 – Lead Screw Design Part I
 
+Group: Andrew Yang, Andy Chwalik, Alinah Sarratt
+
 ## Description
 
 A tensile tester is a mechanical testing device used to measure how materials respond to uniaxial tension. It applies a controlled pulling force to a specimen while recording the resulting elongation, allowing engineers to determine properties such as yield strength, ultimate tensile strength, and elongation at break. This data is essential for understanding a material’s mechanical behavior and suitability for design applications.
@@ -36,6 +38,7 @@ After I had to analyze whether the selection of screw I made would actually work
 <img width="920" height="1085" alt="image" src="https://github.com/user-attachments/assets/d33514af-05ef-4dca-bdc0-2706f260b7af" /> 
 
 ## Nut and Flange
+Andy's Part:
 
 After finishing the design for the lead screw, we had to make sure the nut and flange could take the stresses that we designed for. The assignment says to use the formulas that are in the lecture slides, so I went back to the lecture slides to see which equations it was talking about. When I looked at the slides, it seemed like it wanted me to calculate the bearing stress, shear stress, and bending stress. All of the variables used in these equations were already calculated from the lead screw, but I was a little confused with the d_min variable. We calculated a d_min, but that was relating to the minimum diameter of the screw before it failed. The d_min used in these equations represents the minor diameter, which is the diameter of the thinnest part of the thread. I wasn't sure what to use for this value, but when I asked ChatGPT, it told me that a common value for the type of lead screw we were using was 0.2983in. That was the only value I really had to do my calculations with, so that is where I got that value and why we used it.
 
@@ -82,6 +85,7 @@ Lastly, I calculate the shear stress. I decided to add the cross-sectional area 
 The nut and flange passed all of the tests with a pretty good margin, so we are good to use our lead screw, nut, and flange.
 
 ## Design the Crosshead:
+Andrew's Part:
 
 ### Beam Stress/Strength Analysis:
 
@@ -98,12 +102,15 @@ The nut and flange passed all of the tests with a pretty good margin, so we are 
 <img width="2660" height="3500" alt="IMG_5" src="https://github.com/user-attachments/assets/20a2c3a5-aa49-44fc-b3e2-9f78853b1c27" />
 
 ## Tabulating Costs
+Andy & Alinah's part:
+
 
 <p align="center">
     <img src="tabulating_costs.png" alt="Tabulating Costs" height="75%" width="auto">
 </p>
 
 ## CAD Modeling
+Andy's Part:
 
 I decided to model the crosshead first and then download all of the part files after. There isn't a reason for doing it in this order.
 
@@ -328,6 +335,7 @@ If you are interested in the CAD files, here is a [zip file](tensile_tester.zip)
 For this project, I was assigned to check the nut and flange and do the CAD work for the tensile tester. While checking the nut and flange, I learned how to use the 3 new equations to check for design constraints. We have used variations of those equations in the past, but I learned how to use them for objects that have threads. I learned a lot while CAD modeling. The main thing I learned were all of the different connections that you can use for t-bars. The main connection that I really liked messing with, and seeing how it would look incorporated into the design, are the concealed connections. Concealed connections are really interesting because they provide a really strong connection to the t-bar, while barely being noticeable. I learned they are used on a lot of different designs. I also learned that fasteners are one of the most common connection methods even though I didn’t use them in this CAD design. I never understood how the fasteners would connect in the CAD file.
 
 ## 2157 Students Only
+Everyone:
 
 We first ran a FEA test with medium mesh to get the results of the original design before we optimized anything. 
 
@@ -352,6 +360,7 @@ We first ran a FEA test with medium mesh to get the results of the original desi
 However when we tried to run more tests on solidworks it informed us that 62 elements on the downloaded CAD files have too small of radii for the software to complete the mesh. This created a halt in the optimization process. The above picture is the deflection data gathered from the first run. 
 
 ### Crosshead Drawing
+Andrew's Part:
 [Crosshead Drawing:](crosshead.SLDDRW)
 
 <img width="1917" height="1020" alt="Crosshead Drawing" src="https://github.com/user-attachments/assets/148971c7-d790-4678-8618-39b4f30ab8de" />
