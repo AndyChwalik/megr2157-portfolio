@@ -342,7 +342,7 @@ We first ran a FEA test with medium mesh to get the results of the original desi
 ### Deflection
 
 <p align="center">
-    <img src="Deflection.png" alt="deflection" height="75%" width="auto">
+    <img src="Delfection.png" alt="deflection" height="75%" width="auto">
 </p>
 
 However when we tried to run more tests on solidworks it informed us that 62 elements on the downloaded CAD files have too small of radii for the software to complete the mesh. This created a halt in the optimization process. The above picture is the deflection data gathered from the first run. 
