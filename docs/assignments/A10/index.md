@@ -1,13 +1,6 @@
 # A10 – Lead Screw Design Part I
 
-## Descriptioare: purely mechanical.
-- Load capacity: 2 kN (with appropriate safety factor in structure and drivetrain).
-- Speed range: 1–50 mm/min (achieved via screw lead selection).
-- Form factor: bench-top footprint favored; manageable overall height; 18-inch leadscrew minimum.
-- Safety Factor: 4
-
-## Design the Crosshead:
-
+## Description
 
 A tensile tester is a mechanical testing device used to measure how materials respond to uniaxial tension. It applies a controlled pulling force to a specimen while recording the resulting elongation, allowing engineers to determine properties such as yield strength, ultimate tensile strength, and elongation at break. This data is essential for understanding a material’s mechanical behavior and suitability for design applications.
 
@@ -21,6 +14,12 @@ Design and build a mechanically driven tensile tester capable of applying up to 
 - Key Constraints
 - No electronics, no software
 
+## Key Constraints
+
+- Load capacity: 2 kN (with appropriate safety factor in structure and drivetrain).
+- Speed range: 1–50 mm/min (achieved via screw lead selection).
+- Form factor: bench-top footprint favored; manageable overall height; 18-inch leadscrew minimum.
+- Safety Factor: 4
 
 ##Lead Screw Minimum Diameter:
 Alinah’s part: 
