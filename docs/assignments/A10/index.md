@@ -1,23 +1,69 @@
-# A10 – Lead Screw Translating System
+# A10 – Lead Screw Design Part I
 
-## Objective
+## Descriptioare: purely mechanical.
+- Load capacity: 2 kN (with appropriate safety factor in structure and drivetrain).
+- Speed range: 1–50 mm/min (achieved via screw lead selection).
+- Form factor: bench-top footprint favored; manageable overall height; 18-inch leadscrew minimum.
+- Safety Factor: 4
+
+## Design the Crosshead:
 
 
-## Analyze
+A tensile tester is a mechanical testing device used to measure how materials respond to uniaxial tension. It applies a controlled pulling force to a specimen while recording the resulting elongation, allowing engineers to determine properties such as yield strength, ultimate tensile strength, and elongation at break. This data is essential for understanding a material’s mechanical behavior and suitability for design applications.
 
-### Nut and Flange
+Design and build a mechanically driven tensile tester capable of applying up to 2 kN axial tensile load with a controllable crosshead speed from 1 to 50 mm/min. Each team is responsible for the mechanical components outlined below. The system will provide consistent, well-aligned loading for polymers and light metals, suitable for instructional use and basic materials evaluation.
+
+## Objective: Part 1 Scope of Work
+
+- Develop a lead-screw–driven crosshead 
+- Ensure accurate, repeatable load application to 2 kN with minimal crosshead deflection and misalignment.
+- Provide robust specimen gripping, simple calibration provisions (mechanical), and safe, ergonomic operation.
+- Key Constraints
+- No electronics, no software
+
+
+##Lead Screw Minimum Diameter:
+Alinah’s part: 
+For this assignment, I worked on selecting a lead screw that could safely support a 2000 N load using two screws. I started by calculating the minimum diameter needed with a safety factor of 4, then calculated the rotational speed range and torque required to lift the load. Below are the two images of my work in how I accomplished it. In some of the math I used in assumed geometry based off the screw I knew I wanted to later choose, this is within the documented work. 
+
+<img width="755" height="1020" alt="image" src="https://github.com/user-attachments/assets/606e3a7c-ef40-4d7a-a837-3925cdfe1e3d" />
+
+<img width="777" height="1170" alt="image" src="https://github.com/user-attachments/assets/e5a8d539-6db9-4010-a50d-73d880e1863b" />
+
+<img width="850" height="1090" alt="image" src="https://github.com/user-attachments/assets/4004f268-3690-4eec-b2a2-1da428a9b62c" />
+
+After I had to analyze whether the selection of screw I made would actually work. I chose the 3/8"-16 lead screw off of the provided McMaster link. I made sure to check the total stress that the screws would face with the axial load of 2kn. The safety factor of our design with my selected lead screws needed to be above the minimum safety factor of 4. One mistake I made was forgetting to check for buckling at first, so I had to go back and complete those calculations. Luckily, my screw still passed the buckling check with a safety factor above 4. These calculations are shown in the image below:
+
+<img width="920" height="1085" alt="image" src="https://github.com/user-attachments/assets/d33514af-05ef-4dca-bdc0-2706f260b7af" /> 
+
+### Beam Stress/Strength Analysis:
+
+<img width="2633" height="3500" alt="IMG_1" src="https://github.com/user-attachments/assets/d06767e0-5339-40d6-8fc4-feb468410b30" />
+<img width="2589" height="3500" alt="IMG_2" src="https://github.com/user-attachments/assets/349469b1-7cb2-40de-ad4d-8684460b3c91" />
+
+### Beam Deflection:
+
+<img width="2563" height="3500" alt="IMG_3" src="https://github.com/user-attachments/assets/a6efb431-332c-474e-b580-88f692c24888" />
+<img width="2563" height="3500" alt="IMG_4" src="https://github.com/user-attachments/assets/8fe7fd28-3439-4efe-a6ab-96c806b65926" />
+
+### Multiview Sketch:
+
+<img width="2660" height="3500" alt="IMG_5" src="https://github.com/user-attachments/assets/20a2c3a5-aa49-44fc-b3e2-9f78853b1c27" />
+
+
+## Nut and Flange
 
 After finishing the design for the lead screw, we had to make sure the nut and flange could take the stresses that we designed for. The assignment says to use the formulas that are in the lecture slides, so I went back to the lecture slides to see which equations it was talking about. When I looked at the slides, it seemed like it wanted me to calculate the bearing stress, shear stress, and bending stress. All of the variables used in these equations were already calculated from the lead screw, but I was a little confused with the d_min variable. We calculated a d_min, but that was relating to the minimum diameter of the screw before it failed. The d_min used in these equations represents the minor diameter, which is the diameter of the thinnest part of the thread. I wasn't sure what to use for this value, but when I asked ChatGPT, it told me that a common value for the type of lead screw we were using was 0.2983in. That was the only value I really had to do my calculations with, so that is where I got that value and why we used it.
 
 We were told to use 673 Bronze, also known as C673 manganese bronze, for the nut, so I had to look up the mechanical properties for that material. I used [concast](https://www.concast.com/c67300.php) to find my mechanical values for the calculations while I used [OnlineMetals](https://www.onlinemetals.com/en/product-guide/alloy/673) for the 3D modeling because I couldn't find all of the mechanical properties I needed for the 3D model.
 
-#### Knowns and Unknowns
+### Knowns and Unknowns
 
 <p align="center">
     <img src="knowns.jpg" alt="knowns" height="75%" width="auto">
 </p>
 
-#### Free-Body-Diagram
+### Free-Body-Diagram
 
 There aren't many forces that are acting on the nut and flange. The only force that I could think about was the 2kN load, which gets divided into 1kN between the two nuts and flange, and the rotational force/speed caused by the motor. We aren't worrying about the motor in this part of the project, so I didn't worry about that value as much.
 
@@ -25,7 +71,7 @@ There aren't many forces that are acting on the nut and flange. The only force t
     <img src="FBD.jpg" alt="free-body-diagram" height="75%" width="auto">
 </p>
 
-#### Bearing Stress Test
+### Bearing Stress Test
 
 I decided to calculate the bearing stress first, mainly because that was the first stress that was shown in the lecture slides. I first calculated the bearing stress and then I compared it to the allowable stress. The calculated bearing stress is much lower than the allowable stress, having a true safety factor of 60.13. This means that the nut and flange pass this part of the test.
 
@@ -33,7 +79,7 @@ I decided to calculate the bearing stress first, mainly because that was the fir
     <img src="bearing.jpg" alt="bearing stress" height="75%" width="auto">
 </p>
 
-#### Bending Stress Test
+### Bending Stress Test
 
 I then decided to calculate bending stress. I followed the exact same process as I did for bearing stress. My calculated bending stress is 15.89MPa. When I use this value to find the actual safety factor, it ended up being way above again at 17.37. The nut and flange pass the bending stress test.
 
@@ -41,7 +87,7 @@ I then decided to calculate bending stress. I followed the exact same process as
     <img src="bending.jpg" alt="bending stress" height="75%" width="auto">
 </p>
 
-#### Shear Stress Test
+### Shear Stress Test
 
 Lastly, I calculate the shear stress. I decided to add the cross-sectional area to show how I calculated the area. This diagram was also from the slides. I followed the same process as above. My calculated shear stress is 6.9MPa. I couldn't find the actual safety factor because I couldn't just use my yield strength like the previous problems. Since this is shear stress, I have to use the shear yield strength. To do this, I just divided the yield strength by sqrt(3). I then used those two values to find my actual factor of safety which turned out to be 23.1.
 
