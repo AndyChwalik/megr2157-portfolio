@@ -323,6 +323,10 @@ After I connected and mated everything, here is the final design for the first p
 
 If you are interested in the CAD files, here is a [zip file](tensile_tester.zip) that has the assembly with each component in it.
 
+## Lessons Learned
+
+For this project, I was assigned to check the nut and flange and do the CAD work for the tensile tester. While checking the nut and flange, I learned how to use the 3 new equations to check for design constraints. We have used variations of those equations in the past, but I learned how to use them for objects that have threads. I learned a lot while CAD modeling. The main thing I learned were all of the different connections that you can use for t-bars. The main connection that I really liked messing with, and seeing how it would look incorporated into the design, are the concealed connections. Concealed connections are really interesting because they provide a really strong connection to the t-bar, while barely being noticeable. I learned they are used on a lot of different designs. I also learned that fasteners are one of the most common connection methods even though I didn’t use them in this CAD design. I never understood how the fasteners would connect in the CAD file.
+
 ## 2157 Students Only
 
 We first ran a FEA test with medium mesh to get the results of the original design before we optimized anything. 
@@ -339,7 +343,7 @@ We first ran a FEA test with medium mesh to get the results of the original desi
     <img src="Mesh.png" alt="mesh" height="75%" width="auto">
 </p>
 
-### Deflection
+### Deflection Graph
 
 <p align="center">
     <img src="Delfection.jpg" alt="deflection" height="75%" width="auto">
@@ -347,3 +351,10 @@ We first ran a FEA test with medium mesh to get the results of the original desi
 
 However when we tried to run more tests on solidworks it informed us that 62 elements on the downloaded CAD files have too small of radii for the software to complete the mesh. This created a halt in the optimization process. The above picture is the deflection data gathered from the first run. 
 
+### Crosshead Drawing
+[Crosshead Drawing:](crosshead.SLDDRW)
+
+<img width="1917" height="1020" alt="Crosshead Drawing" src="https://github.com/user-attachments/assets/148971c7-d790-4678-8618-39b4f30ab8de" />
+
+
+This assignment took me about 20 hours to do
