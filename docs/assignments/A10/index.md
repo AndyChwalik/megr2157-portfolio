@@ -322,3 +322,28 @@ After I connected and mated everything, here is the final design for the first p
 </p>
 
 If you are interested in the CAD files, here is a [zip file](tensile_tester.zip) that has the assembly with each component in it.
+
+## 2157 Students Only
+
+We first ran a FEA test with medium mesh to get the results of the original design before we optimized anything. 
+
+### Setup
+
+<p align="center">
+    <img src="Fixture.png" alt="fixture" height="75%" width="auto">
+</p>
+<p align="center">
+    <img src="Force.png" alt="force" height="75%" width="auto">
+</p>
+<p align="center">
+    <img src="Mesh.png" alt="mesh" height="75%" width="auto">
+</p>
+
+### Deflection
+
+<p align="center">
+    <img src="Deflection.png" alt="deflection" height="75%" width="auto">
+</p>
+
+However when we tried to run more tests on solidworks it informed us that 62 elements on the downloaded CAD files have too small of radii for the software to complete the mesh. This created a halt in the optimization process. The above picture is the deflection data gathered from the first run. 
+
