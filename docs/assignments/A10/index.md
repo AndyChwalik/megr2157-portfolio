@@ -104,17 +104,10 @@ Before I start modeling the crosshead, I created global variables for the dimens
       </div>
     </td>
   </tr>
-  <tr>
-    <td style="width:60%;">
-      <img src="outline_setch.png" alt="outline sketch" style="width:100%; height:auto;">
-    </td>
-    <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
-      <div style="font-size:16px;">
-        The material we are using for the crosshead is 6063 - T6 aluminum, which is already in SolidWorks base materials. This made it super easy as I just selected their default material rather than making a custom one.
-      </div>
-    </td>
-  </tr>
 </table>
+    
+The material we are using for the crosshead is 6063 - T6 aluminum, which is already in SolidWorks base materials. This made it super easy as I just selected their default material rather than making a custom one.
+
 
 ### Frame Assembly
 
