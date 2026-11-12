@@ -225,7 +225,7 @@ I found a concealed screw that uses the same mechanics as the other connections 
   <tr>
     <td style="width:50%; align="center"">
       <div style="font-size:18px; text-align: center;">
-        <b>Concealed Set Screw Corner Connection</b>
+        <b>Concealed Set Screw Straight Connection</b>
       </div>
       <img src="set_screw_straight.png" alt="Concealed set screw straight connection" style="width:100%; height:auto;">
     </td>
@@ -233,7 +233,7 @@ I found a concealed screw that uses the same mechanics as the other connections 
       <div style="font-size:18px; text-align: center;">
         <b>Concealed Set Screw Straight Connection on Fram</b>
       </div>
-      <img src="set_screw_straight_connection_assembly.png" alt="Concealed set screw straight connection on assembly" style="width:100%; height:auto;">
+      <img src="set_screw_straight_connection.png" alt="Concealed set screw straight connection on assembly" style="width:100%; height:auto;">
     </td>
   </tr>
 </table>
