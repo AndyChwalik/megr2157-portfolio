@@ -35,21 +35,6 @@ After I had to analyze whether the selection of screw I made would actually work
 
 <img width="920" height="1085" alt="image" src="https://github.com/user-attachments/assets/d33514af-05ef-4dca-bdc0-2706f260b7af" /> 
 
-### Beam Stress/Strength Analysis:
-
-<img width="2633" height="3500" alt="IMG_1" src="https://github.com/user-attachments/assets/d06767e0-5339-40d6-8fc4-feb468410b30" />
-<img width="2589" height="3500" alt="IMG_2" src="https://github.com/user-attachments/assets/349469b1-7cb2-40de-ad4d-8684460b3c91" />
-
-### Beam Deflection:
-
-<img width="2563" height="3500" alt="IMG_3" src="https://github.com/user-attachments/assets/a6efb431-332c-474e-b580-88f692c24888" />
-<img width="2563" height="3500" alt="IMG_4" src="https://github.com/user-attachments/assets/8fe7fd28-3439-4efe-a6ab-96c806b65926" />
-
-### Multiview Sketch:
-
-<img width="2660" height="3500" alt="IMG_5" src="https://github.com/user-attachments/assets/20a2c3a5-aa49-44fc-b3e2-9f78853b1c27" />
-
-
 ## Nut and Flange
 
 After finishing the design for the lead screw, we had to make sure the nut and flange could take the stresses that we designed for. The assignment says to use the formulas that are in the lecture slides, so I went back to the lecture slides to see which equations it was talking about. When I looked at the slides, it seemed like it wanted me to calculate the bearing stress, shear stress, and bending stress. All of the variables used in these equations were already calculated from the lead screw, but I was a little confused with the d_min variable. We calculated a d_min, but that was relating to the minimum diameter of the screw before it failed. The d_min used in these equations represents the minor diameter, which is the diameter of the thinnest part of the thread. I wasn't sure what to use for this value, but when I asked ChatGPT, it told me that a common value for the type of lead screw we were using was 0.2983in. That was the only value I really had to do my calculations with, so that is where I got that value and why we used it.
