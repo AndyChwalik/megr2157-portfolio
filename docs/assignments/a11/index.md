@@ -360,7 +360,7 @@ Looking in the Machinery Handbook, I found that the RC3 Clearance Fit of the flo
 
 <img width="1917" height="1020" alt="Crosshead Drawing" src="https://github.com/user-attachments/assets/e195afb0-0874-4a0b-8c43-4a632975406d" />
 
-### [Motor Bracket Housing](motor bracket housing.SLDDRW):
+### [Motor Bracket Housing](motorbrackethousing.SLDDRW):
 
 <img width="1917" height="1020" alt="MotorBracketDrawing" src="https://github.com/user-attachments/assets/4580d638-35ca-4e03-8a91-35d5ba2100df" />
 
