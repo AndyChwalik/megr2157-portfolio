@@ -1,5 +1,4 @@
 # A11 – Motor Selection
-
 ## Analyze and Design the Frame
 
 ### Knowns
@@ -21,7 +20,7 @@ The free-body diagram was a little challenging for me to figure out, but I drew 
 
 ### Calculations
 
-To calculate my values I just did sum of the moments. My findings from doing this calculations is that the moments on the outside of the frame are proportional to the torque generated from the motors. This makes sense, since the force to counteract the torque will have to be the same if we don't want anything to move. Once I had the moments, I looked for the load induced by the torque. Using the torque equation, I found what would be the force by itself. I then divided this by the number of supports we were thinking of having. Since the design we made in part 1 has four different connectors, I decided to use that that many connectors. I then used this force value to help find the shear across an M5 screw, since that is the screw used in the connectors we already have. I got really low values for the shear and force, so I probably did something wrong. I am not sure what I did wrong, so I am going to be using those values as is.
+To calculate my values I just did sum of the moments. My findings from doing this calculations is that the moments on the outside of the frame are proportional to the torque generated from the motors. This makes sense, since the force to counteract the torque will have to be the same if we don't want anything to move. Once I had the moments, I looked for the load induced by the torque. Using the torque equation, I found what would be the force by itself. I then divided this by the number of supports we were thinking of having. Since the design we made in part 1 has four different connectors, I decided to use that many connectors. I then used this force value to help find the shear across an M5 screw, since that is the screw used in the connectors we already have. I got really low values for the shear and force, so I probably did something wrong. I am not sure what I did wrong, so I am going to be using those values as is.
 
 
 <p align="center">
@@ -30,7 +29,7 @@ To calculate my values I just did sum of the moments. My findings from doing thi
 
 ### Connector Choice
 
-Once all of those calculations were done, I had the values I needed to start looking for a connector. When I was looking on McMaster, I couldn't really find anything that had a load capacity on there. When I asked AI for it's thinking, it kept suggesting brackets that wouldn't work or also didn't have a visible load capacity on the website. Since the values I found are really small, I decided to keep the same connectors we already had on the frame. Each of them have to hold such a small amount of force, and the material properties should be plenty strong enough to hold everything together.
+Once all of those calculations were done, I had the values I needed to start looking for a connector. When I was looking on McMaster, I couldn't really find anything that had a load capacity on there. When I asked AI for its thinking, it kept suggesting brackets that wouldn't work or also didn't have a visible load capacity on the website. Since the values I found are really small, I decided to keep the same connectors we already had on the frame. Each of them have to hold such a small amount of force, and the material properties should be plenty strong enough to hold everything together.
 
 
 <p align="center">
