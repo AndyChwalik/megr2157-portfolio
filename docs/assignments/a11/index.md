@@ -38,7 +38,108 @@ Once all of those calculations were done, I had the values I needed to start loo
 
 ### FEA Analysis
 
-The next step was to simulate the connector that we picked out with the frame. 
+The next step is to simulate the top and support t-bars in the model. We want to make sure that they can withstand the force and torque induced by the motor and the lead screw. This time I made sure that I simulated both parts individually rather than in a giant assembly like last time.
 
 #### Top Frame
 
+##### Setup
+
+Before I created the simulation, I needed to do some preparation. I needed to create a confined area where the torque is actually applied. I am pretty sure the torque is focused in the area where the motors are. So I created a box around where the lead screws will be in order for me to apply the torque and lead screw force.
+
+Another thing I decided to add were holes in the top t-bar frame in order for the lead screw to reach the motors. I was thinking if there are motors all the way on top of the frame, how will the lead screws actually reach them and be powered. The only thing that I could think about are holes in the frame so they can connect to each other.
+
+I also needed to create an axis for my torque to act upon. To do this, I created an axis that was perpendicular to the center axis of the hole I created for the lead screw. I used the point and Face/Plane option when I clicked on the create axis button under create reference geometry. Here is what all of the setup looks like at the end.
+
+<p align="center">
+    <img src="top_setup.png" alt="top setup" height="75%" width="auto">
+</p>
+
+##### Simulation Constraints
+
+<table style="width:100%;">
+  <tr>
+    <td style="width:60%;">
+      <img src="top_fix.png" alt="top fixed" style="width:100%; height:auto;">
+    </td>
+    <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
+      <div style="font-size:16px;">
+        I created a static simulation and then made the edges of the t-bar fixed locations. If the connections I picked are actually strong enough, those shouldn't move much if at all.
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:60%;">
+      <img src="top_torque.png" alt="top torque" style="width:100%; height:auto;">
+    </td>
+    <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
+      <div style="font-size:16px;">
+        Next, I created the torque. I clicked all of the faces that were in that area I created during the setup process. I then clicked the axis I made during the setup process as my reference geometry. I then set the torque value to 31.64 Nm and clicked confirm. I didn't matter about the direction for the torque because it changes direction depending on which side of the t-bar you're looking at.
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:60%;">
+      <img src="top_force.png" alt="top torque" style="width:100%; height:auto;">
+    </td>
+    <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
+      <div style="font-size:16px;">
+        I then added the force in the space at the bottom of where the motors are going to be. I set the force to 1000N. 
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:60%;">
+      <img src="top_mesh.png" alt="top mesh" style="width:100%; height:auto;">
+    </td>
+    <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
+      <div style="font-size:16px;">
+        The last thing I did before running the simulation was create a mesh. I used the default mesh density because the t-bars have a lot of connection points at all density levels. That should finish up the simulation constraints.
+      </div>
+    </td>
+  </tr>
+</table>
+
+##### Simulation Results and Reflection
+
+<table style="width:100%;">
+  <tr>
+    <td style="width:60%;">
+      <img src="top_mistake.png" alt="top mistake" style="width:100%; height:auto;">
+    </td>
+    <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
+      <div style="font-size:16px;">
+        When I first ran the simulation, I got this really funky looking bar. SolidWorks likes to exaggerate the movement of your objects, so I made sure to change all of the scales to true size after seeing this.
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:60%;">
+      <img src="top_stress.png" alt="top stress" style="width:100%; height:auto;">
+    </td>
+    <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
+      <div style="font-size:16px;">
+        When I looked at my von Misses stress map, I got pretty confused at the largest value. The entire part is blue except for one little edge. It is not shown by the screenshot, but that large force is concentrated in the edge of the bottom of the hole I made for the lead screw. This could be a miscalculation, or it could be due to the fact there will be some sort of body filling that hole. I am sure that won't affect the frame as much as SolidWorks is saying when in practice.
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:60%;">
+      <img src="top_deflection.png" alt="top deflection" style="width:100%; height:auto;">
+    </td>
+    <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
+      <div style="font-size:16px;">
+        The same thing occurred when I looked at my deflection map. The biggest deflection is in that same hole; however, it does look like part of the main frame bends a lot as well. When I say a lot, I mean 0.15mm. That isn't a lot when looking at it, but our target goal is 0.1mm unless that is only for the crosshead. 
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:60%;">
+      <img src="top_SF.png" alt="top SF" style="width:100%; height:auto;">
+    </td>
+    <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
+      <div style="font-size:16px;">
+        The same thing occurred when I looked at my factor of safety map. This map is the most concerning to me because a lot of the main material seems to also be struggling. A majority of the bar looks to be orangeish yellowish which is somewhere around a safety factor of 4 and 2. Since our target goal is 4, this is not good, and we may need to evaluate new parts.
+      </div>
+    </td>
+  </tr>
+  
