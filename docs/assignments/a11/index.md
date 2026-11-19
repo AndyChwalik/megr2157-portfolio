@@ -305,3 +305,37 @@ I already talked about the load path with the top frame, but I am not sure if th
 Possible improvements for the vertical t-bar is pretty similar to top t-bar. I think that connection between the two will really lighten the load and distribute the forces more evenly. I then the extra triangular attachment I was talking about won't be that expensive will providing extra support. It seems like one of the highest stress areas, so I think it worth the investment to make sure everything is working as intended. 
 
 I think this change will lighten the critical areas, but not change them at all. The transverse load will not cause as much deflection, but I don't think this will change the stresses at all. Based on our results, we don't need to focus on the stress, so I think it will be fine.
+
+## Design Floating Bearing Mount:
+
+#### Andrew's Part:
+
+### RC3 Clearance Fit Class Research:
+
+Looking in the Machinery Handbook, I found that the RC3 Clearance Fit of the floating bearing mount has to be +0.5/0 based on the diameter of the Leadscrew. The diameter that was calculated for the 0.146 in., so the RC3 fit is +.151 in. With this tolerance, there were not any specific floating bearing mounts that fit this specification perfectly but there was one floating bearing mount that would work best for our design, which was the "End Supports for Ball Screws and Precision Lead Screws", Part#: 60755k12, on McMaster-Carr.
+
+<p align = 'center'>
+<img width="3086" height="3500" alt="RC3 " src="https://github.com/user-attachments/assets/cb2ab778-5a20-4259-9d98-483eeb16cc2b" />
+</p>
+<p align = 'center'>
+<img width="1907" height="865" alt="FloatingBearingMount" src="https://github.com/user-attachments/assets/c95d2c54-fb01-47c0-aed8-49a85250f913" />
+</p>
+
+### RC3 Clearance Fit:
+
+#### [Floating Bearing Mount CAD File](60755K12_FloatingBearingMount.SLDPRT)
+
+#### Ideal Fit:
+
+<p align = 'center'>
+<img width="49.5%" height="1017" alt="IdealFit" src="https://github.com/user-attachments/assets/75523d83-f419-450f-bdcb-0413da390586" />
+<img width="49.5%" height="1020" alt="IdealFitSketch" src="https://github.com/user-attachments/assets/23a4a895-96a2-4ad5-b3b8-dc617817d89c" />
+</p>
+
+#### Chosen Fit:
+
+<p align = 'center'>
+<img width="49.5%" height="1017" alt="ChosenFit" src="https://github.com/user-attachments/assets/c9f80940-7e0a-407d-b199-3a05d13e5a6f" />
+<img width="49.5%" height="1017" alt="ChosenFitSketch" src="https://github.com/user-attachments/assets/466fd8c3-57a1-426d-a95b-da230b57d50e" />
+</p>
+
