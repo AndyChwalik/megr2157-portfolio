@@ -1,5 +1,21 @@
 # A11 – Motor Selection
 
+Objectives: 
+- Select a Motor
+- Design Motor Mounts
+- Select or design a coupler
+- Design a Frame to support a crosshead stability and tensile load
+- Select or design a Clamp Analysis and Design
+- Provide complete CAD model of the engineered parts of the Tensile Tester
+- Deliver a Bill of Materials and Engineering Cost
+
+Key Constraints:
+- No electronics, no software: purely mechanical.
+- Load capacity: 2 kN (with appropriate safety factor in structure and drivetrain).
+- Speed range: 1–50 mm/min (achieved via screw lead selection).
+- Form factor: bench-top footprint favored; manageable overall height; 18 inch leadscrew minimum.
+- Safety Factor: 4 
+
 ## Motor Selection and Attachments
 
 #### Alinahs Part:
@@ -376,3 +392,8 @@ Looking in the Machinery Handbook, I found that the RC3 Clearance Fit of the flo
     <img src="tensile_tester_drw.png" alt="motor twist" height="75%" width="auto">
 </p>
 
+## Lessons Learned
+
+I learned a lot about CAD while doing these group projects. I learned a really useful technique in SolidWorks where you use the curve feature to curve a line over a already extruded body. It feels so much easier to just line everything up that way. This skill has two uses that I can think of right now: I can create one sketch that will fit on different leveled surfaces and I can create different sections to limit where forces apply in simulations. Both of those uses are super useful, and I will for sure be checking out more features in the future. Another important thing that I learned over this project is that you can change the size and values of downloaded CAD files. I thought you were locked into whatever you downloaded, and that really limited my design capabilities when we first started to download CAD files from McMaster. Now I feel like I can design much more complex structures quickly through changing downloaded files dimensions. 
+
+This assignment took me about 8 and a half hours.
