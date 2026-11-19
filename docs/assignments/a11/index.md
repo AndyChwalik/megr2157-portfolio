@@ -146,7 +146,7 @@ I also needed to create an axis for my torque to act upon. To do this, I created
 
 ##### Evaluation and Reflection
 
-For how I setup this simulation, the torque and the force from the lead screw will lift up the t-bar, putting the connections on the side in tension. This tension will then travel down the vertical t-bars all the way to both connection points at the bottom: concealed connection and elbow connection. It will reach the elbow connection first, which will then result in the platform holding the load cell to feel the upward force slightly. Everything will then travel down to the feet where it is hopefully bolted down and remains in place.
+For how I setup this simulation, the torque and the force from the lead screw will lift up the t-bar, putting the connections on the side in tension. This tension will then put tension and compression on the vertical t-bar all the way down to the feet of the tensile tester. It will reach the elbow connection first, which will then result in the platform holding the load cell to feel the upward force slightly. Everything will then travel down to the feet where it is hopefully bolted down and remains in place.
 
 There was an obvious flaw with the top t-bar: The hole for the lead screw. That put a lot of stress on certain parts of the t-bar and it became a critical point. I think this is just a simulation though as that area will be actually be filled by the lead screw when put in practice. However, I should still take these stress readings into consideration. The hole should at least have curved edges to try and mitigate the stresses on those small areas. 
 
@@ -154,5 +154,98 @@ Another thing with the simulation is that our motor has more torque than what we
 
 #### Vertical Frame
 
+##### Setup
 
+There was much less setup for the vertical t-bar. The only thing I really had to add was a line at the top of the t-bar for the transverse load. The transverse load that is applied to the vertical bar from the motor will only really occur at that top section, so it is important not to overlook.
+
+<p align="center">
+    <img src="vert_setup.png" alt="vert setup" height="75%" width="auto">
+</p>
+
+##### Simulation Constraints
   
+<table style="width:100%;">
+  <tr>
+    <td style="width:60%;">
+      <img src="vert_fix.png" alt="vert fix" style="width:100%; height:auto;">
+    </td>
+    <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
+      <div style="font-size:16px;">
+        To start constraining the simulation, I made sure to apply my fixture. Since we are looking at the connection point between the top t-bar and the vertical t-bar, I will be applying a fixture to only the bottom of the vertical bar. 
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:60%;">
+      <img src="vert_axial.png" alt="vert axial force" style="width:100%; height:auto;">
+    </td>
+    <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
+      <div style="font-size:16px;">
+        Next, I clicked the opposite end, and applied the axial load. From my understanding this axial load is supposed to be the load supported by the lead screw. That is why it has a value of 1kN.
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:60%;">
+      <img src="vert_trans.png" alt="vert transverse load" style="width:100%; height:auto;">
+    </td>
+    <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
+      <div style="font-size:16px;">
+        The next thing I had to do was apply that transverse load to that top section I made in the setup phase. The transverse load was found through my earlier calculations. Since I don't have connections to lighten the load, the vertical t-barr will be taking the entire transverse load.
+      </div>
+    </td>
+  </tr>
+    <tr>
+    <td style="width:60%;">
+      <img src="vert_mesh.png" alt="vert transverse mesh" style="width:100%; height:auto;">
+    </td>
+    <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
+      <div style="font-size:16px;">
+        The last thing I did was create a mesh. I just used the default density for the same reasons as the top t-bar.
+      </div>
+    </td>
+  </tr>
+</table>
+
+##### Simulation Results
+
+<table style="width:100%;">
+  <tr>
+    <td style="width:60%;">
+      <img src="vert_stress.png" alt="vert fix" style="width:100%; height:auto;">
+    </td>
+    <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
+      <div style="font-size:16px;">
+        When I ran the simulation, there was a large collection of stress at the bottom of the t-bar. It makes sense since everything is getting compressed down, but I noticed there was this one piece that had a higher stress than normal. It showed up on every test, and it makes me think that is an outlier with the mesh we had. 
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:60%;">
+      <img src="vert_deflection.png" alt="vert deflection" style="width:100%; height:auto;">
+    </td>
+    <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
+      <div style="font-size:16px;">
+        The deflection graph actually showed a lot more movement than I expected. With the transverse load being focused at the top of the t-bar, there is a lot of deflection up there. According to the graph, there is about 5mm worth of movement. That is a significant amount. I think this will be reduced with the connection in place, but that makes me a little more concerned about the stress for the connection. I still think it should be fine because it is made of steel, but it makes me a little nervous. I will say that the deflection gradient on the t-bar matches the same gradient as the legend, which I thought was pretty funny/cool.
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td style="width:60%;">
+      <img src="vert_fix.png" alt="vert fix" style="width:100%; height:auto;">
+    </td>
+    <td style="width:40%; padding:28px; text-align:center; vertical-align:middle;"">
+      <div style="font-size:16px;">
+       The lowest safety factor is in the same spot as that max stress point. I do think this could be a possible miscalculation by SolidWorks, but similar to the top t-bar, there are a lot of lower safety factor measurements. I think the load would be lightened a little bit if the elbow bracket was there, but it seems our frame is reaching its limits with the current values being used.
+      </div>
+    </td>
+  </tr>
+</table>
+
+##### Evaluation and Reflection
+
+I already talked about the load path with the top frame, but I am not sure if the feet of the tensile tester have to be bolted down anymore. If there is tension on the vertical t-bars, that will compress the feet further down. I guess with the transverse load, the bolted down feet could stop the tensile tester from tipping or rotating.
+
+Possible improvements for the vertical t-bar is pretty similar to top t-bar. I think that connection between the two will really lighten the load and distribute the forces more evenly. I then the extra triangular attachment I was talking about won't be that expensive will providing extra support. It seems like one of the highest stress areas, so I think it worth the investment to make sure everything is working as intended. 
+
+I think this change will lighten the critical areas, but not change them at all. The transverse load will not cause as much deflection, but I don't think this will change the stresses at all. Based on our results, we don't need to focus on the stress, so I think it will be fine.
