@@ -29,12 +29,13 @@ To calculate my values I just did sum of the moments. My findings from doing thi
 
 ### Connector Choice
 
-Once all of those calculations were done, I had the values I needed to start looking for a connector. When I was looking on McMaster, I couldn't really find anything that had a load capacity on there. When I asked AI for its thinking, it kept suggesting brackets that wouldn't work or also didn't have a visible load capacity on the website. Since the values I found are really small, I decided to keep the same connectors we already had on the frame. Each of them have to hold such a small amount of force, and the material properties should be plenty strong enough to hold everything together.
-
+Once all of those calculations were done, I had the values I needed to start looking for a connector. When I was looking on McMaster, I couldn't really find anything that had a load capacity on there. When I asked AI for its thinking, it kept suggesting brackets that wouldn't work or also didn't have a visible load capacity on the website. Since the values I found don't seem super big, and the connector I already found is made of steel, I feel comfortable keeping the connectors I already had in place. They should hold the forces pretty well.
 
 <p align="center">
-    <img src="connector.jpg" alt="connector" height="75%" width="auto">
+    <img src="set_screw_straight.png" alt="connector" height="75%" width="auto">
 </p>
+
+I am not sure if the other connectors I chose are suitable for the job I assigned them, but based on the calculations for the top frame, I would have to say that I feel pretty comfortable in there capabilities. The connectors I chose are pretty common to use and are very similar to the connectors that were in the example for the assignment.
 
 ### FEA Analysis
 
