@@ -99,7 +99,7 @@ I also needed to create an axis for my torque to act upon. To do this, I created
   </tr>
 </table>
 
-##### Simulation Results and Reflection
+##### Simulation Results
 
 <table style="width:100%;">
   <tr>
@@ -142,4 +142,17 @@ I also needed to create an axis for my torque to act upon. To do this, I created
       </div>
     </td>
   </tr>
+</table>
+
+##### Evaluation and Reflection
+
+For how I setup this simulation, the torque and the force from the lead screw will lift up the t-bar, putting the connections on the side in tension. This tension will then travel down the vertical t-bars all the way to both connection points at the bottom: concealed connection and elbow connection. It will reach the elbow connection first, which will then result in the platform holding the load cell to feel the upward force slightly. Everything will then travel down to the feet where it is hopefully bolted down and remains in place.
+
+There was an obvious flaw with the top t-bar: The hole for the lead screw. That put a lot of stress on certain parts of the t-bar and it became a critical point. I think this is just a simulation though as that area will be actually be filled by the lead screw when put in practice. However, I should still take these stress readings into consideration. The hole should at least have curved edges to try and mitigate the stresses on those small areas. 
+
+Another thing with the simulation is that our motor has more torque than what we were prepared for. To adpat to the extra torque, it is probably a good idea to add extra support. Maybe a triangular beam connecting the top t-bar and the vertical t-bars. This will help distribute the load between the two t-bars, which will hopefully lessen the stress at the top of the frame. I think this would create a critical point where that connection is, depending on how thick the connection is. If it isn't think, it could be something to worry about.
+
+#### Vertical Frame
+
+
   
