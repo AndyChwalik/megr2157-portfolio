@@ -1,5 +1,9 @@
 # A11 – Motor Selection
 
+## Motor Selection and Attachments
+
+Alinahs Part:
+
 For this part of the project, I needed to find two motors that could provide enough torque to move my leadscrews while staying within the required speed range of 1–50 mm/min. Since my design has two leadscrews, I decided to use one motor for each screw. From my previous calculations, I found that each screw needed 2.11 N·m of torque. After using my safety factor of 4, I got a required torque of 8.44 N·m per motor. I also reused my speed calculations that were a range of 0.625-31.5 rpm. These helped me select a motor from McMaster. Below is my work:
 <img width="600" height="910" alt="image" src="https://github.com/user-attachments/assets/a0922509-b4e3-4745-af68-38d2ce3b3851" />
 
